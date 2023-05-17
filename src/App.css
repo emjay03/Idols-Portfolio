@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,71 +8,134 @@
   font-family: 'Poppins', sans-serif;
 
 }
- 
+
 /* header style */
-nav{
+
+
+.small-nav {
+  background-color: #FF8E00;
+  padding: 1rem 2rem 1rem 2rem;
+  color: #ffff;
+  font-size: .66rem;
+
+}
+
+.small-nav ul li a {
+  cursor: pointer;
+}
+
+.ham-cont {
   display: flex;
   justify-content: space-between;
   align-items: center;
- padding: 1rem 2rem 1rem 2rem;
 }
-ul{
+
+.hamburger-icon {
+  cursor: pointer;
+
+}
+
+.menu-items-desktop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.menu-items-mobile {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  position: absolute;
+  padding: 1rem;
+  background-color: #FF8E00;
+
+}
+
+.menu-items-mobile li a {
+  display: flex;
+  font-size: .68rem;
+  padding: .77rem .22rem .77rem .22rem;
+
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+nav ul {
   display: flex;
   gap: 4rem;
 }
-nav .go{
+
+nav .go {
   color: #ff0000;
 }
+
+.ham-cont .go {
+  color: #000000;
+}
+
 /* main style */
-.container-card{
+.container-card {
   display: flex;
   justify-content: center;
   flex-direction: row;
   padding: 4rem 2rem 2.22rem 2rem;
-  
+
   gap: 2rem;
 }
 
 /* footer style */
-footer{
+footer {
   padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: .44rem;
 }
-footer span{
+
+footer span {
   font-weight: 700;
   color: #ff0000;
 }
 
 /* responsiveness */
 
-@media screen and (max-width: 1140px){
-  .container-card{
- 
+@media screen and (max-width: 1140px) {
+  nav {
+    display: none;
+  }
+
+  .container-card {
+
     display: grid;
     grid-template-columns: auto auto auto;
-    
+
   }
-  
+
 }
-@media screen and (max-width: 878px){
-  .container-card{
- 
+
+@media screen and (max-width: 878px) {
+  .container-card {
+
     display: grid;
     grid-template-columns: auto auto;
-    
+
   }
-  
+
 }
-@media screen and (max-width: 740px){
-  .container-card{
- 
+
+@media screen and (max-width: 740px) {
+  .container-card {
+
     display: grid;
-    grid-template-columns: auto ;
-    
+    grid-template-columns: auto;
+
   }
-  
+
 }
- 
