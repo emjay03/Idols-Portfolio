@@ -1,23 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style-type: none;
-  font-family: 'Poppins', sans-serif;
-
+  font-family: "Poppins", sans-serif;
 }
 
 /* header style */
-
-
 .small-nav {
-  background-color: #FF8E00;
+  background-color: #ff8e00;
   padding: 1rem 2rem 1rem 2rem;
   color: #ffff;
-  font-size: .66rem;
-
+  font-size: 0.66rem;
 }
 
 .small-nav ul li a {
@@ -32,7 +27,6 @@
 
 .hamburger-icon {
   cursor: pointer;
-
 }
 
 .menu-items-desktop {
@@ -48,38 +42,27 @@
   gap: 2rem;
   position: absolute;
   padding: 1rem;
-  background-color: #FF8E00;
-
+  background-color: #ff8e00;
 }
 
 .menu-items-mobile li a {
   display: flex;
-  font-size: .68rem;
-  padding: .77rem .22rem .77rem .22rem;
-
-
+  font-size: 0.68rem;
+  padding: 0.77rem 0.22rem 0.77rem 0.22rem;
 }
-
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem 1rem 2rem;
 }
-
-nav ul {
+ul {
   display: flex;
   gap: 4rem;
 }
-
 nav .go {
   color: #ff0000;
 }
-
-.ham-cont .go {
-  color: #000000;
-}
-
 /* main style */
 .container-card {
   display: flex;
@@ -96,9 +79,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: .44rem;
+  gap: 0.44rem;
 }
-
 footer span {
   font-weight: 700;
   color: #ff0000;
@@ -107,35 +89,20 @@ footer span {
 /* responsiveness */
 
 @media screen and (max-width: 1140px) {
-  nav {
-    display: none;
-  }
-
   .container-card {
-
     display: grid;
     grid-template-columns: auto auto auto;
-
   }
-
 }
-
 @media screen and (max-width: 878px) {
   .container-card {
-
     display: grid;
     grid-template-columns: auto auto;
-
   }
-
 }
-
 @media screen and (max-width: 740px) {
   .container-card {
-
     display: grid;
     grid-template-columns: auto;
-
   }
-
 }
