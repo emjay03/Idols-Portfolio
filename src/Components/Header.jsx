@@ -3,6 +3,7 @@ import Badge from "@mui/material/Badge";
 import { styled } from "@mui/material/styles";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
+
 import CircleNotificationsIcon from "@mui/icons-material/CircleNotifications";
 function Header() {
   const [isMobile, setIsMobile] = useState(false);
@@ -32,13 +33,14 @@ function Header() {
       padding: "0 4px",
     },
   }));
+
   return (
     <div className="container">
       <div className="small-nav">
         {isMobile ? (
           <div className="hamburger-menu">
-            <div className="ham-cont" onClick={toggleMenu}>
-              <MenuIcon className="hamburger-icon" />
+            <div className="ham-cont">
+              <MenuIcon className="hamburger-icon" onClick={toggleMenu} />
 
               <h1>
                 KPop<span className="go">po</span>
@@ -82,20 +84,18 @@ function Header() {
                   <li>
                     <a>Home</a>
                   </li>
+
                   <li>
-                    <a>Biography</a>
+                    <a>Top Videos</a>
                   </li>
                   <li>
-                    <a>Photo and Videos</a>
-                  </li>
-                  <li>
-                    <a>Music</a>
+                    <a>Top Musics</a>
                   </li>
                   <li>
                     <a>Dance Videos</a>
                   </li>
                   <li>
-                    <a>Achievement</a>
+                    <a>Rank Achievement</a>
                   </li>
                 </div>
               </ul>
@@ -141,25 +141,26 @@ function Header() {
           <li>
             <a>Home</a>
           </li>
+
           <li>
-            <a>Biography</a>
+            <a>Top Videos</a>
           </li>
           <li>
-            <a>Photo and Videos</a>
-          </li>
-          <li>
-            <a>Music</a>
+            <a>Top Musics</a>
           </li>
           <li>
             <a>Dance Videos</a>
           </li>
           <li>
-            <a>Achievement</a>
+            <a>Rank Achievement</a>
           </li>
         </ul>
         <IconButton aria-label="cart">
-          <StyledBadge badgeContent={4} color="error">
-            <CircleNotificationsIcon style={{ fontSize: "30px" }} />
+          <StyledBadge badgeContent={4}>
+            <CircleNotificationsIcon
+              className="color"
+              style={{ fontSize: "30px" }}
+            />
           </StyledBadge>
         </IconButton>
       </nav>

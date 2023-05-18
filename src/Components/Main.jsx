@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
@@ -6,11 +6,53 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+ 
+ 
+
 
 function Main() {
+
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const images = ['https://i.pinimg.com/564x/00/38/c3/0038c375f80f5102bc8390bc344dfffb.jpg', 'https://i.pinimg.com/564x/c3/9d/ac/c39dacd626fccf1829f5fcbbe4be3193.jpg', 'https://i.pinimg.com/564x/ec/10/1e/ec101eb837d9bc6d4ead242ee0e885dc.jpg'];
+  const intervalDuration = 3000; // Set the duration between image changes (in milliseconds)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, intervalDuration);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, [images.length, intervalDuration]);
+
+ 
   return (
     <>
-      <div className="container-card">
+    
+    <div className='main-container'>
+   <div className="banner">
+  <div className='video-banner'>
+  <iframe
+      width="620"
+      height="400"
+      src="https://www.youtube.com/embed/k6xGVr1SzW0"
+      title="YouTube Video"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+  </div>
+  <div className='image-banner'>
+    <div className='image-1'>
+      <img src={images[currentImageIndex]} alt="Banner Image" />
+       
+    </div>
+     
+  </div>
+</div>
+ <div className='trending-grp'>
+  <h2>TRENDING <span className='grp'>GROUPS</span></h2>
+   <div className="container-card">
         <Card sx={{ maxWidth: 300 }}>
           <CardMedia
             sx={{ height: 200 }}
@@ -102,6 +144,11 @@ function Main() {
           </CardActions>
         </Card>
 
+        
+      </div>
+
+      <div className="container-card">
+        
         <Card sx={{ maxWidth: 300 }}>
           <CardMedia
             sx={{ height: 200 }}
@@ -149,9 +196,59 @@ function Main() {
             <Button size="small">Learn More</Button>
           </CardActions>
         </Card>
+        <Card sx={{ maxWidth: 300 }}>
+          <CardMedia
+            sx={{ height: 200 }}
+            image="https://i.pinimg.com/564x/9d/88/e9/9d88e9c2da836e5ae49c30eca223a9d5.jpg"
+            title="lia"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              LiA
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Son Chae-young, known mononymously as Chaeyoung, is a South Korean
+              rapper and singer. She is a member of the South Korean girl group
+              Twice, formed by JYP Entertainment. Chaeyoung decided she wanted
+              to become a singer before joining JYP Entertainment and took dance
+              lessons for over one year.
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Button size="small">Share</Button>
+            <Button size="small">Learn More</Button>
+          </CardActions>
+        </Card>
+        <Card sx={{ maxWidth: 300 }}>
+          <CardMedia
+            sx={{ height: 200 }}
+            image="https://i.pinimg.com/564x/9d/88/e9/9d88e9c2da836e5ae49c30eca223a9d5.jpg"
+            title="lia"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              LiA
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Son Chae-young, known mononymously as Chaeyoung, is a South Korean
+              rapper and singer. She is a member of the South Korean girl group
+              Twice, formed by JYP Entertainment. Chaeyoung decided she wanted
+              to become a singer before joining JYP Entertainment and took dance
+              lessons for over one year.
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Button size="small">Share</Button>
+            <Button size="small">Learn More</Button>
+          </CardActions>
+        </Card>
       </div>
-
-      <div className="container-card">
+  
+    </div>
+ 
+    <div className='trending-grp'>
+  <h2>TRENDING <span className='grp'>ARTIST</span></h2>
+   <div className="container-card">
         <Card sx={{ maxWidth: 300 }}>
           <CardMedia
             sx={{ height: 200 }}
@@ -243,6 +340,11 @@ function Main() {
           </CardActions>
         </Card>
 
+        
+      </div>
+
+      <div className="container-card">
+        
         <Card sx={{ maxWidth: 300 }}>
           <CardMedia
             sx={{ height: 200 }}
@@ -290,8 +392,60 @@ function Main() {
             <Button size="small">Learn More</Button>
           </CardActions>
         </Card>
+        <Card sx={{ maxWidth: 300 }}>
+          <CardMedia
+            sx={{ height: 200 }}
+            image="https://i.pinimg.com/564x/9d/88/e9/9d88e9c2da836e5ae49c30eca223a9d5.jpg"
+            title="lia"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              LiA
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Son Chae-young, known mononymously as Chaeyoung, is a South Korean
+              rapper and singer. She is a member of the South Korean girl group
+              Twice, formed by JYP Entertainment. Chaeyoung decided she wanted
+              to become a singer before joining JYP Entertainment and took dance
+              lessons for over one year.
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Button size="small">Share</Button>
+            <Button size="small">Learn More</Button>
+          </CardActions>
+        </Card>
+        <Card sx={{ maxWidth: 300 }}>
+          <CardMedia
+            sx={{ height: 200 }}
+            image="https://i.pinimg.com/564x/9d/88/e9/9d88e9c2da836e5ae49c30eca223a9d5.jpg"
+            title="lia"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              LiA
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Son Chae-young, known mononymously as Chaeyoung, is a South Korean
+              rapper and singer. She is a member of the South Korean girl group
+              Twice, formed by JYP Entertainment. Chaeyoung decided she wanted
+              to become a singer before joining JYP Entertainment and took dance
+              lessons for over one year.
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Button size="small">Share</Button>
+            <Button size="small">Learn More</Button>
+          </CardActions>
+        </Card>
       </div>
+  
+    </div>
+</div>
+
+
     </>
+  
   );
 }
 
