@@ -1,24 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style-type: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
-
 }
 
 /* header style */
 
-
 .small-nav {
-  background-color: #1D267D;
+  background-color: #1d267d;
   padding: 1rem 2rem 1rem 2rem;
   color: #ffff;
-  font-size: .66rem;
-
+  font-size: 0.66rem;
 }
 
 .small-nav ul li a {
@@ -33,7 +30,6 @@
 
 .hamburger-icon {
   cursor: pointer;
-
 }
 
 .menu-items-desktop {
@@ -49,16 +45,13 @@
   gap: 2rem;
   position: absolute;
   padding: 1rem;
-  background-color: #FF8E00;
-
+  background-color: #ff8e00;
 }
 
 .menu-items-mobile li a {
   display: flex;
-  font-size: .68rem;
-  padding: .77rem .22rem .77rem .22rem;
-
-
+  font-size: 0.68rem;
+  padding: 0.77rem 0.22rem 0.77rem 0.22rem;
 }
 
 nav {
@@ -72,16 +65,15 @@ nav {
 nav ul {
   display: flex;
   gap: 4rem;
-
 }
 
 nav ul li .linka {
   cursor: pointer;
-  color: #0C134F;
+  color: #0c134f;
 }
 
 nav .go {
-  color: #5C469C;
+  color: #5c469c;
 }
 
 .ham-cont .go {
@@ -89,18 +81,14 @@ nav .go {
 }
 
 .MuiBadge-badge {
-  background-color: #5C469C;
+  background-color: #5c469c;
   color: #ffff;
 }
 
 /* main style */
 .main-container {
   padding: 2rem;
-
-
 }
-
-
 
 .banner {
   display: grid;
@@ -108,19 +96,15 @@ nav .go {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: .44rem;
+  gap: 0.44rem;
   height: 100%;
   width: 100%;
-
-
 }
-
 
 .banner img {
   width: 600px;
   height: 400px;
 }
-
 
 .container-card {
   display: flex;
@@ -135,28 +119,16 @@ nav .go {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .slider-card {
   width: 1200px;
 
   padding: 1rem;
-
-
-
-
 }
 
 .card-profiler {
-
-  padding: .44rem;
-
-
-
-
-
-
+  padding: 0.44rem;
 }
 
 .trending-grp {
@@ -170,16 +142,16 @@ nav .go {
 }
 
 .trending-grp .grp {
-  color: #5C469C;
+  color: #5c469c;
 }
 
 .grp-name h1 {
   font-size: 1.44rem;
-  color: #0C134F;
+  color: #0c134f;
 }
 
 .description p {
-  font-size: .77rem;
+  font-size: 0.77rem;
 }
 
 /* footer style */
@@ -188,16 +160,42 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: .44rem;
+  gap: 0.44rem;
 }
 
 footer span {
   font-weight: 700;
-  color: #FFEA20;
+  color: #ffea20;
+}
+
+/*Profile css*/
+.cover-photo {
+  background-color: gray;
+  background-image: url("https://i.pinimg.com/originals/5a/44/84/5a4484720cd9933dd36d9970bb527b60.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 50px;
+}
+.profile > h1 {
+  margin-left: 20px;
+  padding-top: 125px;
+}
+.profile-img {
+  height: 250px;
+  width: 250px;
 }
 
 /* responsiveness */
-
 
 @media screen and (max-width: 1220px) {
   nav {
@@ -205,49 +203,38 @@ footer span {
   }
 
   .banner {
-
-
     width: 100%;
   }
 
-  .video-banner, .image-banner {
+  .video-banner,
+  .image-banner {
     width: 100%;
   }
 
   iframe {
     width: 100%;
-
   }
 
   .banner img {
     width: 100%;
-
   }
 }
 
 @media screen and (max-width: 1140px) {
-
-
   .container-card {
-
     display: grid;
     grid-template-columns: auto auto auto;
-
   }
 
   .slider-card {
     width: 100%;
-
   }
-
 }
 
 @media screen and (max-width: 878px) {
   .container-card {
-
     display: grid;
     grid-template-columns: auto auto;
-
   }
 
   .banner {
@@ -258,27 +245,18 @@ footer span {
 @media screen and (max-width: 740px) {
   .card-profile {
     width: 100%;
-
   }
 
   .slider-container {
     width: 100%;
-
-
   }
 
   .slider-card {
     width: 100%;
-
-
   }
 
   .container-card {
-
     display: grid;
     grid-template-columns: auto;
-
   }
-
-
 }

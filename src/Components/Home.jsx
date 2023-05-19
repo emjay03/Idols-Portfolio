@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Badge from "@mui/material/Badge";
 import { styled } from "@mui/material/styles";
+import { Link } from "react-router-dom";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
@@ -532,7 +533,7 @@ function Home() {
                     </CardContent>
                     <CardActions>
                       <Button size="small">Share</Button>
-                      <Button size="small">Learn More</Button>
+                      <Button size="small"><Link className="linka"to="/ChaeyoungProfile">Learn More</Link></Button>
                     </CardActions>
                   </Card>
                 </div>
