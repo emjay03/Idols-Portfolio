@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import Badge from "@mui/material/Badge";
 import { styled } from "@mui/material/styles";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
-
 import CircleNotificationsIcon from "@mui/icons-material/CircleNotifications";
 function Header() {
   const [isMobile, setIsMobile] = useState(false);
@@ -35,7 +35,7 @@ function Header() {
   }));
 
   return (
-    <div className="container">
+    <>
       <div className="small-nav">
         {isMobile ? (
           <div className="hamburger-menu">
@@ -139,20 +139,20 @@ function Header() {
         </h1>
         <ul>
           <li>
-            <a>Home</a>
+            <Link className="linka"  to="/home">Home</Link>
           </li>
 
           <li>
-            <a>Top Videos</a>
+            <Link className="linka" to="/topvideos">Top Videos</Link>
           </li>
           <li>
-            <a>Top Musics</a>
+          <Link className="linka"to="/profile">Top Musics</Link>
           </li>
           <li>
-            <a>Dance Videos</a>
+          <Link className="linka"to="/profile">Dance Videos</Link>
           </li>
           <li>
-            <a>Rank Achievement</a>
+          <Link className="linka"to="/profile">Rank Achievement</Link>
           </li>
         </ul>
         <IconButton aria-label="cart">
@@ -164,7 +164,7 @@ function Header() {
           </StyledBadge>
         </IconButton>
       </nav>
-    </div>
+    </>
   );
 }
 
