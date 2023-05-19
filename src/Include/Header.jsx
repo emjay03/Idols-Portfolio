@@ -139,7 +139,7 @@ function Header() {
         </h1>
         <ul>
           <li>
-            <Link className="linka"  to="/home">Home</Link>
+            <Link className="linka"  to="/">Home</Link>
           </li>
 
           <li>
