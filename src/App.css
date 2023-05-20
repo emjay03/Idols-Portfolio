@@ -14,7 +14,8 @@
 .small-nav {
   background-color: #1d267d;
   padding: 1rem 2rem 1rem 2rem;
-  color: #ffff;
+  color: #ffea20;
+  font-weight: 500;
   font-size: 0.66rem;
 }
 
@@ -70,10 +71,12 @@ nav ul {
 nav ul li .linka {
   cursor: pointer;
   color: #0c134f;
+  font-weight: 500;
 }
-
+ 
 nav .go {
   color: #5c469c;
+  
 }
 
 .ham-cont .go {
@@ -106,29 +109,29 @@ nav .go {
   height: 400px;
 }
 
-.container-card {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  padding: 2rem 1rem 1rem 2rem;
-
-  gap: 1rem;
-}
+ 
 
 .slider-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  
+  
 }
 
 .slider-card {
   width: 1200px;
+  
 
+  
   padding: 1rem;
 }
 
 .card-profiler {
   padding: 0.44rem;
+ 
+  
+  
 }
 
 .trending-grp {
@@ -161,6 +164,9 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 0.44rem;
+  font-size: .77rem;
+  background-color: #1d267d;
+  color: #ffff;
 }
 
 footer span {
@@ -218,6 +224,9 @@ footer span {
   .banner img {
     width: 100%;
   }
+  .slider-card {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1140px) {
@@ -236,6 +245,7 @@ footer span {
     display: grid;
     grid-template-columns: auto auto;
   }
+
 
   .banner {
     flex-direction: column;
@@ -259,4 +269,6 @@ footer span {
     display: grid;
     grid-template-columns: auto;
   }
+ 
 }
+ 

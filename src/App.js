@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./Components/Home";
 import Topvideos from "./Components/Topvideos";
 import ChaeyoungProfile from "./Components/ChaeyoungProfile";
+ 
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
           <Route path="/*" element={<Home />} />
           <Route path="topvideos" element={<Topvideos />} />
           <Route path="chaeyoungprofile" element={<ChaeyoungProfile />} />
+          
         </Routes>
+       
       </div>
     </Router>
   );

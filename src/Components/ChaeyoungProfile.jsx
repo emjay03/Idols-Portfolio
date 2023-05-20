@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
-import { styled } from "@mui/material/styles";
+import React from "react";
 import Grid from "@mui/material/Grid";
 import Header from "../Include/Header";
+import Footer from "../Include/Footer";
 
 function ChaeyoungProfile() {
   return (
@@ -9,7 +9,7 @@ function ChaeyoungProfile() {
       <Header />
       <Grid container spacing={2}>
         <Grid xs={12}>
-          <div class="cover-photo">
+          <div className="cover-photo">
             <div class="profile">
               <img
                 src="https://i.pinimg.com/564x/af/46/4e/af464e1c588286cc35b5e90066f5d6f4.jpg"
@@ -21,6 +21,7 @@ function ChaeyoungProfile() {
           </div>
         </Grid>
       </Grid>
+      <Footer/>
     </div>
   );
 }
