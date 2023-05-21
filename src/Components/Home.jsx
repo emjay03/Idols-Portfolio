@@ -71,6 +71,11 @@ function Home() {
       },
     ],
   };
+  const styles = {
+    card: {
+      height: '100%',
+    },
+  };
   return (
     <div className="container">
       <Header />
@@ -79,7 +84,7 @@ function Home() {
           <div className="video-banner">
             <iframe
               height="400"
-              width="600"
+               
               src="https://www.youtube.com/embed/k6xGVr1SzW0"
               title="YouTube Video"
               frameborder="0"
@@ -93,18 +98,21 @@ function Home() {
           </div>
         </div>
         <div className="trending-grp">
+          <div className="trending-name">
           <h2>
             TRENDING <span className="grp">GROUPS</span>
           </h2>
+          </div>
           {/* first layer of trending grps */}
           <div>
             <div className="slider-container">
               <Slider className="slider-card" {...settings}>
                 <div className="card-profiler" >
                   <Card className="card-profile"
-                   sx={{ height: 480 }}>
+                   >
                     <CardMedia
-                      sx={{ height: 190 }}
+                     className="card-image"
+              
                       image="https://i.pinimg.com/564x/90/0e/f7/900ef71e3a8aaede586588974fa50115.jpg"
                       title="twice"
                     />
@@ -124,8 +132,7 @@ function Home() {
                           Nayeon, Jeongyeon, Momo, Sana, Jihyo, Mina, Dahyun,
                           Chaeyoung, and Tzuyu. Twice was formed under the
                           television program Sixteen (2015) and debuted on
-                          October 20, 2015, with the extended play (EP) The
-                          Story Begins.
+                         
                         </p>
                       </Typography>
                     </CardContent>
@@ -136,9 +143,9 @@ function Home() {
                   </Card>
                 </div>
                 <div className="card-profiler">
-                  <Card className="card-profile"sx={{ height: 480 }}>
+                  <Card className="card-profile" >
                     <CardMedia
-                      sx={{ height: 190 }}
+                       className="card-image"
                       image="https://i.pinimg.com/564x/5b/a3/e0/5ba3e074437e9f2e51cfff2c67d1db77.jpg"
                       title="blackpink"
                     />
@@ -167,7 +174,7 @@ function Home() {
                   </Card>
                 </div>
                 <div className="card-profiler">
-                  <Card className="card-profile"sx={{ height: 480 }}>
+                  <Card className="card-profile" >
                     <CardMedia
                       sx={{ height: 190 }}
                       image="https://i.pinimg.com/564x/e9/f8/6b/e9f86b276616d91a25f6ba10616831e8.jpg"
@@ -201,7 +208,7 @@ function Home() {
                   </Card>
                 </div>
                 <div className="card-profiler">
-                  <Card className="card-profile"sx={{ height: 480 }}>
+                  <Card className="card-profile" >
                     <CardMedia
                       sx={{ height: 190 }}
                       image="https://i.pinimg.com/564x/d0/39/91/d03991496de8f53979b50785d9847aef.jpg"
@@ -232,7 +239,7 @@ function Home() {
                   </Card>
                 </div>
                 <div className="card-profiler">
-                  <Card className="card-profile"sx={{ height: 480 }}>
+                  <Card className="card-profile" >
                     <CardMedia
                       sx={{ height: 190 }}
                       image="https://i.pinimg.com/564x/90/0e/f7/900ef71e3a8aaede586588974fa50115.jpg"
@@ -266,7 +273,7 @@ function Home() {
                   </Card>
                 </div>
                 <div className="card-profiler">
-                  <Card className="card-profile" sx={{ height: 480 }}>
+                  <Card className="card-profile" >
                     <CardMedia
                       sx={{ height: 190 }}
                       image="https://i.pinimg.com/564x/90/0e/f7/900ef71e3a8aaede586588974fa50115.jpg"
@@ -300,7 +307,7 @@ function Home() {
                   </Card>
                 </div>
                 <div className="card-profiler">
-                  <Card className="card-profile"sx={{ height: 480 }}>
+                  <Card className="card-profile" >
                     <CardMedia
                       sx={{ height: 190 }}
                       image="https://i.pinimg.com/564x/90/0e/f7/900ef71e3a8aaede586588974fa50115.jpg"
@@ -334,7 +341,7 @@ function Home() {
                   </Card>
                 </div>
                 <div className="card-profiler">
-                  <Card className="card-profile"sx={{ height: 480 }}>
+                  <Card className="card-profile" >
                     <CardMedia
                       sx={{ height: 190 }}
                       image="https://i.pinimg.com/564x/90/0e/f7/900ef71e3a8aaede586588974fa50115.jpg"
@@ -377,7 +384,7 @@ function Home() {
               <Slider className="slider-card" {...settings}>
                 <div className="card-profiler" >
                   <Card className="card-profile"
-                   sx={{ height: 480 }}>
+                  >
                     <CardMedia
                       sx={{ height: 190 }}
                       image="https://i.pinimg.com/564x/90/0e/f7/900ef71e3a8aaede586588974fa50115.jpg"
@@ -411,7 +418,7 @@ function Home() {
                   </Card>
                 </div>
                 <div className="card-profiler">
-                  <Card className="card-profile"sx={{ height: 480 }}>
+                  <Card className="card-profile" >
                     <CardMedia
                       sx={{ height: 190 }}
                       image="https://i.pinimg.com/564x/5b/a3/e0/5ba3e074437e9f2e51cfff2c67d1db77.jpg"
@@ -442,7 +449,7 @@ function Home() {
                   </Card>
                 </div>
                 <div className="card-profiler">
-                  <Card className="card-profile"sx={{ height: 480 }}>
+                  <Card className="card-profile" >
                     <CardMedia
                       sx={{ height: 190 }}
                       image="https://i.pinimg.com/564x/e9/f8/6b/e9f86b276616d91a25f6ba10616831e8.jpg"
@@ -476,7 +483,7 @@ function Home() {
                   </Card>
                 </div>
                 <div className="card-profiler">
-                  <Card className="card-profile"sx={{ height: 480 }}>
+                  <Card className="card-profile" >
                     <CardMedia
                       sx={{ height: 190 }}
                       image="https://i.pinimg.com/564x/d0/39/91/d03991496de8f53979b50785d9847aef.jpg"
@@ -507,7 +514,7 @@ function Home() {
                   </Card>
                 </div>
                 <div className="card-profiler">
-                  <Card className="card-profile"sx={{ height: 480 }}>
+                  <Card className="card-profile" >
                     <CardMedia
                       sx={{ height: 190 }}
                       image="https://i.pinimg.com/564x/90/0e/f7/900ef71e3a8aaede586588974fa50115.jpg"
@@ -649,9 +656,11 @@ function Home() {
         </div>
 {/* TRENDING ARTIST */}
         <div className="trending-grp">
+        <div className="trending-name">
           <h2>
             TRENDING <span className="grp">ARTIST</span>
           </h2>
+          </div>
           {/* first layer of trending artist */}
           <div className="slider-container">
               <Slider className="slider-card" {...settings}>
