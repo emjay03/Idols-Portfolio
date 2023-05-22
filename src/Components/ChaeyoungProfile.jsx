@@ -49,6 +49,7 @@ function ChaeyoungProfile() {
         <Grid xs={12}>
           <div className="featured-photo">
             <p>Featured Photos</p>
+            <span className="underline"></span>
             <div className="gallery">
               <ImageList
                 sx={{ width: 550, height: 450 }}
@@ -76,22 +77,24 @@ function ChaeyoungProfile() {
 
         <Grid xs={12}>
           <div className="trivia">
-            <h1>TRIVIA</h1>
+            <p>TRIVIA</p>
           </div>
         </Grid>
 
         <Grid xs={3}>
-          <Card sx={{ maxWidth: 345 }}>
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                Did you know?
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Chaeyoung has a younger brother, Jeong Hun, which is an aspiring
-                model.
-              </Typography>
-            </CardContent>
-          </Card>
+          <div>
+            <Card sx={{ maxWidth: 345 }}>
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Did you know?
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Chaeyoung has a younger brother, Jeong Hun, which is an
+                  aspiring model.
+                </Typography>
+              </CardContent>
+            </Card>
+          </div>
         </Grid>
 
         <Grid xs={3}>
