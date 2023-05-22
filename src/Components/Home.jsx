@@ -62,7 +62,7 @@ function Home() {
         },
       },
       {
-        breakpoint: 677,
+        breakpoint: 600,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -71,11 +71,7 @@ function Home() {
       },
     ],
   };
-  const styles = {
-    card: {
-      height: '100%',
-    },
-  };
+ 
   return (
     <div className="container">
       <Header />
