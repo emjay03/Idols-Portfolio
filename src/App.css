@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style-type: none;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  
   text-decoration: none;
 }
 
@@ -38,6 +39,11 @@
   justify-content: center;
   align-items: center;
   gap: 3rem;
+  color: #ffff;
+}
+.menu-items-desktop  .linka{
+  color: #ffff;
+   
 }
 
 .menu-items-mobile {
@@ -73,9 +79,13 @@ nav ul li .linka {
   color: #000000;
   font-weight: 400;
 }
-
+nav h1{
+  font-size: 1.66rem;
+  font-weight: 600;
+}
 nav .go {
-  color: #5c469c;
+  color: #0c134f;
+  font-weight: 800;
 }
 
 .ham-cont .go {
@@ -160,7 +170,7 @@ iframe {
 
 .grp-name h1 {
   font-size: 1.44rem;
-  color: #0c134f;
+  color: #000000;
 }
 
 .description p {
@@ -243,16 +253,19 @@ footer span {
 .topvid-box {
   padding: 1rem;
   display: flex;
-  flex-direction: row;
-
-  justify-content: center;
+  justify-content: center; 
   align-items: center;
+  display: grid;
+  
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+ 
 }
 .card-vid {
   padding: 1rem;
 }
 /* responsiveness */
 @media screen and (max-width: 1204px) {
+  
 }
 @media screen and (max-width: 1220px) {
   nav {
@@ -293,6 +306,11 @@ footer span {
   .image-banner {
     width: 100%;
   }
+   /* top videos */
+   .topvid-box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
 }
 @media screen and (max-width: 990) {
   .card-profile {
@@ -303,6 +321,7 @@ footer span {
     padding-top: 100px;
     padding-bottom: 20px;
   }
+ 
 }
 @media screen and (max-width: 878px) {
   .container-card {
@@ -318,6 +337,7 @@ footer span {
     padding-top: 100px;
     padding-bottom: 20px;
   }
+ 
 }
 
 @media screen and (max-width: 740px) {
@@ -342,4 +362,18 @@ footer span {
     padding-top: 100px;
     padding-bottom: 20px;
   }
+   /* top videos */
+   .topvid-box{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+   
+}
+
+@media screen and (max-width: 540px) {
+    /* top videos */
+    .topvid-box{
+      display: grid;
+      grid-template-columns: auto;
+    }
 }

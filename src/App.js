@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./Components/Home";
 import Topvideos from "./Components/Topvideos";
 import ChaeyoungProfile from "./Components/ChaeyoungProfile";
+import Girlgroup from "./Components/Girlgroup";
  
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path="/*" element={<Home />} />
           <Route path="topvideos" element={<Topvideos />} />
           <Route path="chaeyoungprofile" element={<ChaeyoungProfile />} />
+          <Route path="girlgroup" element={<Girlgroup />} />
           
         </Routes>
        

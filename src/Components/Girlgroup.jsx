@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import Header from '../Include/Header';
 
 
-const Topvideos =() => {
+const Girlgroup =() => {
   
   return (
     <div className='container'>
@@ -311,4 +311,4 @@ const Topvideos =() => {
   )
 }
 
-export default Topvideos
+export default Girlgroup

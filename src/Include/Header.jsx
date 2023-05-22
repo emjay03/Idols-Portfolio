@@ -43,7 +43,7 @@ function Header() {
               <MenuIcon className="hamburger-icon" onClick={toggleMenu} />
 
               <h1>
-                KPop<span className="go">po</span>
+                K<span className="go">po</span>
               </h1>
             </div>
             {menuOpen && (
@@ -104,7 +104,7 @@ function Header() {
         ) : (
           <ul className="menu-items-desktop">
             <li>
-              <a>Girl Group</a>
+              <Link className="linka"  to="/girlgroup">Girl Group</Link>
             </li>
             <li>
               <a>Boy Group</a>
@@ -135,7 +135,7 @@ function Header() {
       </div>
       <nav>
         <h1>
-          KPop<span className="go">po</span>
+          SK-<span className="go">POP</span>
         </h1>
         <ul>
           <li>
