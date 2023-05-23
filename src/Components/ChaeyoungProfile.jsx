@@ -9,6 +9,7 @@ import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import { Link } from "react-router-dom";
 
 function srcset(image, size, rows = 1, cols = 1) {
   return {
@@ -28,7 +29,7 @@ function ChaeyoungProfile() {
           <div className="cover-photo">
             <div class="profile">
               <img
-                src="https://i.pinimg.com/564x/af/46/4e/af464e1c588286cc35b5e90066f5d6f4.jpg"
+                src="https://pbs.twimg.com/media/FpvW5KtaYAA8QZe?format=jpg&name=4096x4096"
                 alt="chaeyoung.png"
                 class="profile-img"
               />
@@ -137,6 +138,115 @@ function ChaeyoungProfile() {
               </Typography>
             </CardContent>
           </Card>
+        </Grid>
+
+        <Grid xs={12}>
+          <div className="check">
+            <p>Check out the other members!</p>
+          </div>
+        </Grid>
+        <Grid xs={3}>
+          <div className="members">
+            <img
+              src="https://pbs.twimg.com/media/Fpk_tIRaUAEdelF?format=jpg&name=4096x4096"
+              alt="nayeon.png"
+              class=""
+            />
+            <Link className="linka" to="/ChaeyoungProfile">
+              Nayeon
+            </Link>
+          </div>
+        </Grid>
+
+        <Grid xs={3}>
+          <div className="members">
+            <img
+              src="https://pbs.twimg.com/media/Fpk_4NpaMAErELp?format=jpg&name=4096x4096"
+              alt="jeongyeon.png"
+              class=""
+            />
+            <Link className="linka" to="/ChaeyoungProfile">
+              Jeongyeon
+            </Link>
+          </div>
+        </Grid>
+
+        <Grid xs={3}>
+          <div className="members">
+            <img
+              src="https://pbs.twimg.com/media/FplABT9aYAIcBDM?format=jpg&name=4096x4096"
+              alt="momo.png"
+              class=""
+            />
+            <Link className="linka" to="/ChaeyoungProfile">
+              Momo
+            </Link>
+          </div>
+        </Grid>
+
+        <Grid xs={3}>
+          <div className="members">
+            <img
+              src="https://pbs.twimg.com/media/FpqKNkTaIAE9Nds?format=jpg&name=4096x4096"
+              alt="sana.png"
+              class=""
+            />
+            <Link className="linka" to="/ChaeyoungProfile">
+              Sana
+            </Link>
+          </div>
+        </Grid>
+
+        <Grid xs={3}>
+          <div className="members">
+            <img
+              src="https://pbs.twimg.com/media/FpqKXYdacAETnGP?format=jpg&name=4096x4096"
+              alt="jihyo.png"
+              class=""
+            />
+            <Link className="linka" to="/ChaeyoungProfile">
+              Jihyo
+            </Link>
+          </div>
+        </Grid>
+
+        <Grid xs={3}>
+          <div className="members">
+            <img
+              src="https://pbs.twimg.com/media/FpqKh1takAIthQo?format=jpg&name=4096x4096"
+              alt="mina.png"
+              class=""
+            />
+            <Link className="linka" to="/ChaeyoungProfile">
+              Mina
+            </Link>
+          </div>
+        </Grid>
+
+        <Grid xs={3}>
+          <div className="members">
+            <img
+              src="https://pbs.twimg.com/media/FpvWxQMaIAEt4-e?format=jpg&name=4096x4096"
+              alt="dahyun.png"
+              class=""
+            />
+            <Link className="linka" to="/ChaeyoungProfile">
+              Dahyun
+            </Link>
+          </div>
+        </Grid>
+
+        <Grid xs={3}>
+          <div className="members">
+            <img
+              src="https://pbs.twimg.com/media/FpvXB3NaUAAtbLh?format=jpg&name=small"
+              alt="tzuyu.png"
+              class=""
+            />
+            <Link className="linka" to="/ChaeyoungProfile">
+              Tzuyu
+            </Link>
+          </div>
         </Grid>
       </Grid>
       <Footer />
