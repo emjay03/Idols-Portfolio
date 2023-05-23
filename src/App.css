@@ -217,7 +217,7 @@ footer span {
   height: 250px;
   width: 525px;
   border: 5px solid red;
-  border-radius: 8px;
+  border-radius: 20px;
 }
 
 .paragraph {
@@ -249,7 +249,7 @@ footer span {
 
 .featured-photo > p {
   padding-top: 30px;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .gallery {
@@ -266,8 +266,36 @@ footer span {
 
 .trivia > p {
   padding-top: 30px;
-  font-size: 30px;
+  font-size: 35px;
 }
+
+.check {
+  display: flex;
+  justify-content: left;
+  margin-left: 25px;
+  align-items: center;
+}
+
+.check > p {
+  padding-top: 30px;
+  font-size: 25px;
+}
+
+.members {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+
+.members > img {
+  border-radius: 50%;
+  height: 125px;
+  width: 125px;
+}
+
 /* top videos */
 .topvid-box {
   padding: 1rem;
