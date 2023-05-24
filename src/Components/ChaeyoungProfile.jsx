@@ -29,7 +29,7 @@ function ChaeyoungProfile() {
           <div className="cover-photo">
             <div class="profile">
               <img
-                src="https://pbs.twimg.com/media/FpvW5KtaYAA8QZe?format=jpg&name=4096x4096"
+                src="https://pbs.twimg.com/media/FmMwLQgakAQLqbn?format=jpg&name=4096x4096"
                 alt="chaeyoung.png"
                 class="profile-img"
               />
@@ -84,7 +84,7 @@ function ChaeyoungProfile() {
 
         <Grid xs={3}>
           <div>
-            <Card sx={{ maxWidth: 345 }}>
+            <Card sx={{ maxWidth: 345 }} elevation={1}>
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                   Did you know?
@@ -99,7 +99,7 @@ function ChaeyoungProfile() {
         </Grid>
 
         <Grid xs={3}>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345 }} elevation={1}>
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
                 Did you know?
@@ -112,7 +112,7 @@ function ChaeyoungProfile() {
         </Grid>
 
         <Grid xs={3}>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345 }} elevation={1}>
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
                 Did you know?
@@ -127,7 +127,7 @@ function ChaeyoungProfile() {
         </Grid>
 
         <Grid xs={3}>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 345 }} elevation={1}>
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
                 Did you know?
@@ -148,7 +148,8 @@ function ChaeyoungProfile() {
         <Grid xs={3}>
           <div className="members">
             <img
-              src="https://pbs.twimg.com/media/Fpk_tIRaUAEdelF?format=jpg&name=4096x4096"
+              src="
+              https://pbs.twimg.com/media/FmCe725aUAA6Tcx?format=jpg&name=4096x4096"
               alt="nayeon.png"
               class=""
             />
@@ -161,7 +162,7 @@ function ChaeyoungProfile() {
         <Grid xs={3}>
           <div className="members">
             <img
-              src="https://pbs.twimg.com/media/Fpk_4NpaMAErELp?format=jpg&name=4096x4096"
+              src="https://pbs.twimg.com/media/FmCfCBwacAYm2gV?format=jpg&name=4096x4096"
               alt="jeongyeon.png"
               class=""
             />
@@ -174,7 +175,7 @@ function ChaeyoungProfile() {
         <Grid xs={3}>
           <div className="members">
             <img
-              src="https://pbs.twimg.com/media/FplABT9aYAIcBDM?format=jpg&name=4096x4096"
+              src="https://pbs.twimg.com/media/FmCfJL0aAAAw0jx?format=jpg&name=4096x4096"
               alt="momo.png"
               class=""
             />
@@ -187,7 +188,7 @@ function ChaeyoungProfile() {
         <Grid xs={3}>
           <div className="members">
             <img
-              src="https://pbs.twimg.com/media/FpqKNkTaIAE9Nds?format=jpg&name=4096x4096"
+              src="https://pbs.twimg.com/media/FmHpTDNaEAAGWBw?format=jpg&name=large"
               alt="sana.png"
               class=""
             />
@@ -200,7 +201,7 @@ function ChaeyoungProfile() {
         <Grid xs={3}>
           <div className="members">
             <img
-              src="https://pbs.twimg.com/media/FpqKXYdacAETnGP?format=jpg&name=4096x4096"
+              src="https://pbs.twimg.com/media/FmHpV14acAELFke?format=jpg&name=large"
               alt="jihyo.png"
               class=""
             />
@@ -213,7 +214,7 @@ function ChaeyoungProfile() {
         <Grid xs={3}>
           <div className="members">
             <img
-              src="https://pbs.twimg.com/media/FpqKh1takAIthQo?format=jpg&name=4096x4096"
+              src="https://pbs.twimg.com/media/FmHpbAMagAEATCF?format=jpg&name=large"
               alt="mina.png"
               class=""
             />
@@ -226,7 +227,7 @@ function ChaeyoungProfile() {
         <Grid xs={3}>
           <div className="members">
             <img
-              src="https://pbs.twimg.com/media/FpvWxQMaIAEt4-e?format=jpg&name=4096x4096"
+              src="https://pbs.twimg.com/media/FmMwEURagAEI1-V?format=jpg&name=4096x4096"
               alt="dahyun.png"
               class=""
             />
@@ -239,13 +240,26 @@ function ChaeyoungProfile() {
         <Grid xs={3}>
           <div className="members">
             <img
-              src="https://pbs.twimg.com/media/FpvXB3NaUAAtbLh?format=jpg&name=small"
+              src="https://pbs.twimg.com/media/FmMwRc2aUAE1WnP?format=jpg&name=4096x4096"
               alt="tzuyu.png"
               class=""
             />
             <Link className="linka" to="/ChaeyoungProfile">
               Tzuyu
             </Link>
+          </div>
+        </Grid>
+
+        <Grid xs={12}>
+          <div className="footer-cover">
+            <div className="cover-qoutes">
+              <p>
+                "Strawberries tastes best when they're natural. When you have
+                something that's strawberry-flavored, it's not good. That's how
+                we are, too. We are the best version of ourselves when we are
+                natural and present ourselves like we really are" - Chaeyoung
+              </p>
+            </div>
           </div>
         </Grid>
       </Grid>
