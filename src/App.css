@@ -217,7 +217,6 @@ footer span {
   height: 250px;
   width: 525px;
   border: 5px solid red;
-  border-radius: 20px;
 }
 
 .paragraph {
@@ -292,8 +291,33 @@ footer span {
 
 .members > img {
   border-radius: 50%;
-  height: 125px;
-  width: 125px;
+  height: 150px;
+  width: 170px;
+}
+
+.footer-cover {
+  padding-top: 50px;
+}
+
+.cover-qoutes {
+  background-color: gray;
+  background-image: url("https://pbs.twimg.com/media/FDqcKGGXIAAPSMu?format=jpg&name=large");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: flex;
+  padding: 30px;
+  margin: 50px;
+}
+
+.cover-qoutes > p {
+  font-size: 20px;
+  font-style: italic;
 }
 
 /* top videos */
@@ -356,6 +380,9 @@ footer span {
     display: grid;
     grid-template-columns: auto auto auto;
   }
+  .cover-qoutes {
+    height: 200px;
+  }
 }
 @media screen and (max-width: 990) {
   .card-profile {
@@ -365,6 +392,9 @@ footer span {
   .cover-photo {
     padding-top: 100px;
     padding-bottom: 20px;
+  }
+  .cover-qoutes {
+    height: 200px;
   }
 }
 @media screen and (max-width: 878px) {
@@ -380,6 +410,9 @@ footer span {
   .cover-photo {
     padding-top: 100px;
     padding-bottom: 20px;
+  }
+  .cover-qoutes {
+    height: 200px;
   }
 }
 
@@ -410,6 +443,9 @@ footer span {
     display: grid;
     grid-template-columns: auto auto;
   }
+  .cover-qoutes {
+    height: 250px;
+  }
 }
 
 @media screen and (max-width: 540px) {
@@ -417,5 +453,8 @@ footer span {
   .topvid-box {
     display: grid;
     grid-template-columns: auto;
+  }
+  .cover-qoutes {
+    height: 250px;
   }
 }
