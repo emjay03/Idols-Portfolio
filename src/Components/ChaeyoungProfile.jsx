@@ -9,6 +9,7 @@ import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import Slider from "react-slick";
 import { Link } from "react-router-dom";
 
 function srcset(image, size, rows = 1, cols = 1) {
@@ -21,70 +22,99 @@ function srcset(image, size, rows = 1, cols = 1) {
 }
 
 function ChaeyoungProfile() {
+  var settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
   return (
     <div>
       <Header />
-      <Grid container spacing={2}>
-        <Grid xs={12}>
-          <div className="cover-photo">
-            <div class="profile">
-              <img
-                src="https://pbs.twimg.com/media/FmMwLQgakAQLqbn?format=jpg&name=4096x4096"
-                alt="chaeyoung.png"
-                class="profile-img"
-              />
-              <div className="paragraph">
-                <h1>TWICE Chaeyoung</h1>
-                <p>
-                  Son Chae-young, known mononymously as Chaeyoung, is a South
-                  Korean rapper and singer. She is a member of the South Korean
-                  girl group Twice, formed by JYP Entertainment. Chaeyoung
-                  decided she wanted to become a singer before joining JYP
-                  Entertainment and took dance lessons for over one year.
-                </p>
-              </div>
-            </div>
+      <div className="cover-photo">
+        <div class="profile">
+          <img
+            src="https://pbs.twimg.com/media/FmMwLQgakAQLqbn?format=jpg&name=4096x4096"
+            alt="chaeyoung.png"
+            class="profile-img"
+          />
+          <div className="paragraph">
+            <h1>TWICE Chaeyoung</h1>
+            <p>
+              Son Chae-young, known mononymously as Chaeyoung, is a South Korean
+              rapper and singer. She is a member of the South Korean girl group
+              Twice, formed by JYP Entertainment. Chaeyoung decided she wanted
+              to become a singer before joining JYP Entertainment and took dance
+              lessons for over one year.
+            </p>
           </div>
-        </Grid>
+        </div>
+      </div>
 
-        <Grid xs={12}>
-          <div className="featured-photo">
-            <p>Featured Photos</p>
-            <span className="underline"></span>
-            <div className="gallery">
-              <ImageList
-                sx={{ width: 550, height: 450 }}
-                variant="quilted"
-                cols={4}
-                rowHeight={121}
+      <div className="featured-photo">
+        <p>Featured Photos</p>
+        <span className="underline"></span>
+        <div className="gallery">
+          <ImageList
+            sx={{ width: 550, height: 450 }}
+            variant="quilted"
+            cols={4}
+            rowHeight={121}
+          >
+            {itemData.map((item) => (
+              <ImageListItem
+                key={item.img}
+                cols={item.cols || 1}
+                rows={item.rows || 1}
               >
-                {itemData.map((item) => (
-                  <ImageListItem
-                    key={item.img}
-                    cols={item.cols || 1}
-                    rows={item.rows || 1}
-                  >
-                    <img
-                      {...srcset(item.img, 121, item.rows, item.cols)}
-                      alt={item.title}
-                      loading="lazy"
-                    />
-                  </ImageListItem>
-                ))}
-              </ImageList>
-            </div>
-          </div>
-        </Grid>
+                <img
+                  {...srcset(item.img, 121, item.rows, item.cols)}
+                  alt={item.title}
+                  loading="lazy"
+                />
+              </ImageListItem>
+            ))}
+          </ImageList>
+        </div>
+      </div>
 
-        <Grid xs={12}>
-          <div className="trivia">
-            <p>TRIVIA</p>
-          </div>
-        </Grid>
+      <div className="trivia">
+        <p> Trivia</p>
+      </div>
 
-        <Grid xs={3}>
+      <div className="trivia-container">
+        <Slider className="card-trivia" {...settings}>
           <div>
-            <Card sx={{ maxWidth: 345 }} elevation={1}>
+            <Card sx={{ maxWidth: 250 }} elevation={1}>
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                   Did you know?
@@ -96,173 +126,201 @@ function ChaeyoungProfile() {
               </CardContent>
             </Card>
           </div>
-        </Grid>
-
-        <Grid xs={3}>
-          <Card sx={{ maxWidth: 345 }} elevation={1}>
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                Did you know?
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Chaeyoung's english name is Katarina
-              </Typography>
-            </CardContent>
-          </Card>
-        </Grid>
-
-        <Grid xs={3}>
-          <Card sx={{ maxWidth: 345 }} elevation={1}>
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                Did you know?
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Chaeyoung likes healthy foods like veggies but doesn't like
-                sweets. She says this is because she grew up with her
-                grandmother when she was young
-              </Typography>
-            </CardContent>
-          </Card>
-        </Grid>
-
-        <Grid xs={3}>
-          <Card sx={{ maxWidth: 345 }} elevation={1}>
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                Did you know?
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                eye eyes". She also wrote some of her rap on their other songs
-              </Typography>
-            </CardContent>
-          </Card>
-        </Grid>
-
-        <Grid xs={12}>
-          <div className="check">
-            <p>Check out the other members!</p>
+          <div>
+            <Card sx={{ maxWidth: 250 }} elevation={1}>
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Did you know?
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Chaeyoung's english name is Katarina
+                </Typography>
+              </CardContent>
+            </Card>
           </div>
-        </Grid>
-        <Grid xs={3}>
-          <div className="members">
-            <img
-              src="
+          <div>
+            <Card sx={{ maxWidth: 250 }} elevation={1}>
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Did you know?
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Chaeyoung likes healthy foods like veggies but doesn't like
+                  sweets. She says this is because she grew up with her
+                  grandmother when she was young
+                </Typography>
+              </CardContent>
+            </Card>
+          </div>
+          <div>
+            <Card sx={{ maxWidth: 250 }} elevation={1}>
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Did you know?
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
+                  eye eyes". She also wrote some of her rap on their other songs
+                </Typography>
+              </CardContent>
+            </Card>
+          </div>
+          <div>
+            <Card sx={{ maxWidth: 250 }} elevation={1}>
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Did you know?
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
+                  eye eyes". She also wrote some of her rap on their other songs
+                </Typography>
+              </CardContent>
+            </Card>
+          </div>
+          <div>
+            <Card sx={{ maxWidth: 250 }} elevation={1}>
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Did you know?
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
+                  eye eyes". She also wrote some of her rap on their other songs
+                </Typography>
+              </CardContent>
+            </Card>
+          </div>
+          <div>
+            <Card sx={{ maxWidth: 250 }} elevation={1}>
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Did you know?
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
+                  eye eyes". She also wrote some of her rap on their other songs
+                </Typography>
+              </CardContent>
+            </Card>
+          </div>
+          <div>
+            <Card sx={{ maxWidth: 250 }} elevation={1}>
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Did you know?
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
+                  eye eyes". She also wrote some of her rap on their other songs
+                </Typography>
+              </CardContent>
+            </Card>
+          </div>
+        </Slider>
+      </div>
+
+      <div className="check">
+        <p>Check out the other members!</p>
+        <div className="members">
+          <img
+            src="
               https://pbs.twimg.com/media/FmCe725aUAA6Tcx?format=jpg&name=4096x4096"
-              alt="nayeon.png"
-              class=""
-            />
-            <Link className="linka" to="/ChaeyoungProfile">
-              Nayeon
-            </Link>
-          </div>
-        </Grid>
+            alt="nayeon.png"
+            class=""
+          />
+          <Link className="linka" to="/ChaeyoungProfile">
+            Nayeon
+          </Link>
+        </div>
 
-        <Grid xs={3}>
-          <div className="members">
-            <img
-              src="https://pbs.twimg.com/media/FmCfCBwacAYm2gV?format=jpg&name=4096x4096"
-              alt="jeongyeon.png"
-              class=""
-            />
-            <Link className="linka" to="/ChaeyoungProfile">
-              Jeongyeon
-            </Link>
-          </div>
-        </Grid>
+        <div className="members">
+          <img
+            src="https://pbs.twimg.com/media/FmCfCBwacAYm2gV?format=jpg&name=4096x4096"
+            alt="jeongyeon.png"
+            class=""
+          />
+          <Link className="linka" to="/ChaeyoungProfile">
+            Jeongyeon
+          </Link>
+        </div>
 
-        <Grid xs={3}>
-          <div className="members">
-            <img
-              src="https://pbs.twimg.com/media/FmCfJL0aAAAw0jx?format=jpg&name=4096x4096"
-              alt="momo.png"
-              class=""
-            />
-            <Link className="linka" to="/ChaeyoungProfile">
-              Momo
-            </Link>
-          </div>
-        </Grid>
+        <div className="members">
+          <img
+            src="https://pbs.twimg.com/media/FmCfJL0aAAAw0jx?format=jpg&name=4096x4096"
+            alt="momo.png"
+            class=""
+          />
+          <Link className="linka" to="/ChaeyoungProfile">
+            Momo
+          </Link>
+        </div>
 
-        <Grid xs={3}>
-          <div className="members">
-            <img
-              src="https://pbs.twimg.com/media/FmHpTDNaEAAGWBw?format=jpg&name=large"
-              alt="sana.png"
-              class=""
-            />
-            <Link className="linka" to="/ChaeyoungProfile">
-              Sana
-            </Link>
-          </div>
-        </Grid>
+        <div className="members">
+          <img
+            src="https://pbs.twimg.com/media/FmHpTDNaEAAGWBw?format=jpg&name=large"
+            alt="sana.png"
+            class=""
+          />
+          <Link className="linka" to="/ChaeyoungProfile">
+            Sana
+          </Link>
+        </div>
 
-        <Grid xs={3}>
-          <div className="members">
-            <img
-              src="https://pbs.twimg.com/media/FmHpV14acAELFke?format=jpg&name=large"
-              alt="jihyo.png"
-              class=""
-            />
-            <Link className="linka" to="/ChaeyoungProfile">
-              Jihyo
-            </Link>
-          </div>
-        </Grid>
+        <div className="members">
+          <img
+            src="https://pbs.twimg.com/media/FmHpV14acAELFke?format=jpg&name=large"
+            alt="jihyo.png"
+            class=""
+          />
+          <Link className="linka" to="/ChaeyoungProfile">
+            Jihyo
+          </Link>
+        </div>
 
-        <Grid xs={3}>
-          <div className="members">
-            <img
-              src="https://pbs.twimg.com/media/FmHpbAMagAEATCF?format=jpg&name=large"
-              alt="mina.png"
-              class=""
-            />
-            <Link className="linka" to="/ChaeyoungProfile">
-              Mina
-            </Link>
-          </div>
-        </Grid>
+        <div className="members">
+          <img
+            src="https://pbs.twimg.com/media/FmHpbAMagAEATCF?format=jpg&name=large"
+            alt="mina.png"
+            class=""
+          />
+          <Link className="linka" to="/ChaeyoungProfile">
+            Mina
+          </Link>
+        </div>
 
-        <Grid xs={3}>
-          <div className="members">
-            <img
-              src="https://pbs.twimg.com/media/FmMwEURagAEI1-V?format=jpg&name=4096x4096"
-              alt="dahyun.png"
-              class=""
-            />
-            <Link className="linka" to="/ChaeyoungProfile">
-              Dahyun
-            </Link>
-          </div>
-        </Grid>
+        <div className="members">
+          <img
+            src="https://pbs.twimg.com/media/FmMwEURagAEI1-V?format=jpg&name=4096x4096"
+            alt="dahyun.png"
+            class=""
+          />
+          <Link className="linka" to="/ChaeyoungProfile">
+            Dahyun
+          </Link>
+        </div>
 
-        <Grid xs={3}>
-          <div className="members">
-            <img
-              src="https://pbs.twimg.com/media/FmMwRc2aUAE1WnP?format=jpg&name=4096x4096"
-              alt="tzuyu.png"
-              class=""
-            />
-            <Link className="linka" to="/ChaeyoungProfile">
-              Tzuyu
-            </Link>
-          </div>
-        </Grid>
-
-        <Grid xs={12}>
-          <div className="footer-cover">
-            <div className="cover-qoutes">
-              <p>
-                "Strawberries tastes best when they're natural. When you have
-                something that's strawberry-flavored, it's not good. That's how
-                we are, too. We are the best version of ourselves when we are
-                natural and present ourselves like we really are" - Chaeyoung
-              </p>
-            </div>
-          </div>
-        </Grid>
-      </Grid>
+        <div className="members">
+          <img
+            src="https://pbs.twimg.com/media/FmMwRc2aUAE1WnP?format=jpg&name=4096x4096"
+            alt="tzuyu.png"
+            class=""
+          />
+          <Link className="linka" to="/ChaeyoungProfile">
+            Tzuyu
+          </Link>
+        </div>
+      </div>
+      <div className="footer-cover">
+        <div className="cover-qoutes">
+          <p>
+            "Strawberries tastes best when they're natural. When you have
+            something that's strawberry-flavored, it's not good. That's how we
+            are, too. We are the best version of ourselves when we are natural
+            and present ourselves like we really are" - Chaeyoung
+          </p>
+        </div>
+      </div>
       <Footer />
     </div>
   );

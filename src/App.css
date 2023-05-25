@@ -259,6 +259,7 @@ footer span {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
   border-bottom: 1px solid black;
   margin: 50px;
 }
@@ -267,17 +268,32 @@ footer span {
   padding-top: 30px;
   font-size: 35px;
 }
-
-.check {
+.trivia-container {
   display: flex;
-  justify-content: left;
-  margin-left: 25px;
+  justify-content: center;
   align-items: center;
+  height: 200px;
+}
+.card-trivia {
+  width: 1200px;
+  height: 100%;
+}
+.check {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
 }
 
 .check > p {
+  grid-column: span 4;
   padding-top: 30px;
   font-size: 25px;
+}
+
+.members-list {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
 
 .members {
