@@ -270,7 +270,7 @@ footer span {
 }
 .trivia-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   height: 200px;
 }
@@ -279,21 +279,20 @@ footer span {
   height: 100%;
 }
 .check {
-  display: grid;
-  grid-template-rows: auto auto auto auto;
-  grid-template-columns: auto auto;
-  justify-content: space-evenly;
+  display: flex;
 }
-
 .check > p {
-  grid-column: span 4;
   padding-top: 30px;
   font-size: 25px;
 }
 
 .members-list {
   display: grid;
+  grid-template-rows: auto auto;
   grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .members {
@@ -303,6 +302,8 @@ footer span {
   flex-direction: column;
   padding-top: 30px;
   padding-bottom: 5px;
+  height: 200px;
+  width: 200px;
 }
 
 .members > img {
@@ -376,6 +377,10 @@ footer span {
   .slider-card {
     width: 100%;
   }
+
+  .card-trivia {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1140px) {
@@ -396,8 +401,14 @@ footer span {
     display: grid;
     grid-template-columns: auto auto auto;
   }
+  /* profile*/
   .cover-qoutes {
     height: 200px;
+  }
+
+  .check {
+    display: grid;
+    grid-template-rows: auto auto;
   }
 }
 @media screen and (max-width: 990) {
@@ -411,6 +422,23 @@ footer span {
   }
   .cover-qoutes {
     height: 200px;
+  }
+
+  .trivia-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+  }
+
+  .card-trivia {
+    width: 100%;
+  }
+
+  .check {
+    display: grid;
+    grid-template-rows: auto auto;
   }
 }
 @media screen and (max-width: 878px) {
@@ -429,6 +457,29 @@ footer span {
   }
   .cover-qoutes {
     height: 200px;
+  }
+
+  .trivia-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+  }
+
+  .card-trivia {
+    width: 100%;
+  }
+
+  .check {
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+
+  .members-list {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto;
   }
 }
 
@@ -459,8 +510,26 @@ footer span {
     display: grid;
     grid-template-columns: auto auto;
   }
+
   .cover-qoutes {
     height: 250px;
+  }
+
+  .trivia-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+  }
+
+  .card-trivia {
+    width: 100%;
+  }
+
+  .check {
+    display: grid;
+    grid-template-rows: auto auto;
   }
 }
 
@@ -472,5 +541,21 @@ footer span {
   }
   .cover-qoutes {
     height: 250px;
+  }
+
+  .trivia-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+  }
+  .card-trivia {
+    width: 100%;
+  }
+
+  .check {
+    display: grid;
+    grid-template-rows: auto auto;
   }
 }

@@ -222,6 +222,8 @@ function ChaeyoungProfile() {
 
       <div className="check">
         <p>Check out the other members!</p>
+      </div>
+      <div className="members-list">
         <div className="members">
           <img
             src="
@@ -266,7 +268,8 @@ function ChaeyoungProfile() {
             Sana
           </Link>
         </div>
-
+      </div>
+      <div className="members-list">
         <div className="members">
           <img
             src="https://pbs.twimg.com/media/FmHpV14acAELFke?format=jpg&name=large"
@@ -311,6 +314,7 @@ function ChaeyoungProfile() {
           </Link>
         </div>
       </div>
+
       <div className="footer-cover">
         <div className="cover-qoutes">
           <p>
