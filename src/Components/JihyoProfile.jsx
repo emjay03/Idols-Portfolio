@@ -21,7 +21,7 @@ function srcset(image, size, rows = 1, cols = 1) {
   };
 }
 
-function ChaeyoungProfile() {
+function JihyoProfile() {
   var settings = {
     dots: true,
     infinite: false,
@@ -61,23 +61,21 @@ function ChaeyoungProfile() {
     <div>
       <Header />
       <div className="cover-photo">
-        <div class="profile-info">
+        <div className="profile-info">
           <div className="profile-pic">
             <img
-              src="https://pbs.twimg.com/media/FmMwLQgakAQLqbn?format=jpg&name=4096x4096"
-              alt="chaeyoung.png"
+              src="https://pbs.twimg.com/media/FmHpV14acAELFke?format=jpg&name=large"
+              alt="jihyo.png"
               class="profile-img"
             />
           </div>
 
           <div className="paragraph">
-            <h1>TWICE Chaeyoung</h1>
+            <h1>TWICE Jihyo</h1>
             <p>
-              Son Chae-young, known mononymously as Chaeyoung, is a South Korean
-              rapper and singer. She is a member of the South Korean girl group
-              Twice, formed by JYP Entertainment. Chaeyoung decided she wanted
-              to become a singer before joining JYP Entertainment and took dance
-              lessons for over one year.
+              Sana Minatozaki, known mononymously as Sana, is a Japanese singer
+              based in South Korea. She is one of three Japanese members of the
+              South Korean girl group Twice, formed in 2015 by JYP Entertainment
             </p>
           </div>
         </div>
@@ -123,8 +121,7 @@ function ChaeyoungProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Chaeyoung has a younger brother, Jeong Hun, which is an
-                  aspiring model.
+                  Born in Tennōji-ku, Osaka, Japan.
                 </Typography>
               </CardContent>
             </Card>
@@ -136,7 +133,7 @@ function ChaeyoungProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Chaeyoung's english name is Katarina
+                  SANA is an only child.
                 </Typography>
               </CardContent>
             </Card>
@@ -148,9 +145,7 @@ function ChaeyoungProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Chaeyoung likes healthy foods like veggies but doesn't like
-                  sweets. She says this is because she grew up with her
-                  grandmother when she was young
+                  She got cast while she was shopping with her friends.
                 </Typography>
               </CardContent>
             </Card>
@@ -162,8 +157,7 @@ function ChaeyoungProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  She passed the audition on April 13, 2012.
                 </Typography>
               </CardContent>
             </Card>
@@ -175,8 +169,7 @@ function ChaeyoungProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  Her representative color is Purple.
                 </Typography>
               </CardContent>
             </Card>
@@ -188,8 +181,8 @@ function ChaeyoungProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  SANA’s specialty is calligraphy. She learned it in primary
+                  school.
                 </Typography>
               </CardContent>
             </Card>
@@ -201,8 +194,7 @@ function ChaeyoungProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  SANA is very clumsy.
                 </Typography>
               </CardContent>
             </Card>
@@ -214,8 +206,7 @@ function ChaeyoungProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  She has an optimistic personality.
                 </Typography>
               </CardContent>
             </Card>
@@ -229,8 +220,7 @@ function ChaeyoungProfile() {
       <div className="members-list">
         <div className="members">
           <img
-            src="
-              https://pbs.twimg.com/media/FmCe725aUAA6Tcx?format=jpg&name=4096x4096"
+            src="https://pbs.twimg.com/media/FmCe725aUAA6Tcx?format=jpg&name=4096x4096"
             alt="nayeon.png"
             class=""
           />
@@ -246,7 +236,7 @@ function ChaeyoungProfile() {
             class=""
           />
           <Link className="linka" to="/JeongyeonProfile">
-            Jeongyeon
+            Jeonyeon
           </Link>
         </div>
 
@@ -275,17 +265,6 @@ function ChaeyoungProfile() {
       <div className="members-list">
         <div className="members">
           <img
-            src="https://pbs.twimg.com/media/FmHpV14acAELFke?format=jpg&name=large"
-            alt="jihyo.png"
-            class=""
-          />
-          <Link className="linka" to="/JihyoProfile">
-            Jihyo
-          </Link>
-        </div>
-
-        <div className="members">
-          <img
             src="https://pbs.twimg.com/media/FmHpbAMagAEATCF?format=jpg&name=large"
             alt="mina.png"
             class=""
@@ -303,6 +282,17 @@ function ChaeyoungProfile() {
           />
           <Link className="linka" to="/DahyunProfile">
             Dahyun
+          </Link>
+        </div>
+
+        <div className="members">
+          <img
+            src="https://pbs.twimg.com/media/FmMwLQgakAQLqbn?format=jpg&name=4096x4096"
+            alt="chaeyoung.png"
+            class=""
+          />
+          <Link className="linka" to="/ChaeyoungProfile">
+            Chaeyoung
           </Link>
         </div>
 
@@ -335,63 +325,63 @@ function ChaeyoungProfile() {
 
 const itemData = [
   {
-    img: "https://i.pinimg.com/564x/42/ae/5f/42ae5fe4dbb2ded784f9ea6f39b97c69.jpg",
+    img: "https://i.pinimg.com/564x/85/59/3f/85593fff5fb1145506c3e89fe1578dcf.jpg",
     title: "Chaeyoung 1",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/f9/88/56/f98856a9e169b80ac4a6299f512abef3.jpg",
+    img: "https://i.pinimg.com/564x/17/cd/a1/17cda1a9d398f1bb9c23a194675f2c94.jpg",
     title: "Burger",
   },
   {
-    img: "https://i.pinimg.com/564x/b6/fe/0f/b6fe0f8a8f021433e64cb881a38d65b9.jpg",
+    img: "https://i.pinimg.com/564x/f9/16/79/f91679a21e648d7334a18b525b71993f.jpg",
     title: "Camera",
   },
   {
-    img: "https://i.pinimg.com/564x/f8/ad/c1/f8adc1c3cc17be53d2fb892e4d5430ad.jpg",
+    img: "https://i.pinimg.com/564x/c9/2c/c7/c92cc7e887e590bd68f4e99420d5efc9.jpg",
     title: "Coffee",
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/0d/36/76/0d3676351a16676ad817a864bf0d1ff3.jpg",
+    img: "https://i.pinimg.com/564x/ed/77/c9/ed77c932f7e4c2c0dafa2643743d0bf8.jpg",
     title: "Hats",
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/41/e7/e9/41e7e9e374fc15d223dbacab2f8bdadc.jpg",
+    img: "https://i.pinimg.com/736x/b4/f7/a5/b4f7a523ab3182218315c0b5e863ab3e.jpg",
     title: "Honey",
     author: "@arwinneil",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/8e/28/d4/8e28d41e8f28cb5708aed7d4c974b748.jpg",
+    img: "https://i.pinimg.com/564x/21/94/ce/2194ced3abbe8a9423486b999f3fe4a8.jpg",
     title: "Basketball",
   },
   {
-    img: "https://i.pinimg.com/564x/f6/18/58/f618585386b5c2aac06d53151f0522de.jpg",
+    img: "https://i.pinimg.com/564x/8e/7a/2d/8e7a2df6c78bf2efdba2c40faa265bd0.jpg",
     title: "Fern",
   },
   {
-    img: "https://i.pinimg.com/564x/b4/2f/e2/b42fe211b6bede6343d25de73437ecbe.jpg",
+    img: "https://i.pinimg.com/736x/34/8c/cd/348ccddaf3bd0521a7a0fc3f27e340ba.jpg",
     title: "Mushrooms",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/43/58/39/43583987c3da4facd5083c14670549ca.jpg",
+    img: "https://i.pinimg.com/564x/2f/ca/15/2fca15a98f20904fca2efd8b61805960.jpg",
     title: "Tomato basil",
   },
   {
-    img: "https://i.pinimg.com/564x/1d/fe/23/1dfe23250153ba0313652fd21d956bec.jpg",
+    img: "https://i.pinimg.com/564x/4c/15/5a/4c155a025b8076568009ba472bb80340.jpg",
     title: "Sea star",
   },
   {
-    img: "https://i.pinimg.com/564x/66/56/20/6656203c34ab1fadf8c2b583dd463da8.jpg",
+    img: "https://i.pinimg.com/564x/a7/28/ce/a728ce22179d90193e03bca317c2b950.jpg",
     title: "Bike",
     cols: 2,
   },
 ];
 
-export default ChaeyoungProfile;
+export default JihyoProfile;
