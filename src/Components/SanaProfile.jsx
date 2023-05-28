@@ -121,8 +121,7 @@ function SanaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Chaeyoung has a younger brother, Jeong Hun, which is an
-                  aspiring model.
+                  Born in Tennōji-ku, Osaka, Japan.
                 </Typography>
               </CardContent>
             </Card>
@@ -134,7 +133,7 @@ function SanaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Chaeyoung's english name is Katarina
+                  SANA is an only child.
                 </Typography>
               </CardContent>
             </Card>
@@ -146,9 +145,7 @@ function SanaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Chaeyoung likes healthy foods like veggies but doesn't like
-                  sweets. She says this is because she grew up with her
-                  grandmother when she was young
+                  She got cast while she was shopping with her friends.
                 </Typography>
               </CardContent>
             </Card>
@@ -160,8 +157,7 @@ function SanaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  She passed the audition on April 13, 2012.
                 </Typography>
               </CardContent>
             </Card>
@@ -173,8 +169,7 @@ function SanaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  Her representative color is Purple.
                 </Typography>
               </CardContent>
             </Card>
@@ -186,8 +181,8 @@ function SanaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  SANA’s specialty is calligraphy. She learned it in primary
+                  school.
                 </Typography>
               </CardContent>
             </Card>
@@ -199,8 +194,7 @@ function SanaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  SANA is very clumsy.
                 </Typography>
               </CardContent>
             </Card>
@@ -212,8 +206,7 @@ function SanaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  She has an optimistic personality.
                 </Typography>
               </CardContent>
             </Card>
@@ -232,7 +225,7 @@ function SanaProfile() {
             alt="nayeon.png"
             class=""
           />
-          <Link className="linka" to="/ChaeyoungProfile">
+          <Link className="linka" to="/NayeonProfile">
             Nayeon
           </Link>
         </div>
@@ -243,7 +236,7 @@ function SanaProfile() {
             alt="jeongyeon.png"
             class=""
           />
-          <Link className="linka" to="/ChaeyoungProfile">
+          <Link className="linka" to="/JeongyeonProfile">
             Jeongyeon
           </Link>
         </div>
@@ -254,7 +247,7 @@ function SanaProfile() {
             alt="momo.png"
             class=""
           />
-          <Link className="linka" to="/ChaeyoungProfile">
+          <Link className="linka" to="/MomoProfile">
             Momo
           </Link>
         </div>
@@ -265,7 +258,7 @@ function SanaProfile() {
             alt="jihyo.png"
             class=""
           />
-          <Link className="linka" to="/ChaeyoungProfile">
+          <Link className="linka" to="/JihyoProfile">
             Jihyo
           </Link>
         </div>
@@ -277,7 +270,7 @@ function SanaProfile() {
             alt="mina.png"
             class=""
           />
-          <Link className="linka" to="/ChaeyoungProfile">
+          <Link className="linka" to="/MinaProfile">
             Mina
           </Link>
         </div>
@@ -288,7 +281,7 @@ function SanaProfile() {
             alt="dahyun.png"
             class=""
           />
-          <Link className="linka" to="/ChaeyoungProfile">
+          <Link className="linka" to="/DahyunProfile">
             Dahyun
           </Link>
         </div>
@@ -310,7 +303,7 @@ function SanaProfile() {
             alt="tzuyu.png"
             class=""
           />
-          <Link className="linka" to="/ChaeyoungProfile">
+          <Link className="linka" to="/TzuyuProfile">
             Tzuyu
           </Link>
         </div>
