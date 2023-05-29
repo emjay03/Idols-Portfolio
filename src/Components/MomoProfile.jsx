@@ -73,9 +73,11 @@ function MomoProfile() {
           <div className="paragraph">
             <h1>TWICE Momo</h1>
             <p>
-              Sana Minatozaki, known mononymously as Sana, is a Japanese singer
-              based in South Korea. She is one of three Japanese members of the
-              South Korean girl group Twice, formed in 2015 by JYP Entertainment
+              Momo Hirai (Japanese: 平井 もも, Hepburn: Hirai Momo, 平井 桃)
+              born November 9, 1996, known mononymously as Momo (Korean: 모모;
+              Japanese: モモ), is a Japanese singer, rapper, and dancer based in
+              South Korea. She is one of the three Japanese members of South
+              Korean girl group Twice under JYP Entertainment.
             </p>
           </div>
         </div>
@@ -121,7 +123,7 @@ function MomoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Born in Tennōji-ku, Osaka, Japan.
+                  Born in Kyōtanabe, Kyoto, Japan.
                 </Typography>
               </CardContent>
             </Card>
@@ -133,7 +135,7 @@ function MomoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  SANA is an only child.
+                  She has an older sister, named Hana. (2 years older than Momo)
                 </Typography>
               </CardContent>
             </Card>
@@ -145,7 +147,8 @@ function MomoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She got cast while she was shopping with her friends.
+                  MOMO was scouted by JYP Entertainment after they saw a dance
+                  video of her and her older sister.
                 </Typography>
               </CardContent>
             </Card>
@@ -157,7 +160,8 @@ function MomoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She passed the audition on April 13, 2012.
+                  She passed the audition on April 13, 2012. She sister didn’t
+                  make it though.
                 </Typography>
               </CardContent>
             </Card>
@@ -169,7 +173,9 @@ function MomoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Her representative color is Purple.
+                  MOMO was eliminated in ep 6 of SIXTEEN, but J.Y.Park decided
+                  to add her as a member of Twice, because of her dancing
+                  skills.
                 </Typography>
               </CardContent>
             </Card>
@@ -181,8 +187,7 @@ function MomoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  SANA’s specialty is calligraphy. She learned it in primary
-                  school.
+                  MOMO means Peach in Japanese.
                 </Typography>
               </CardContent>
             </Card>
@@ -194,7 +199,7 @@ function MomoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  SANA is very clumsy.
+                  Her representative color is Pink.
                 </Typography>
               </CardContent>
             </Card>
@@ -206,7 +211,8 @@ function MomoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She has an optimistic personality.
+                  MOMO has the most confidence in dancing to urban. She also
+                  likes dancing to hip hop.
                 </Typography>
               </CardContent>
             </Card>
@@ -325,60 +331,60 @@ function MomoProfile() {
 
 const itemData = [
   {
-    img: "https://i.pinimg.com/564x/85/59/3f/85593fff5fb1145506c3e89fe1578dcf.jpg",
+    img: "https://i.pinimg.com/564x/af/c8/41/afc8417a9334d60dfa59a33c1b833e39.jpg",
     title: "Chaeyoung 1",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/17/cd/a1/17cda1a9d398f1bb9c23a194675f2c94.jpg",
+    img: "https://i.pinimg.com/564x/c6/ff/19/c6ff19348c732cb0d1a7841e6996b4b3.jpg",
     title: "Burger",
   },
   {
-    img: "https://i.pinimg.com/564x/f9/16/79/f91679a21e648d7334a18b525b71993f.jpg",
+    img: "https://i.pinimg.com/564x/f5/21/a7/f521a75c354814a54d12df7d8340c6e4.jpg",
     title: "Camera",
   },
   {
-    img: "https://i.pinimg.com/564x/c9/2c/c7/c92cc7e887e590bd68f4e99420d5efc9.jpg",
+    img: "https://i.pinimg.com/564x/40/2b/fc/402bfc3a62b72887678d056a0d86d5ad.jpg",
     title: "Coffee",
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/ed/77/c9/ed77c932f7e4c2c0dafa2643743d0bf8.jpg",
+    img: "https://i.pinimg.com/564x/93/09/f1/9309f19a2a0b4e38b8396f1fbda53b52.jpg",
     title: "Hats",
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/736x/b4/f7/a5/b4f7a523ab3182218315c0b5e863ab3e.jpg",
+    img: "https://i.pinimg.com/564x/7a/ce/ef/7aceef9e3dec541b4eeab0eb1de42dbd.jpg",
     title: "Honey",
     author: "@arwinneil",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/21/94/ce/2194ced3abbe8a9423486b999f3fe4a8.jpg",
+    img: "https://i.pinimg.com/564x/0a/ed/c2/0aedc20269905d49f8607bd0ad1c12b3.jpg",
     title: "Basketball",
   },
   {
-    img: "https://i.pinimg.com/564x/8e/7a/2d/8e7a2df6c78bf2efdba2c40faa265bd0.jpg",
+    img: "https://i.pinimg.com/564x/e9/3a/d0/e93ad02d8886d5bb93ca819da922c9a8.jpg",
     title: "Fern",
   },
   {
-    img: "https://i.pinimg.com/736x/34/8c/cd/348ccddaf3bd0521a7a0fc3f27e340ba.jpg",
+    img: "https://i.pinimg.com/564x/01/81/a2/0181a2ba19683d8f08e931c73901242a.jpg",
     title: "Mushrooms",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/2f/ca/15/2fca15a98f20904fca2efd8b61805960.jpg",
+    img: "https://i.pinimg.com/564x/70/60/92/706092979fb0f357418cd525cfdbeb39.jpg",
     title: "Tomato basil",
   },
   {
-    img: "https://i.pinimg.com/564x/4c/15/5a/4c155a025b8076568009ba472bb80340.jpg",
+    img: "https://i.pinimg.com/564x/56/59/ef/5659ef9c62f63ec1169fdbb35a9d93db.jpg",
     title: "Sea star",
   },
   {
-    img: "https://i.pinimg.com/564x/a7/28/ce/a728ce22179d90193e03bca317c2b950.jpg",
+    img: "https://i.pinimg.com/564x/cd/12/d9/cd12d9a93f58c19b8907e5a1f83a33f7.jpg",
     title: "Bike",
     cols: 2,
   },

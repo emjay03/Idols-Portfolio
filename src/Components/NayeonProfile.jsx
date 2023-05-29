@@ -73,9 +73,14 @@ function NayeonProfile() {
           <div className="paragraph">
             <h1>TWICE Nayeon</h1>
             <p>
-              Sana Minatozaki, known mononymously as Sana, is a Japanese singer
-              based in South Korea. She is one of three Japanese members of the
-              South Korean girl group Twice, formed in 2015 by JYP Entertainment
+              Im Na-yeon (Korean: 임나연; born September 22, 1995), known
+              mononymously as Nayeon, is a South Korean singer. She became a
+              member of the South Korean girl group Twice, under JYP
+              Entertainment, in 2015 as a winning contestant of the reality
+              survival television show Sixteen. In 2022, her eponymous debut
+              extended play (EP), Im Nayeon, peaked at number 7 on the US
+              Billboard 200, making her the first South Korean soloist to enter
+              the chart's top 10.
             </p>
           </div>
         </div>
@@ -121,7 +126,7 @@ function NayeonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Born in Tennōji-ku, Osaka, Japan.
+                  She has a younger sister named Im Seo-Yeon.
                 </Typography>
               </CardContent>
             </Card>
@@ -133,7 +138,9 @@ function NayeonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  SANA is an only child.
+                  When she was a kid, she entered a child model contest and got
+                  cast by JYP. At the time, her mom refused, but 10 years later,
+                  in 2010, she secretly entered a JYP open audition and passed.
                 </Typography>
               </CardContent>
             </Card>
@@ -145,7 +152,8 @@ function NayeonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She got cast while she was shopping with her friends.
+                  NAYEON was chosen for JYP’s girl group 6mix but they disbanded
+                  and never debuted.
                 </Typography>
               </CardContent>
             </Card>
@@ -157,7 +165,7 @@ function NayeonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She passed the audition on April 13, 2012.
+                  She is a big fangirl of F(x) and Krystal, and SNSD’s Taeyeon.
                 </Typography>
               </CardContent>
             </Card>
@@ -169,7 +177,7 @@ function NayeonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Her representative color is Purple.
+                  She is also a huge fan of Oh My Girl.
                 </Typography>
               </CardContent>
             </Card>
@@ -181,8 +189,8 @@ function NayeonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  SANA’s specialty is calligraphy. She learned it in primary
-                  school.
+                  NAYEON was the first Sixteen member to be announced and also
+                  the first member to be confirmed in Twice.
                 </Typography>
               </CardContent>
             </Card>
@@ -194,7 +202,7 @@ function NayeonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  SANA is very clumsy.
+                  Her nickname is MC Rail. (IDOL ROOM ep 10)
                 </Typography>
               </CardContent>
             </Card>
@@ -206,7 +214,7 @@ function NayeonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She has an optimistic personality.
+                  Her representative color is Sky Blue.
                 </Typography>
               </CardContent>
             </Card>
@@ -325,60 +333,60 @@ function NayeonProfile() {
 
 const itemData = [
   {
-    img: "https://i.pinimg.com/564x/85/59/3f/85593fff5fb1145506c3e89fe1578dcf.jpg",
+    img: "https://i.pinimg.com/564x/f2/ff/a0/f2ffa087a39ae5dcd0f9d9df439cbda5.jpg",
     title: "Chaeyoung 1",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/17/cd/a1/17cda1a9d398f1bb9c23a194675f2c94.jpg",
+    img: "https://i.pinimg.com/564x/c4/74/d4/c474d43288088f1c902db5eded700708.jpg",
     title: "Burger",
   },
   {
-    img: "https://i.pinimg.com/564x/f9/16/79/f91679a21e648d7334a18b525b71993f.jpg",
+    img: "https://i.pinimg.com/564x/5e/6e/a7/5e6ea70977fde1ce876c24004858fb43.jpg",
     title: "Camera",
   },
   {
-    img: "https://i.pinimg.com/564x/c9/2c/c7/c92cc7e887e590bd68f4e99420d5efc9.jpg",
+    img: "https://i.pinimg.com/564x/9c/fb/d7/9cfbd7ce916b2583ae2826b094e7f629.jpg",
     title: "Coffee",
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/ed/77/c9/ed77c932f7e4c2c0dafa2643743d0bf8.jpg",
+    img: "https://i.pinimg.com/564x/a9/92/a5/a992a5e31bb9fc7a6bb6972a3706e309.jpg",
     title: "Hats",
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/736x/b4/f7/a5/b4f7a523ab3182218315c0b5e863ab3e.jpg",
+    img: "https://i.pinimg.com/564x/be/57/fa/be57fa6265f975db428fbf5a3303c187.jpg",
     title: "Honey",
     author: "@arwinneil",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/21/94/ce/2194ced3abbe8a9423486b999f3fe4a8.jpg",
+    img: "https://i.pinimg.com/736x/1a/43/53/1a43538f2cb9c64ff869482780e72acf.jpg",
     title: "Basketball",
   },
   {
-    img: "https://i.pinimg.com/564x/8e/7a/2d/8e7a2df6c78bf2efdba2c40faa265bd0.jpg",
+    img: "https://i.pinimg.com/564x/17/48/aa/1748aaa71f5a9e1cac511f501279f528.jpg",
     title: "Fern",
   },
   {
-    img: "https://i.pinimg.com/736x/34/8c/cd/348ccddaf3bd0521a7a0fc3f27e340ba.jpg",
+    img: "https://i.pinimg.com/564x/b3/75/6d/b3756d65e9a014bfa5b19aa425f7ebb2.jpg",
     title: "Mushrooms",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/2f/ca/15/2fca15a98f20904fca2efd8b61805960.jpg",
+    img: "https://i.pinimg.com/564x/44/6a/bd/446abd3fc4d1aec29b8c85d23956d4a1.jpg",
     title: "Tomato basil",
   },
   {
-    img: "https://i.pinimg.com/564x/4c/15/5a/4c155a025b8076568009ba472bb80340.jpg",
+    img: "https://i.pinimg.com/564x/d7/16/cd/d716cd28b7e744f58cbfdd1129f7bd93.jpg",
     title: "Sea star",
   },
   {
-    img: "https://i.pinimg.com/564x/a7/28/ce/a728ce22179d90193e03bca317c2b950.jpg",
+    img: "https://i.pinimg.com/564x/cb/9d/75/cb9d7556235821402709b4185dba0908.jpg",
     title: "Bike",
     cols: 2,
   },

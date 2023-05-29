@@ -73,9 +73,10 @@ function JeongyeonProfile() {
           <div className="paragraph">
             <h1>TWICE Jeongyeon</h1>
             <p>
-              Sana Minatozaki, known mononymously as Sana, is a Japanese singer
-              based in South Korea. She is one of three Japanese members of the
-              South Korean girl group Twice, formed in 2015 by JYP Entertainment
+              Yoo Jeong-yeon (Korean: 유정연; born 1 November 1996), known
+              mononymously as Jeongyeon (Korean: 정연), is a South Korean
+              singer. She is a member of Twice, a South Korean girl group formed
+              by JYP Entertainment.
             </p>
           </div>
         </div>
@@ -121,7 +122,7 @@ function JeongyeonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Born in Tennōji-ku, Osaka, Japan.
+                  She was born in Suwon, South Korea.
                 </Typography>
               </CardContent>
             </Card>
@@ -133,7 +134,9 @@ function JeongyeonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  SANA is an only child.
+                  JEONGYEON’s birth name is Yoo Kyung Wan. She changed her name
+                  in 3rd grade because she was teased because her name sounded
+                  like a boy’s name.
                 </Typography>
               </CardContent>
             </Card>
@@ -145,7 +148,8 @@ function JeongyeonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She got cast while she was shopping with her friends.
+                  She has 2 older sisters: Gong Seungyeon (actress, who appeared
+                  in We Got Married) and Seo Yeon (office worker).
                 </Typography>
               </CardContent>
             </Card>
@@ -157,7 +161,9 @@ function JeongyeonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She passed the audition on April 13, 2012.
+                  Her father Yoo Chang-joon was a private chef for former
+                  president Kim Dae-jung, as well as a head chef of the Seoul
+                  Plaza Hotel for over 20 years, specializing in Korean cuisine.
                 </Typography>
               </CardContent>
             </Card>
@@ -169,7 +175,8 @@ function JeongyeonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Her representative color is Purple.
+                  Her mother works at a Japanese restaurant owned by her
+                  maternal aunt.
                 </Typography>
               </CardContent>
             </Card>
@@ -181,8 +188,9 @@ function JeongyeonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  SANA’s specialty is calligraphy. She learned it in primary
-                  school.
+                  When JEONGYEON was young, she failed the JYP audition. She
+                  became a trainee after passing the JYP Entertainment’s 6th
+                  Open Audition on March 1, 2010.
                 </Typography>
               </CardContent>
             </Card>
@@ -194,7 +202,8 @@ function JeongyeonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  SANA is very clumsy.
+                  JEONGYEON was accepted into JYP and SM in the same day, but
+                  chose JYP.
                 </Typography>
               </CardContent>
             </Card>
@@ -206,7 +215,8 @@ function JeongyeonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She has an optimistic personality.
+                  The leader of TWICE was decided by anonymous voting. JEONGYEON
+                  was in 2nd place.
                 </Typography>
               </CardContent>
             </Card>
@@ -325,60 +335,60 @@ function JeongyeonProfile() {
 
 const itemData = [
   {
-    img: "https://i.pinimg.com/564x/85/59/3f/85593fff5fb1145506c3e89fe1578dcf.jpg",
+    img: "https://i.pinimg.com/564x/2c/27/d6/2c27d66f0eb91422e96ca086f65ed3d2.jpg",
     title: "Chaeyoung 1",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/17/cd/a1/17cda1a9d398f1bb9c23a194675f2c94.jpg",
+    img: "https://i.pinimg.com/564x/f5/b9/8c/f5b98c99915d6818a77d010622b26f81.jpg",
     title: "Burger",
   },
   {
-    img: "https://i.pinimg.com/564x/f9/16/79/f91679a21e648d7334a18b525b71993f.jpg",
+    img: "https://i.pinimg.com/564x/0a/93/35/0a9335ef7694964ffc16e6f6a662c35d.jpg",
     title: "Camera",
   },
   {
-    img: "https://i.pinimg.com/564x/c9/2c/c7/c92cc7e887e590bd68f4e99420d5efc9.jpg",
+    img: "https://i.pinimg.com/736x/2d/56/37/2d5637a7fa153d6ab018b82da9efd048.jpg",
     title: "Coffee",
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/ed/77/c9/ed77c932f7e4c2c0dafa2643743d0bf8.jpg",
+    img: "https://i.pinimg.com/564x/5a/b3/34/5ab334937ba886a476e8a159e62c1692.jpg",
     title: "Hats",
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/736x/b4/f7/a5/b4f7a523ab3182218315c0b5e863ab3e.jpg",
+    img: "https://i.pinimg.com/564x/5a/d4/db/5ad4dbe9f45c1382748fd9f1b726ae30.jpg",
     title: "Honey",
     author: "@arwinneil",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/21/94/ce/2194ced3abbe8a9423486b999f3fe4a8.jpg",
+    img: "https://i.pinimg.com/564x/f8/73/fd/f873fde037d390df3999f2b8c19543f0.jpg",
     title: "Basketball",
   },
   {
-    img: "https://i.pinimg.com/564x/8e/7a/2d/8e7a2df6c78bf2efdba2c40faa265bd0.jpg",
+    img: "https://i.pinimg.com/736x/d7/ac/80/d7ac805d883fc553e4c2da944dd56035.jpg",
     title: "Fern",
   },
   {
-    img: "https://i.pinimg.com/736x/34/8c/cd/348ccddaf3bd0521a7a0fc3f27e340ba.jpg",
+    img: "https://i.pinimg.com/736x/26/1a/74/261a748cad16025abb8246ef41257b03.jpg",
     title: "Mushrooms",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/2f/ca/15/2fca15a98f20904fca2efd8b61805960.jpg",
+    img: "https://i.pinimg.com/564x/88/55/90/885590bd38757900a64010630e063f12.jpg",
     title: "Tomato basil",
   },
   {
-    img: "https://i.pinimg.com/564x/4c/15/5a/4c155a025b8076568009ba472bb80340.jpg",
+    img: "https://i.pinimg.com/564x/1a/94/f2/1a94f27fb54274896232c095b04de284.jpg",
     title: "Sea star",
   },
   {
-    img: "https://i.pinimg.com/564x/a7/28/ce/a728ce22179d90193e03bca317c2b950.jpg",
+    img: "https://i.pinimg.com/564x/5a/7d/cf/5a7dcf2500c33d339f5b910f70062f54.jpg",
     title: "Bike",
     cols: 2,
   },

@@ -73,9 +73,14 @@ function DahyunProfile() {
           <div className="paragraph">
             <h1>TWICE Dahyun</h1>
             <p>
-              Sana Minatozaki, known mononymously as Sana, is a Japanese singer
-              based in South Korea. She is one of three Japanese members of the
-              South Korean girl group Twice, formed in 2015 by JYP Entertainment
+              Kim Da-hyun (Korean: 김다현; born May 28, 1998), known
+              mononymously as Dahyun, is a South Korean singer and rapper. She
+              is a member of the South Korean girl group Twice, formed by JYP
+              Entertainment in 2015. She grew up with her parents and has an
+              older brother. At a young age, she began singing with her
+              Christian church choir. Dahyun first gained attention in sixth
+              grade in elementary school with a dance at church called the
+              "eagle dance," which was posted on YouTube.
             </p>
           </div>
         </div>
@@ -121,7 +126,7 @@ function DahyunProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Born in Tennōji-ku, Osaka, Japan.
+                  Born in Seongnam, Gyeonggi-do, South Korea.
                 </Typography>
               </CardContent>
             </Card>
@@ -133,7 +138,7 @@ function DahyunProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  SANA is an only child.
+                  DAHYUN has an older brother, Myung Soo.
                 </Typography>
               </CardContent>
             </Card>
@@ -145,7 +150,8 @@ function DahyunProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She got cast while she was shopping with her friends.
+                  In middle school, she performed a solo in a youth dance
+                  festival and was scouted by JYP Entertainment.
                 </Typography>
               </CardContent>
             </Card>
@@ -157,7 +163,8 @@ function DahyunProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She passed the audition on April 13, 2012.
+                  She passed the audition on July 7, 2012, and officially became
+                  a trainee.
                 </Typography>
               </CardContent>
             </Card>
@@ -169,7 +176,8 @@ function DahyunProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Her representative color is Purple.
+                  DAHYUN auditioned for SM, JYP, and YG as the same time. She
+                  got accepted by all 3 companies, but she chose JYP.
                 </Typography>
               </CardContent>
             </Card>
@@ -181,8 +189,7 @@ function DahyunProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  SANA’s specialty is calligraphy. She learned it in primary
-                  school.
+                  Her representative color is White.
                 </Typography>
               </CardContent>
             </Card>
@@ -194,7 +201,7 @@ function DahyunProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  SANA is very clumsy.
+                  DAHYUN is scared of animals (cats, dogs, etc.).
                 </Typography>
               </CardContent>
             </Card>
@@ -206,7 +213,8 @@ function DahyunProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She has an optimistic personality.
+                  Pre-debut she was very popular due to her Eagle dance video
+                  which went viral in South Korea.
                 </Typography>
               </CardContent>
             </Card>
@@ -325,60 +333,60 @@ function DahyunProfile() {
 
 const itemData = [
   {
-    img: "https://i.pinimg.com/564x/85/59/3f/85593fff5fb1145506c3e89fe1578dcf.jpg",
+    img: "https://i.pinimg.com/564x/09/18/79/091879edd3a46a6d3243bd4c945fe36b.jpg",
     title: "Chaeyoung 1",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/17/cd/a1/17cda1a9d398f1bb9c23a194675f2c94.jpg",
+    img: "https://i.pinimg.com/564x/f7/6e/92/f76e92b8fdc9824de7e3a88de9316d15.jpg",
     title: "Burger",
   },
   {
-    img: "https://i.pinimg.com/564x/f9/16/79/f91679a21e648d7334a18b525b71993f.jpg",
+    img: "https://i.pinimg.com/736x/30/ce/a1/30cea1febb1e78bf2399f5bfca278fbb.jpg",
     title: "Camera",
   },
   {
-    img: "https://i.pinimg.com/564x/c9/2c/c7/c92cc7e887e590bd68f4e99420d5efc9.jpg",
+    img: "https://i.pinimg.com/564x/12/24/78/122478fef72207c2e444f87ba540fdd8.jpg",
     title: "Coffee",
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/ed/77/c9/ed77c932f7e4c2c0dafa2643743d0bf8.jpg",
+    img: "https://i.pinimg.com/564x/56/95/aa/5695aa951f0713e7324189f65a8bd668.jpg",
     title: "Hats",
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/736x/b4/f7/a5/b4f7a523ab3182218315c0b5e863ab3e.jpg",
+    img: "https://i.pinimg.com/564x/0e/56/99/0e569928874e18a2fe7594d0d04f8cef.jpg",
     title: "Honey",
     author: "@arwinneil",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/21/94/ce/2194ced3abbe8a9423486b999f3fe4a8.jpg",
+    img: "https://i.pinimg.com/564x/c0/6b/8e/c06b8e8c64139a1ee1d013554d88e495.jpg",
     title: "Basketball",
   },
   {
-    img: "https://i.pinimg.com/564x/8e/7a/2d/8e7a2df6c78bf2efdba2c40faa265bd0.jpg",
+    img: "https://i.pinimg.com/564x/4a/e3/dc/4ae3dcc02c0140a3f3ddc756c85e01a5.jpg",
     title: "Fern",
   },
   {
-    img: "https://i.pinimg.com/736x/34/8c/cd/348ccddaf3bd0521a7a0fc3f27e340ba.jpg",
+    img: "https://i.pinimg.com/564x/30/75/a2/3075a234f2a4190d41d1bb02b76d75e5.jpg",
     title: "Mushrooms",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/2f/ca/15/2fca15a98f20904fca2efd8b61805960.jpg",
+    img: "https://i.pinimg.com/564x/4d/e2/30/4de230c5f7b4b810635956e8f5f4e7ee.jpg",
     title: "Tomato basil",
   },
   {
-    img: "https://i.pinimg.com/564x/4c/15/5a/4c155a025b8076568009ba472bb80340.jpg",
+    img: "https://i.pinimg.com/564x/1d/b0/f1/1db0f19232e368a4dee3093f120a6905.jpg",
     title: "Sea star",
   },
   {
-    img: "https://i.pinimg.com/564x/a7/28/ce/a728ce22179d90193e03bca317c2b950.jpg",
+    img: "https://i.pinimg.com/736x/42/82/ae/4282ae47356a2e54ebf01aba62ef0ac4.jpg",
     title: "Bike",
     cols: 2,
   },
