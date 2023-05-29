@@ -73,9 +73,11 @@ function MinaProfile() {
           <div className="paragraph">
             <h1>TWICE Mina</h1>
             <p>
-              Sana Minatozaki, known mononymously as Sana, is a Japanese singer
-              based in South Korea. She is one of three Japanese members of the
-              South Korean girl group Twice, formed in 2015 by JYP Entertainment
+              Mina Myoi (Japanese: 名井 南, Hepburn: Myōi Mina, born Mina Sharon
+              Myoi on March 24, 1997), known mononymously as Mina (Korean: 미나;
+              Japanese: ミナ), is a Japanese singer and dancer based in South
+              Korea. She is one of the three Japanese members of the South
+              Korean girl group Twice, formed by JYP Entertainment in 2015
             </p>
           </div>
         </div>
@@ -121,7 +123,8 @@ function MinaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Born in Tennōji-ku, Osaka, Japan.
+                  Born in San Antonio, Texas, United States; her parents are
+                  Japanese.
                 </Typography>
               </CardContent>
             </Card>
@@ -133,7 +136,7 @@ function MinaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  SANA is an only child.
+                  Her family moved to Kobe, Japan, when she was a toddler.
                 </Typography>
               </CardContent>
             </Card>
@@ -145,7 +148,8 @@ function MinaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She got cast while she was shopping with her friends.
+                  She used to have American citizenship but she gave it up as of
+                  2019.
                 </Typography>
               </CardContent>
             </Card>
@@ -157,7 +161,7 @@ function MinaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She passed the audition on April 13, 2012.
+                  MINA’s English name is Sharon Myoui.
                 </Typography>
               </CardContent>
             </Card>
@@ -169,7 +173,7 @@ function MinaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Her representative color is Purple.
+                  She has an older brother, named Kai.
                 </Typography>
               </CardContent>
             </Card>
@@ -181,8 +185,8 @@ function MinaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  SANA’s specialty is calligraphy. She learned it in primary
-                  school.
+                  Her father is Akira Myoui, a clinical professor at Osaka
+                  University Hospital.
                 </Typography>
               </CardContent>
             </Card>
@@ -194,7 +198,7 @@ function MinaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  SANA is very clumsy.
+                  She attended Obayashi Sacred Heart School in Japan.
                 </Typography>
               </CardContent>
             </Card>
@@ -206,7 +210,7 @@ function MinaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She has an optimistic personality.
+                  MINA got cast while shopping with her mom.
                 </Typography>
               </CardContent>
             </Card>
@@ -325,60 +329,60 @@ function MinaProfile() {
 
 const itemData = [
   {
-    img: "https://i.pinimg.com/564x/85/59/3f/85593fff5fb1145506c3e89fe1578dcf.jpg",
+    img: "https://i.pinimg.com/564x/d1/d7/33/d1d73338dedd5e95a28acbc41bf802bd.jpg",
     title: "Chaeyoung 1",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/17/cd/a1/17cda1a9d398f1bb9c23a194675f2c94.jpg",
+    img: "https://i.pinimg.com/564x/7d/e3/0f/7de30fea09e198c3288c1193427048a3.jpg",
     title: "Burger",
   },
   {
-    img: "https://i.pinimg.com/564x/f9/16/79/f91679a21e648d7334a18b525b71993f.jpg",
+    img: "https://i.pinimg.com/564x/17/66/84/1766841152f94032f3f9b0ca79669325.jpg",
     title: "Camera",
   },
   {
-    img: "https://i.pinimg.com/564x/c9/2c/c7/c92cc7e887e590bd68f4e99420d5efc9.jpg",
+    img: "https://i.pinimg.com/564x/72/b0/b7/72b0b78b54ec8e98c558e26332cc70e9.jpg",
     title: "Coffee",
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/ed/77/c9/ed77c932f7e4c2c0dafa2643743d0bf8.jpg",
+    img: "https://i.pinimg.com/564x/6c/19/33/6c1933d5d37e08ab217c00a99e191b6d.jpg",
     title: "Hats",
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/736x/b4/f7/a5/b4f7a523ab3182218315c0b5e863ab3e.jpg",
+    img: "https://i.pinimg.com/564x/fe/a4/68/fea4687e78af0afe2e0ed62cf41d2920.jpg",
     title: "Honey",
     author: "@arwinneil",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/21/94/ce/2194ced3abbe8a9423486b999f3fe4a8.jpg",
+    img: "https://i.pinimg.com/564x/96/a3/26/96a326da73842a1d6150a1e8a1be3b19.jpg",
     title: "Basketball",
   },
   {
-    img: "https://i.pinimg.com/564x/8e/7a/2d/8e7a2df6c78bf2efdba2c40faa265bd0.jpg",
+    img: "https://i.pinimg.com/564x/4c/4b/36/4c4b3615ebc9947bc5a9dbc160ec8926.jpg",
     title: "Fern",
   },
   {
-    img: "https://i.pinimg.com/736x/34/8c/cd/348ccddaf3bd0521a7a0fc3f27e340ba.jpg",
+    img: "https://i.pinimg.com/564x/33/7a/90/337a905287af6de4400644993b8eae0a.jpg",
     title: "Mushrooms",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/2f/ca/15/2fca15a98f20904fca2efd8b61805960.jpg",
+    img: "https://i.pinimg.com/564x/c3/82/e9/c382e994173268ff683875c3207f5d20.jpg",
     title: "Tomato basil",
   },
   {
-    img: "https://i.pinimg.com/564x/4c/15/5a/4c155a025b8076568009ba472bb80340.jpg",
+    img: "https://i.pinimg.com/564x/99/56/ac/9956ac49ef8fa57bb6fbda9609a1b8d1.jpg",
     title: "Sea star",
   },
   {
-    img: "https://i.pinimg.com/564x/a7/28/ce/a728ce22179d90193e03bca317c2b950.jpg",
+    img: "https://i.pinimg.com/564x/b9/af/19/b9af192ec531aed6d859dbe090959392.jpg",
     title: "Bike",
     cols: 2,
   },

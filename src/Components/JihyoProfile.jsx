@@ -73,9 +73,13 @@ function JihyoProfile() {
           <div className="paragraph">
             <h1>TWICE Jihyo</h1>
             <p>
-              Sana Minatozaki, known mononymously as Sana, is a Japanese singer
-              based in South Korea. She is one of three Japanese members of the
-              South Korean girl group Twice, formed in 2015 by JYP Entertainment
+              Park Ji-hyo (Korean: 박지효; born Park Ji-soo on February 1,
+              1997), known mononymously as Jihyo, is a South Korean singer. She
+              is the leader and vocalist of the South Korean girl group Twice,
+              formed by JYP Entertainment in 2015. Jihyo was born on February 1,
+              1997, in Guri, Gyeonggi Province, South Korea as Park Ji-soo. Her
+              younger sister, Lee Ha-eum (born Park Ji-young) has been modeling
+              and debuting as a rookie actress.
             </p>
           </div>
         </div>
@@ -121,7 +125,7 @@ function JihyoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Born in Tennōji-ku, Osaka, Japan.
+                  She was born in Guri, Gyeonggi-do, South Korea.
                 </Typography>
               </CardContent>
             </Card>
@@ -133,7 +137,8 @@ function JihyoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  SANA is an only child.
+                  JIHYO has 2 younger sisters, Seoyeon (born in 2008) and
+                  Jiyoung (born in 2002).
                 </Typography>
               </CardContent>
             </Card>
@@ -145,7 +150,9 @@ function JihyoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She got cast while she was shopping with her friends.
+                  She became a JYP trainee when she was a third grader, after
+                  she won the 2nd place in a contest on Junior Naver for a child
+                  role.
                 </Typography>
               </CardContent>
             </Card>
@@ -157,7 +164,8 @@ function JihyoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She passed the audition on April 13, 2012.
+                  JIHYO is the Twice member who trained the most. She trained
+                  for 10 years.
                 </Typography>
               </CardContent>
             </Card>
@@ -169,7 +177,8 @@ function JihyoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Her representative color is Purple.
+                  She trained with WG, 2pm, 2am, miss A, Got7 and literally
+                  everyone in JYP knows her.
                 </Typography>
               </CardContent>
             </Card>
@@ -181,8 +190,8 @@ function JihyoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  SANA’s specialty is calligraphy. She learned it in primary
-                  school.
+                  JIHYO was voted leader by the members and not JYP himself (by
+                  anonymous voting).
                 </Typography>
               </CardContent>
             </Card>
@@ -194,7 +203,8 @@ function JihyoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  SANA is very clumsy.
+                  Her real name is Park Jisoo. She legalized her name to Park
+                  Jihyo right before Sixteen.
                 </Typography>
               </CardContent>
             </Card>
@@ -206,7 +216,8 @@ function JihyoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She has an optimistic personality.
+                  She is nicknamed “Hyo-mas” or “Thomas the train” for her big
+                  eyes and she is able to mimic Thomas.
                 </Typography>
               </CardContent>
             </Card>
@@ -325,60 +336,60 @@ function JihyoProfile() {
 
 const itemData = [
   {
-    img: "https://i.pinimg.com/564x/85/59/3f/85593fff5fb1145506c3e89fe1578dcf.jpg",
+    img: "https://i.pinimg.com/564x/35/c3/22/35c32272d50416e4f72318b759deae48.jpg",
     title: "Chaeyoung 1",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/17/cd/a1/17cda1a9d398f1bb9c23a194675f2c94.jpg",
+    img: "https://i.pinimg.com/564x/4e/27/d0/4e27d0a42159666b34ea7b841c14850d.jpg",
     title: "Burger",
   },
   {
-    img: "https://i.pinimg.com/564x/f9/16/79/f91679a21e648d7334a18b525b71993f.jpg",
+    img: "https://i.pinimg.com/564x/8e/2e/54/8e2e5461e1a06c2d34ed1ecc673f8859.jpg",
     title: "Camera",
   },
   {
-    img: "https://i.pinimg.com/564x/c9/2c/c7/c92cc7e887e590bd68f4e99420d5efc9.jpg",
+    img: "https://i.pinimg.com/564x/5b/77/83/5b7783cae084cb9911c15b919e0aea7f.jpg",
     title: "Coffee",
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/ed/77/c9/ed77c932f7e4c2c0dafa2643743d0bf8.jpg",
+    img: "https://i.pinimg.com/564x/3e/a6/ee/3ea6ee4ee7170a01a0962fbdfd30436b.jpg",
     title: "Hats",
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/736x/b4/f7/a5/b4f7a523ab3182218315c0b5e863ab3e.jpg",
+    img: "https://i.pinimg.com/564x/54/dd/10/54dd10d1c6651d8863a219277efa5211.jpg",
     title: "Honey",
     author: "@arwinneil",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/21/94/ce/2194ced3abbe8a9423486b999f3fe4a8.jpg",
+    img: "https://i.pinimg.com/564x/3c/c1/9d/3cc19dd9c480fef7690aa3504bcb8ac4.jpg",
     title: "Basketball",
   },
   {
-    img: "https://i.pinimg.com/564x/8e/7a/2d/8e7a2df6c78bf2efdba2c40faa265bd0.jpg",
+    img: "https://i.pinimg.com/564x/94/ba/29/94ba298e06874e09579b499a7d1fe2c8.jpg",
     title: "Fern",
   },
   {
-    img: "https://i.pinimg.com/736x/34/8c/cd/348ccddaf3bd0521a7a0fc3f27e340ba.jpg",
+    img: "https://i.pinimg.com/564x/8f/f9/e6/8ff9e6809da84abc122969f4f3b090ad.jpg",
     title: "Mushrooms",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/2f/ca/15/2fca15a98f20904fca2efd8b61805960.jpg",
+    img: "https://i.pinimg.com/564x/6e/17/28/6e172881a3abf71a31f0a2afdfb58b1d.jpg",
     title: "Tomato basil",
   },
   {
-    img: "https://i.pinimg.com/564x/4c/15/5a/4c155a025b8076568009ba472bb80340.jpg",
+    img: "https://i.pinimg.com/564x/5e/76/d3/5e76d3577bc9c7e273535fe18f2db78c.jpg",
     title: "Sea star",
   },
   {
-    img: "https://i.pinimg.com/564x/a7/28/ce/a728ce22179d90193e03bca317c2b950.jpg",
+    img: "https://i.pinimg.com/564x/ae/a6/e8/aea6e836b90f6366bb3715288e5f6768.jpg",
     title: "Bike",
     cols: 2,
   },
