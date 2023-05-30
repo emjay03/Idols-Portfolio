@@ -12,6 +12,7 @@ import MinaProfile from "./Components/MinaProfile";
 import DahyunProfile from "./Components/DahyunProfile";
 import ChaeyoungProfile from "./Components/ChaeyoungProfile";
 import TzuyuProfile from "./Components/TzuyuProfile";
+import ChaewonProfile from "./Components/ChaewonProfile";
 import Girlgroup from "./Components/Girlgroup";
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
           <Route path="dahyunprofile" element={<DahyunProfile />} />
           <Route path="chaeyoungprofile" element={<ChaeyoungProfile />} />
           <Route path="tzuyuprofile" element={<TzuyuProfile />} />
+          <Route path="chaewonprofile" element={<ChaewonProfile />} />
           <Route path="girlgroup" element={<Girlgroup />} />
         </Routes>
       </div>

@@ -774,7 +774,11 @@ function Home() {
                   </CardContent>
                   <CardActions>
                     <Button size="small">Share</Button>
-                    <Button size="small">Learn More</Button>
+                    <Button size="small">
+                      <Link className="linka" to="/ChaewonProfile">
+                        Learn More
+                      </Link>
+                    </Button>
                   </CardActions>
                 </Card>
               </div>

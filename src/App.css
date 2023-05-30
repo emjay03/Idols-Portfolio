@@ -207,6 +207,18 @@ footer span {
   margin: 0%;
 }
 
+.lesserafim-cover-photo {
+  background-color: gray;
+  background-image: url("https://i.pinimg.com/originals/a3/53/3d/a3533d68a407e80e76e07ad32a8caa5c.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  color: white;
+  margin: 0%;
+}
+
 .profile-info {
   display: grid;
   grid-template-columns: auto auto;
@@ -426,6 +438,11 @@ footer span {
     padding-bottom: 20px;
   }
 
+  .lesserafim-cover-photo {
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+
   .cover-qoutes {
     height: 200px;
   }
@@ -458,6 +475,11 @@ footer span {
   }
 
   .cover-photo {
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+
+  .lesserafim-cover-photo {
     padding-top: 100px;
     padding-bottom: 20px;
   }
@@ -509,6 +531,11 @@ footer span {
   }
 
   .cover-photo {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  .lesserafim-cover-photo {
     padding-top: 50px;
     padding-bottom: 20px;
   }
