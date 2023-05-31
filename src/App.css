@@ -249,6 +249,16 @@ footer span {
   text-indent: 2%;
   margin-left: 20px;
 }
+
+.biography {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+}
+
+.personal-info {
+  padding-top: 60px;
+}
 .featured-photo {
   display: flex;
   justify-content: center;
