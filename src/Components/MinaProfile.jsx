@@ -11,6 +11,10 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 
 function srcset(image, size, rows = 1, cols = 1) {
   return {
@@ -83,30 +87,88 @@ function MinaProfile() {
         </div>
       </div>
 
-      <div className="featured-photo">
-        <p>Featured Photos</p>
-        <span className="underline"></span>
-        <div className="gallery">
-          <ImageList
-            sx={{ width: 550, height: 450 }}
-            variant="quilted"
-            cols={4}
-            rowHeight={121}
-          >
-            {itemData.map((item) => (
-              <ImageListItem
-                key={item.img}
-                cols={item.cols || 1}
-                rows={item.rows || 1}
-              >
-                <img
-                  {...srcset(item.img, 121, item.rows, item.cols)}
-                  alt={item.title}
-                  loading="lazy"
-                />
-              </ImageListItem>
-            ))}
-          </ImageList>
+      <div className="biography">
+        <div className="personal-info">
+          <div>
+            <Card
+              sx={{ maxWidth: 400 }}
+              elevation={2}
+              className="personal-info-card"
+            >
+              <CardContent>
+                <Typography gutterBottom variant="h4" component="div">
+                  Personal Information
+                </Typography>
+                <Typography variant="subtitle1" color="text.secondary">
+                  Stage Name: CHAEYOUNG<br></br>
+                  Birth Name: Son Chae Young (손채영)<br></br>
+                  English Name: Katrina<br></br>
+                  Nationality: Korean<br></br>
+                  Birthday: April 23, 1999 <br></br>
+                  Zodiac Sign: Taurus <br></br>
+                  Official Height: 163 cm (5’4″) / Real Height: 158.9 cm (5’3″)*
+                  <br></br>
+                  Weight: 48 kg (106 lbs) <br></br>
+                  Blood Type: B
+                </Typography>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+        <div className="featured-photo">
+          <p>Featured Photos</p>
+          <span className="underline"></span>
+          <div className="gallery">
+            <ImageList
+              sx={{ width: 550, height: 450 }}
+              variant="quilted"
+              cols={4}
+              rowHeight={121}
+            >
+              {itemData.map((item) => (
+                <ImageListItem
+                  key={item.img}
+                  cols={item.cols || 1}
+                  rows={item.rows || 1}
+                >
+                  <img
+                    {...srcset(item.img, 121, item.rows, item.cols)}
+                    alt={item.title}
+                    loading="lazy"
+                  />
+                </ImageListItem>
+              ))}
+            </ImageList>
+          </div>
+        </div>
+        <div className="social-media">
+          <div>
+            <Card
+              sx={{ maxWidth: 500 }}
+              elevation={2}
+              className="social-media-card"
+            >
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Social Media
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  <Link className="linka" to="/NayeonProfile">
+                    <InstagramIcon />
+                  </Link>
+                  <Link className="linka" to="/NayeonProfile">
+                    <TwitterIcon />
+                  </Link>
+                  <Link className="linka" to="/NayeonProfile">
+                    <FacebookIcon />
+                  </Link>
+                  <Link className="linka" to="/NayeonProfile">
+                    <YouTubeIcon />
+                  </Link>
+                </Typography>
+              </CardContent>
+            </Card>
+          </div>
         </div>
       </div>
 
