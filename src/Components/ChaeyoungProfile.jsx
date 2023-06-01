@@ -90,39 +90,26 @@ function ChaeyoungProfile() {
       <div className="biography">
         <div className="personal-info">
           <div>
-            <Card sx={{ maxWidth: 800 }} elevation={1}>
+            <Card
+              sx={{ maxWidth: 400 }}
+              elevation={2}
+              className="personal-info-card"
+            >
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
+                <Typography gutterBottom variant="h4" component="div">
                   Personal Information
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
+                <Typography variant="subtitle1" color="text.secondary">
                   Stage Name: CHAEYOUNG<br></br>
                   Birth Name: Son Chae Young (손채영)<br></br>
                   English Name: Katrina<br></br>
                   Nationality: Korean<br></br>
                   Birthday: April 23, 1999 <br></br>
                   Zodiac Sign: Taurus <br></br>
-                  Official Height: 163 cm (5’4″) /Real Height: 158.9 cm (5’3″)*
+                  Official Height: 163 cm (5’4″) / Real Height: 158.9 cm (5’3″)*
                   <br></br>
                   Weight: 48 kg (106 lbs) <br></br>
                   Blood Type: B
-                </Typography>
-                <Typography gutterBottom variant="h5" component="div">
-                  Social Media
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  <Link className="linka" to="/NayeonProfile">
-                    <InstagramIcon />
-                  </Link>
-                  <Link className="linka" to="/NayeonProfile">
-                    <TwitterIcon />
-                  </Link>
-                  <Link className="linka" to="/NayeonProfile">
-                    <FacebookIcon />
-                  </Link>
-                  <Link className="linka" to="/NayeonProfile">
-                    <YouTubeIcon />
-                  </Link>
                 </Typography>
               </CardContent>
             </Card>
@@ -152,6 +139,35 @@ function ChaeyoungProfile() {
                 </ImageListItem>
               ))}
             </ImageList>
+          </div>
+        </div>
+        <div className="social-media">
+          <div>
+            <Card
+              sx={{ maxWidth: 500 }}
+              elevation={2}
+              className="social-media-card"
+            >
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Social Media
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  <Link className="linka" to="/NayeonProfile">
+                    <InstagramIcon />
+                  </Link>
+                  <Link className="linka" to="/NayeonProfile">
+                    <TwitterIcon />
+                  </Link>
+                  <Link className="linka" to="/NayeonProfile">
+                    <FacebookIcon />
+                  </Link>
+                  <Link className="linka" to="/NayeonProfile">
+                    <YouTubeIcon />
+                  </Link>
+                </Typography>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </div>

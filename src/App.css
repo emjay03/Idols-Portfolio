@@ -248,22 +248,30 @@ footer span {
 .paragraph > p {
   text-indent: 2%;
   margin-left: 20px;
+  font-size: 20px;
 }
 
 .biography {
   display: grid;
+  grid-template-rows: auto auto;
   grid-template-columns: auto auto;
   justify-content: space-evenly;
 }
 
 .personal-info {
-  padding-top: 60px;
+  padding-top: 30px;
 }
+
 .featured-photo {
+  grid-row: span 2;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.social-media {
+  padding-top: 30px;
 }
 
 .underline {
@@ -431,6 +439,23 @@ footer span {
 
   .cover-qoutes {
     height: 200px;
+  }
+
+  .biography {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+    align-items: center;
+  }
+  .personal-info,
+  .social-media {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-media-card {
+    text-align: center;
+    width: 480px;
   }
 
   .check {
