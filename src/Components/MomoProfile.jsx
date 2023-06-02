@@ -100,16 +100,17 @@ function MomoProfile() {
                   Personal Information
                 </Typography>
                 <Typography variant="subtitle1" color="text.secondary">
-                  Stage Name: CHAEYOUNG<br></br>
-                  Birth Name: Son Chae Young (손채영)<br></br>
-                  English Name: Katrina<br></br>
-                  Nationality: Korean<br></br>
-                  Birthday: April 23, 1999 <br></br>
-                  Zodiac Sign: Taurus <br></br>
-                  Official Height: 163 cm (5’4″) / Real Height: 158.9 cm (5’3″)*
+                  Stage Name: Momo (모모)<br></br>
+                  Birth Name: Hirai Momo (平井 もも)<br></br>
+                  Nationality: Japanese<br></br>
+                  Position: Main Dancer, Sub Vocalist, Sub Rapper<br></br>
+                  Birthday: November 9, 1996<br></br>
+                  Zodiac Sign: Scorpio<br></br>
+                  Official Height: 167 cm (5’6″) /Real Height: 163 cm (5’4″)
                   <br></br>
-                  Weight: 48 kg (106 lbs) <br></br>
-                  Blood Type: B
+                  Weight: 48.5 kg (106 lbs)<br></br>
+                  Blood Type: A<br></br>
+                  MBTI Type: INFP-T
                 </Typography>
               </CardContent>
             </Card>

@@ -99,16 +99,18 @@ function JeongyeonProfile() {
                   Personal Information
                 </Typography>
                 <Typography variant="subtitle1" color="text.secondary">
-                  Stage Name: CHAEYOUNG<br></br>
-                  Birth Name: Son Chae Young (손채영)<br></br>
-                  English Name: Katrina<br></br>
+                  Stage Name: Jeongyeon (정연)<br></br>
+                  Birth Name: Yoo Kyung Wan (유경완), but she legalized her name
+                  to Yoo Jeong Yeon (유정연)<br></br>
                   Nationality: Korean<br></br>
-                  Birthday: April 23, 1999 <br></br>
-                  Zodiac Sign: Taurus <br></br>
-                  Official Height: 163 cm (5’4″) / Real Height: 158.9 cm (5’3″)*
+                  Position: Lead Vocalist<br></br>
+                  Birthday: November 1, 1996<br></br>
+                  Zodiac Sign: Scorpio<br></br>
+                  Official Height: 169 cm (5’7″) / Real Height: 167 cm (5’6″)
                   <br></br>
-                  Weight: 48 kg (106 lbs) <br></br>
-                  Blood Type: B
+                  Weight: 50 kg (110 lbs)<br></br>
+                  Blood Type: O<br></br>
+                  MBTI Type: ISFJ (Her previous result was ISFP)
                 </Typography>
               </CardContent>
             </Card>

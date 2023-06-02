@@ -103,16 +103,17 @@ function NayeonProfile() {
                   Personal Information
                 </Typography>
                 <Typography variant="subtitle1" color="text.secondary">
-                  Stage Name: CHAEYOUNG<br></br>
-                  Birth Name: Son Chae Young (손채영)<br></br>
-                  English Name: Katrina<br></br>
+                  Stage Name: Nayeon (나연)<br></br>
+                  Birth Name: Im Na Yeon (임나연)<br></br>
                   Nationality: Korean<br></br>
-                  Birthday: April 23, 1999 <br></br>
-                  Zodiac Sign: Taurus <br></br>
-                  Official Height: 163 cm (5’4″) / Real Height: 158.9 cm (5’3″)*
-                  <br></br>
-                  Weight: 48 kg (106 lbs) <br></br>
-                  Blood Type: B
+                  Position: Lead Vocalist, Lead Dancer, Center, Face of the
+                  Group<br></br>
+                  Birthday: September 22, 1995<br></br>
+                  Zodiac Sign: Virgo<br></br>
+                  Height: 163 cm (5’4″)<br></br>
+                  Weight: 47 kg (104 lbs)<br></br>
+                  Blood Type: A<br></br>
+                  MBTI Type: ISFP (Her former result was ISTP-A)
                 </Typography>
               </CardContent>
             </Card>

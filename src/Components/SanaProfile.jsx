@@ -98,16 +98,17 @@ function SanaProfile() {
                   Personal Information
                 </Typography>
                 <Typography variant="subtitle1" color="text.secondary">
-                  Stage Name: CHAEYOUNG<br></br>
-                  Birth Name: Son Chae Young (손채영)<br></br>
-                  English Name: Katrina<br></br>
-                  Nationality: Korean<br></br>
-                  Birthday: April 23, 1999 <br></br>
-                  Zodiac Sign: Taurus <br></br>
-                  Official Height: 163 cm (5’4″) / Real Height: 158.9 cm (5’3″)*
-                  <br></br>
-                  Weight: 48 kg (106 lbs) <br></br>
-                  Blood Type: B
+                  Stage Name: Sana (사나)<br></br>
+                  Birth Name: Minatozaki Sana (湊崎 紗夏)<br></br>
+                  Nationality: Japanese<br></br>
+                  Position: Sub Vocalist<br></br>
+                  Birthday: December 29, 1996<br></br>
+                  Zodiac Sign: Capricorn<br></br>
+                  Official Height: 168 cm (5’6″) / Approx. Real Height: 163 cm
+                  (5’4″)<br></br>
+                  Weight: 47 kg (104 lbs)<br></br>
+                  Blood Type: B<br></br>
+                  MBTI Type: ENFP
                 </Typography>
               </CardContent>
             </Card>

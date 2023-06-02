@@ -103,16 +103,17 @@ function DahyunProfile() {
                   Personal Information
                 </Typography>
                 <Typography variant="subtitle1" color="text.secondary">
-                  Stage Name: CHAEYOUNG<br></br>
-                  Birth Name: Son Chae Young (손채영)<br></br>
-                  English Name: Katrina<br></br>
+                  Stage Name: Dahyun (다현)<br></br>
+                  Birth Name: Kim Da Hyun (김다현)<br></br>
                   Nationality: Korean<br></br>
-                  Birthday: April 23, 1999 <br></br>
-                  Zodiac Sign: Taurus <br></br>
-                  Official Height: 163 cm (5’4″) / Real Height: 158.9 cm (5’3″)*
+                  Position: Lead Rapper, Sub Vocalist<br></br>
+                  Birthday: May 28, 1998<br></br>
+                  Zodiac Sign: Gemini<br></br>
+                  Official Height: 165 cm (5’5″) / Real Height: 161 cm (5’3″)
                   <br></br>
-                  Weight: 48 kg (106 lbs) <br></br>
-                  Blood Type: B
+                  Weight: 48.9 kg (108 lbs)<br></br>
+                  Blood Type: O<br></br>
+                  MBTI Type: ISFJ-T
                 </Typography>
               </CardContent>
             </Card>

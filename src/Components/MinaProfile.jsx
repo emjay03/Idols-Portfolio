@@ -100,16 +100,18 @@ function MinaProfile() {
                   Personal Information
                 </Typography>
                 <Typography variant="subtitle1" color="text.secondary">
-                  Stage Name: CHAEYOUNG<br></br>
-                  Birth Name: Son Chae Young (손채영)<br></br>
-                  English Name: Katrina<br></br>
-                  Nationality: Korean<br></br>
-                  Birthday: April 23, 1999 <br></br>
-                  Zodiac Sign: Taurus <br></br>
-                  Official Height: 163 cm (5’4″) / Real Height: 158.9 cm (5’3″)*
-                  <br></br>
-                  Weight: 48 kg (106 lbs) <br></br>
-                  Blood Type: B
+                  Stage Name: Mina (미나)<br></br>
+                  Birth Name: Myoui Mina (名井 南)<br></br>
+                  English Name: Sharon<br></br>
+                  Nationality: Japanese (She used to have American citizenship
+                  but she gave it up)<br></br>
+                  Position: Main Dancer, Sub Vocalist<br></br>
+                  Birthday: March 24, 1997<br></br>
+                  Zodiac Sign: Aries<br></br>
+                  Height: 163 cm (5’4″)<br></br>
+                  Weight: 46 kg (101 lbs)<br></br>
+                  Blood Type: A<br></br>
+                  MBTI Type: ISTP (Her previous result was ISFP-T)<br></br>
                 </Typography>
               </CardContent>
             </Card>
