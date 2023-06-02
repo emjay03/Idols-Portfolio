@@ -100,16 +100,18 @@ function ChaeyoungProfile() {
                   Personal Information
                 </Typography>
                 <Typography variant="subtitle1" color="text.secondary">
-                  Stage Name: CHAEYOUNG<br></br>
+                  Stage Name: Chaeyoung (채영)<br></br>
                   Birth Name: Son Chae Young (손채영)<br></br>
                   English Name: Katrina<br></br>
                   Nationality: Korean<br></br>
-                  Birthday: April 23, 1999 <br></br>
-                  Zodiac Sign: Taurus <br></br>
+                  Position: Main Rapper, Sub Vocalist<br></br>
+                  Birthday: April 23, 1999<br></br>
+                  Zodiac Sign: Taurus<br></br>
                   Official Height: 163 cm (5’4″) / Real Height: 158.9 cm (5’3″)*
                   <br></br>
-                  Weight: 48 kg (106 lbs) <br></br>
-                  Blood Type: B
+                  Weight: 46 kg (101 lbs)<br></br>
+                  Blood Type: B<br></br>
+                  MBTI Type: INFP-T
                 </Typography>
               </CardContent>
             </Card>

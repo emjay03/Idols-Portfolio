@@ -13,6 +13,10 @@ import DahyunProfile from "./Components/DahyunProfile";
 import ChaeyoungProfile from "./Components/ChaeyoungProfile";
 import TzuyuProfile from "./Components/TzuyuProfile";
 import ChaewonProfile from "./Components/ChaewonProfile";
+import SakuraProfile from "./Components/SakuraProfile";
+import YunjinProfile from "./Components/YunjinProfile";
+import KazuhaProfile from "./Components/KazuhaProfile";
+import EunchaeProfile from "./Components/EunchaeProfile";
 import Girlgroup from "./Components/Girlgroup";
 
 function App() {
@@ -32,6 +36,10 @@ function App() {
           <Route path="chaeyoungprofile" element={<ChaeyoungProfile />} />
           <Route path="tzuyuprofile" element={<TzuyuProfile />} />
           <Route path="chaewonprofile" element={<ChaewonProfile />} />
+          <Route path="sakuraprofile" element={<SakuraProfile />} />
+          <Route path="yunjinprofile" element={<YunjinProfile />} />
+          <Route path="kazuhaprofile" element={<KazuhaProfile />} />
+          <Route path="eunchaeprofile" element={<EunchaeProfile />} />
           <Route path="girlgroup" element={<Girlgroup />} />
         </Routes>
       </div>

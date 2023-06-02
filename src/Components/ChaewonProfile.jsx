@@ -100,16 +100,16 @@ function ChaewonProfile() {
                   Personal Information
                 </Typography>
                 <Typography variant="subtitle1" color="text.secondary">
-                  Stage Name: CHAEYOUNG<br></br>
-                  Birth Name: Son Chae Young (손채영)<br></br>
-                  English Name: Katrina<br></br>
+                  Birth Name: Kim Chaewon (김채원)<br></br>
+                  English Name: Anna Kim<br></br>
+                  Position: Leader, Vocalist<br></br>
+                  Birthday: August 1, 2000<br></br>
+                  Zodiac Sign: Leo<br></br>
+                  Height: 163 cm (5’4″)<br></br>
+                  Weight: 42 kg (92 lbs)<br></br>
+                  Blood Type: B<br></br>
                   Nationality: Korean<br></br>
-                  Birthday: April 23, 1999 <br></br>
-                  Zodiac Sign: Taurus <br></br>
-                  Official Height: 163 cm (5’4″) / Real Height: 158.9 cm (5’3″)*
-                  <br></br>
-                  Weight: 48 kg (106 lbs) <br></br>
-                  Blood Type: B
+                  MBTI: ISTP
                 </Typography>
               </CardContent>
             </Card>
@@ -291,91 +291,45 @@ function ChaewonProfile() {
       <div className="members-list">
         <div className="members">
           <img
-            src="
-              https://pbs.twimg.com/media/FmCe725aUAA6Tcx?format=jpg&name=4096x4096"
-            alt="nayeon.png"
+            src="https://i.pinimg.com/564x/3d/20/b3/3d20b39adfd4b4a2f9b69e071c98ad95.jpg"
+            alt="sakura.png"
             class=""
           />
-          <Link className="linka" to="/NayeonProfile">
-            Nayeon
+          <Link className="linka" to="/SakuraProfile">
+            Sakura
           </Link>
         </div>
 
         <div className="members">
           <img
-            src="https://pbs.twimg.com/media/FmCfCBwacAYm2gV?format=jpg&name=4096x4096"
-            alt="jeongyeon.png"
+            src="https://i.pinimg.com/736x/ed/cd/73/edcd73a44deacef9b82a397096cef58d.jpg"
+            alt="yunjin.png"
             class=""
           />
-          <Link className="linka" to="/JeongyeonProfile">
-            Jeongyeon
+          <Link className="linka" to="/YunjinProfile">
+            Yunjin
           </Link>
         </div>
 
         <div className="members">
           <img
-            src="https://pbs.twimg.com/media/FmCfJL0aAAAw0jx?format=jpg&name=4096x4096"
-            alt="momo.png"
+            src="https://i.pinimg.com/564x/e9/1e/69/e91e694cd3e14d5328828fbc58e17c9a.jpg"
+            alt="kazuha.png"
             class=""
           />
-          <Link className="linka" to="/MomoProfile">
-            Momo
+          <Link className="linka" to="/KazuhaProfile">
+            Kazuha
           </Link>
         </div>
 
         <div className="members">
           <img
-            src="https://pbs.twimg.com/media/FmHpTDNaEAAGWBw?format=jpg&name=large"
-            alt="sana.png"
+            src="https://i.pinimg.com/736x/da/b6/d4/dab6d43feb3eee3e1e0178eb32a181c7.jpg"
+            alt="eunchae.png"
             class=""
           />
-          <Link className="linka" to="/SanaProfile">
-            Sana
-          </Link>
-        </div>
-      </div>
-      <div className="members-list">
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmHpV14acAELFke?format=jpg&name=large"
-            alt="jihyo.png"
-            class=""
-          />
-          <Link className="linka" to="/JihyoProfile">
-            Jihyo
-          </Link>
-        </div>
-
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmHpbAMagAEATCF?format=jpg&name=large"
-            alt="mina.png"
-            class=""
-          />
-          <Link className="linka" to="/MinaProfile">
-            Mina
-          </Link>
-        </div>
-
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmMwEURagAEI1-V?format=jpg&name=4096x4096"
-            alt="dahyun.png"
-            class=""
-          />
-          <Link className="linka" to="/DahyunProfile">
-            Dahyun
-          </Link>
-        </div>
-
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmMwRc2aUAE1WnP?format=jpg&name=4096x4096"
-            alt="tzuyu.png"
-            class=""
-          />
-          <Link className="linka" to="/TzuyuProfile">
-            Tzuyu
+          <Link className="linka" to="/EunchaeProfile">
+            Eunchae
           </Link>
         </div>
       </div>

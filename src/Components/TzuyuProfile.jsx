@@ -103,16 +103,18 @@ function TzuyuProfile() {
                   Personal Information
                 </Typography>
                 <Typography variant="subtitle1" color="text.secondary">
-                  Stage Name: CHAEYOUNG<br></br>
-                  Birth Name: Son Chae Young (손채영)<br></br>
-                  English Name: Katrina<br></br>
-                  Nationality: Korean<br></br>
-                  Birthday: April 23, 1999 <br></br>
-                  Zodiac Sign: Taurus <br></br>
-                  Official Height: 163 cm (5’4″) / Real Height: 158.9 cm (5’3″)*
-                  <br></br>
-                  Weight: 48 kg (106 lbs) <br></br>
-                  Blood Type: B
+                  Stage Name: Tzuyu (쯔위)<br></br>
+                  Birth Name: Chou Tzuyu (周子瑜)<br></br>
+                  Korean Name: Chou Tzu Yu (저우쯔위/주자유)<br></br>
+                  English Name: Sally<br></br>
+                  Nationality: Taiwanese<br></br>
+                  Position: Lead Dancer, Sub Vocalist, Visual, Maknae<br></br>
+                  Birthday: June 14, 1999<br></br>
+                  Zodiac Sign: Gemini<br></br>
+                  Height: 170 cm (5’7″)<br></br>
+                  Weight: 48 kg (106 lbs)<br></br>
+                  Blood Type: A<br></br>
+                  MBTI Type: ISFP-A
                 </Typography>
               </CardContent>
             </Card>

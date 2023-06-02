@@ -25,7 +25,7 @@ function srcset(image, size, rows = 1, cols = 1) {
   };
 }
 
-function JihyoProfile() {
+function SakuraProfile() {
   var settings = {
     dots: true,
     infinite: false,
@@ -64,26 +64,24 @@ function JihyoProfile() {
   return (
     <div>
       <Header />
-      <div className="cover-photo">
-        <div className="profile-info">
+      <div className="lesserafim-cover-photo">
+        <div class="profile-info">
           <div className="profile-pic">
             <img
-              src="https://pbs.twimg.com/media/FmHpV14acAELFke?format=jpg&name=large"
-              alt="jihyo.png"
+              src="https://i.pinimg.com/564x/3d/20/b3/3d20b39adfd4b4a2f9b69e071c98ad95.jpg"
+              alt="sakura.png"
               class="profile-img"
             />
           </div>
 
           <div className="paragraph">
-            <h1>TWICE Jihyo</h1>
+            <h1>LE SSSERAFIM Sakura</h1>
             <p>
-              Park Ji-hyo (Korean: 박지효; born Park Ji-soo on February 1,
-              1997), known mononymously as Jihyo, is a South Korean singer. She
-              is the leader and vocalist of the South Korean girl group Twice,
-              formed by JYP Entertainment in 2015. Jihyo was born on February 1,
-              1997, in Guri, Gyeonggi Province, South Korea as Park Ji-soo. Her
-              younger sister, Lee Ha-eum (born Park Ji-young) has been modeling
-              and debuting as a rookie actress.
+              Son Chae-young, known mononymously as Chaeyoung, is a South Korean
+              rapper and singer. She is a member of the South Korean girl group
+              Twice, formed by JYP Entertainment. Chaeyoung decided she wanted
+              to become a singer before joining JYP Entertainment and took dance
+              lessons for over one year.
             </p>
           </div>
         </div>
@@ -102,19 +100,16 @@ function JihyoProfile() {
                   Personal Information
                 </Typography>
                 <Typography variant="subtitle1" color="text.secondary">
-                  Stage Name: Jihyo (지효)<br></br>
-                  Birth Name: Park Ji Soo (박지수) but legalized her name to
-                  Park Ji Hyo (박지효)<br></br>
-                  Nationality: Korean<br></br>
-                  Position: Leader, Main Vocalist<br></br>
-                  Birthday: February 1, 1997<br></br>
-                  Zodiac sign: Aquarius<br></br>
-                  Official Height: 162 cm (5 ft 3¾ in) / Approx. Real Height:
-                  160 cm (5’3″)<br></br>
-                  Official Weight: 56 kg (123 lbs) / Approx. Real Weight: 49 kg
-                  (108 lbs)<br></br>
-                  Blood Type: O<br></br>
-                  MBTI Type: ESFP-T (Her previous result was ISFP-T)
+                  Stage Name: Sakura (사쿠라)<br></br>
+                  Birth Name: Miyawaki Sakura (宮脇 咲良)<br></br>
+                  Position: Vocalist<br></br>
+                  Birthday: March 19, 1998<br></br>
+                  Zodiac Sign: Pisces<br></br>
+                  Height: 163 cm (5’4”)<br></br>
+                  Weight: 42 kg (92 lbs)<br></br>
+                  Blood Type: A<br></br>
+                  Nationality: Japanese<br></br>
+                  MBTI: INTP
                 </Typography>
               </CardContent>
             </Card>
@@ -190,7 +185,8 @@ function JihyoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She was born in Guri, Gyeonggi-do, South Korea.
+                  Chaeyoung has a younger brother, Jeong Hun, which is an
+                  aspiring model.
                 </Typography>
               </CardContent>
             </Card>
@@ -202,8 +198,7 @@ function JihyoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  JIHYO has 2 younger sisters, Seoyeon (born in 2008) and
-                  Jiyoung (born in 2002).
+                  Chaeyoung's english name is Katarina
                 </Typography>
               </CardContent>
             </Card>
@@ -215,9 +210,9 @@ function JihyoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She became a JYP trainee when she was a third grader, after
-                  she won the 2nd place in a contest on Junior Naver for a child
-                  role.
+                  Chaeyoung likes healthy foods like veggies but doesn't like
+                  sweets. She says this is because she grew up with her
+                  grandmother when she was young
                 </Typography>
               </CardContent>
             </Card>
@@ -229,8 +224,8 @@ function JihyoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  JIHYO is the Twice member who trained the most. She trained
-                  for 10 years.
+                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
+                  eye eyes". She also wrote some of her rap on their other songs
                 </Typography>
               </CardContent>
             </Card>
@@ -242,8 +237,8 @@ function JihyoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She trained with WG, 2pm, 2am, miss A, Got7 and literally
-                  everyone in JYP knows her.
+                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
+                  eye eyes". She also wrote some of her rap on their other songs
                 </Typography>
               </CardContent>
             </Card>
@@ -255,8 +250,8 @@ function JihyoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  JIHYO was voted leader by the members and not JYP himself (by
-                  anonymous voting).
+                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
+                  eye eyes". She also wrote some of her rap on their other songs
                 </Typography>
               </CardContent>
             </Card>
@@ -268,8 +263,8 @@ function JihyoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Her real name is Park Jisoo. She legalized her name to Park
-                  Jihyo right before Sixteen.
+                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
+                  eye eyes". She also wrote some of her rap on their other songs
                 </Typography>
               </CardContent>
             </Card>
@@ -281,8 +276,8 @@ function JihyoProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She is nicknamed “Hyo-mas” or “Thomas the train” for her big
-                  eyes and she is able to mimic Thomas.
+                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
+                  eye eyes". She also wrote some of her rap on their other songs
                 </Typography>
               </CardContent>
             </Card>
@@ -296,7 +291,8 @@ function JihyoProfile() {
       <div className="members-list">
         <div className="members">
           <img
-            src="https://pbs.twimg.com/media/FmCe725aUAA6Tcx?format=jpg&name=4096x4096"
+            src="
+              https://pbs.twimg.com/media/FmCe725aUAA6Tcx?format=jpg&name=4096x4096"
             alt="nayeon.png"
             class=""
           />
@@ -312,7 +308,7 @@ function JihyoProfile() {
             class=""
           />
           <Link className="linka" to="/JeongyeonProfile">
-            Jeonyeon
+            Jeongyeon
           </Link>
         </div>
 
@@ -341,6 +337,17 @@ function JihyoProfile() {
       <div className="members-list">
         <div className="members">
           <img
+            src="https://pbs.twimg.com/media/FmHpV14acAELFke?format=jpg&name=large"
+            alt="jihyo.png"
+            class=""
+          />
+          <Link className="linka" to="/JihyoProfile">
+            Jihyo
+          </Link>
+        </div>
+
+        <div className="members">
+          <img
             src="https://pbs.twimg.com/media/FmHpbAMagAEATCF?format=jpg&name=large"
             alt="mina.png"
             class=""
@@ -358,17 +365,6 @@ function JihyoProfile() {
           />
           <Link className="linka" to="/DahyunProfile">
             Dahyun
-          </Link>
-        </div>
-
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmMwLQgakAQLqbn?format=jpg&name=4096x4096"
-            alt="chaeyoung.png"
-            class=""
-          />
-          <Link className="linka" to="/ChaeyoungProfile">
-            Chaeyoung
           </Link>
         </div>
 
@@ -401,63 +397,63 @@ function JihyoProfile() {
 
 const itemData = [
   {
-    img: "https://i.pinimg.com/564x/35/c3/22/35c32272d50416e4f72318b759deae48.jpg",
+    img: "https://i.pinimg.com/564x/d1/f3/0f/d1f30f37cbc51bd181666bbe87d51fd2.jpg",
     title: "Chaeyoung 1",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/4e/27/d0/4e27d0a42159666b34ea7b841c14850d.jpg",
+    img: "https://i.pinimg.com/564x/3d/20/b3/3d20b39adfd4b4a2f9b69e071c98ad95.jpg",
     title: "Burger",
   },
   {
-    img: "https://i.pinimg.com/564x/8e/2e/54/8e2e5461e1a06c2d34ed1ecc673f8859.jpg",
+    img: "https://i.pinimg.com/564x/b2/e8/48/b2e848e580dc2c907e6b2c9ed6836290.jpg",
     title: "Camera",
   },
   {
-    img: "https://i.pinimg.com/564x/5b/77/83/5b7783cae084cb9911c15b919e0aea7f.jpg",
+    img: "https://i.pinimg.com/564x/f8/6a/74/f86a7440a0415f9a758d1a14c02c1615.jpg",
     title: "Coffee",
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/3e/a6/ee/3ea6ee4ee7170a01a0962fbdfd30436b.jpg",
+    img: "https://i.pinimg.com/736x/51/b4/7f/51b47f00c65bc27cdaa55601e1dc190d.jpg",
     title: "Hats",
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/54/dd/10/54dd10d1c6651d8863a219277efa5211.jpg",
+    img: "https://i.pinimg.com/564x/e4/3d/c6/e43dc68f05684923c5bab41e874fd7be.jpg",
     title: "Honey",
     author: "@arwinneil",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/3c/c1/9d/3cc19dd9c480fef7690aa3504bcb8ac4.jpg",
+    img: "https://i.pinimg.com/564x/98/58/26/98582600143aa0bc657f62d44c4b0bf1.jpg",
     title: "Basketball",
   },
   {
-    img: "https://i.pinimg.com/564x/94/ba/29/94ba298e06874e09579b499a7d1fe2c8.jpg",
+    img: "https://i.pinimg.com/736x/6f/c1/44/6fc1446ae27d154997adbaf6d2ceb53e.jpg",
     title: "Fern",
   },
   {
-    img: "https://i.pinimg.com/564x/8f/f9/e6/8ff9e6809da84abc122969f4f3b090ad.jpg",
+    img: "https://i.pinimg.com/564x/eb/d2/2a/ebd22a7885fe1493a9a397a72db112b5.jpg",
     title: "Mushrooms",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/6e/17/28/6e172881a3abf71a31f0a2afdfb58b1d.jpg",
+    img: "https://i.pinimg.com/564x/92/41/b1/9241b129b982608d22bab5f4058a60c8.jpg",
     title: "Tomato basil",
   },
   {
-    img: "https://i.pinimg.com/564x/5e/76/d3/5e76d3577bc9c7e273535fe18f2db78c.jpg",
+    img: "https://i.pinimg.com/564x/e0/eb/ac/e0ebac2f77ead2b76ff5c8eac89c96b9.jpg",
     title: "Sea star",
   },
   {
-    img: "https://i.pinimg.com/564x/ae/a6/e8/aea6e836b90f6366bb3715288e5f6768.jpg",
+    img: "https://i.pinimg.com/564x/0d/51/1f/0d511f1179e60797ae521fcc259f6f31.jpg",
     title: "Bike",
     cols: 2,
   },
 ];
 
-export default JihyoProfile;
+export default SakuraProfile;
