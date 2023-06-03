@@ -230,7 +230,6 @@ footer span {
 .profile-img {
   height: 250px;
   width: 250px;
-  border: 5px solid red;
 }
 
 .paragraph {
@@ -342,7 +341,7 @@ footer span {
 
 .members > img {
   border-radius: 50%;
-  height: 150px;
+  height: 170px;
   width: 170px;
 }
 

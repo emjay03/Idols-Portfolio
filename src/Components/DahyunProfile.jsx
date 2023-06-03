@@ -68,7 +68,7 @@ function DahyunProfile() {
         <div className="profile-info">
           <div className="profile-pic">
             <img
-              src="https://pbs.twimg.com/media/FmMwEURagAEI1-V?format=jpg&name=4096x4096"
+              src="https://i.pinimg.com/564x/37/39/4f/37394f44258470dd6115b1721d8f722b.jpg"
               alt="dahyun.png"
               class="profile-img"
             />
@@ -291,7 +291,8 @@ function DahyunProfile() {
       <div className="members-list">
         <div className="members">
           <img
-            src="https://pbs.twimg.com/media/FmCe725aUAA6Tcx?format=jpg&name=4096x4096"
+            src="
+            https://i.pinimg.com/564x/9c/fb/d7/9cfbd7ce916b2583ae2826b094e7f629.jpg"
             alt="nayeon.png"
             class=""
           />
@@ -302,18 +303,18 @@ function DahyunProfile() {
 
         <div className="members">
           <img
-            src="https://pbs.twimg.com/media/FmCfCBwacAYm2gV?format=jpg&name=4096x4096"
+            src="https://i.pinimg.com/564x/8d/46/87/8d4687a2a9eb8d89f31c710c88521024.jpg"
             alt="jeongyeon.png"
             class=""
           />
           <Link className="linka" to="/JeongyeonProfile">
-            Jeonyeon
+            Jeongyeon
           </Link>
         </div>
 
         <div className="members">
           <img
-            src="https://pbs.twimg.com/media/FmCfJL0aAAAw0jx?format=jpg&name=4096x4096"
+            src="https://i.pinimg.com/564x/e8/59/48/e85948486f2ca32f5080a36eda06b848.jpg"
             alt="momo.png"
             class=""
           />
@@ -324,7 +325,7 @@ function DahyunProfile() {
 
         <div className="members">
           <img
-            src="https://pbs.twimg.com/media/FmHpTDNaEAAGWBw?format=jpg&name=large"
+            src="https://i.pinimg.com/564x/9e/12/a9/9e12a9b8b8ff5c83ada9925255b90dd6.jpg"
             alt="sana.png"
             class=""
           />
@@ -336,7 +337,7 @@ function DahyunProfile() {
       <div className="members-list">
         <div className="members">
           <img
-            src="https://pbs.twimg.com/media/FmHpV14acAELFke?format=jpg&name=large"
+            src="https://i.pinimg.com/564x/0b/d6/8e/0bd68e49a8922218fecc20b213cce25d.jpg"
             alt="jihyo.png"
             class=""
           />
@@ -347,8 +348,8 @@ function DahyunProfile() {
 
         <div className="members">
           <img
-            src="https://pbs.twimg.com/media/FmHpbAMagAEATCF?format=jpg&name=large"
-            alt="Mina.png"
+            src="https://i.pinimg.com/564x/c0/d8/28/c0d828dee356d1897ce29562feaacf27.jpg"
+            alt="mina.png"
             class=""
           />
           <Link className="linka" to="/MinaProfile">
@@ -358,7 +359,7 @@ function DahyunProfile() {
 
         <div className="members">
           <img
-            src="https://pbs.twimg.com/media/FmMwLQgakAQLqbn?format=jpg&name=4096x4096"
+            src="https://i.pinimg.com/564x/db/d6/b3/dbd6b379357d607104861c6051445633.jpg"
             alt="chaeyoung.png"
             class=""
           />
@@ -369,7 +370,7 @@ function DahyunProfile() {
 
         <div className="members">
           <img
-            src="https://pbs.twimg.com/media/FmMwRc2aUAE1WnP?format=jpg&name=4096x4096"
+            src="https://i.pinimg.com/564x/93/db/99/93db9963a1002caea8b32a0ee1c5ea3f.jpg"
             alt="tzuyu.png"
             class=""
           />

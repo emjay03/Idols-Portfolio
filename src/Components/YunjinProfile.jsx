@@ -68,7 +68,7 @@ function YunjinProfile() {
         <div class="profile-info">
           <div className="profile-pic">
             <img
-              src="https://i.pinimg.com/736x/ed/cd/73/edcd73a44deacef9b82a397096cef58d.jpg"
+              src="https://i.pinimg.com/564x/b6/22/33/b62233577f8013b5966bf3e13c58cd1a.jpg"
               alt="yunjin.png"
               class="profile-img"
             />
@@ -77,11 +77,12 @@ function YunjinProfile() {
           <div className="paragraph">
             <h1>LE SSSERAFIM Yunjin</h1>
             <p>
-              Son Chae-young, known mononymously as Chaeyoung, is a South Korean
-              rapper and singer. She is a member of the South Korean girl group
-              Twice, formed by JYP Entertainment. Chaeyoung decided she wanted
-              to become a singer before joining JYP Entertainment and took dance
-              lessons for over one year.
+              Huh Yun-jin (Korean: 허윤진; born October 8, 2001) is a
+              Korean-American singer-songwriter based in South Korea. She is a
+              member of South Korean girl group Le Sserafim. Huh Yun-jin was
+              born on October 8, 2001, in Gangnam, Seoul, South Korea but was
+              raised in Niskayuna, New York, United States, going by the English
+              name Jennifer Huh.
             </p>
           </div>
         </div>
@@ -185,8 +186,7 @@ function YunjinProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Chaeyoung has a younger brother, Jeong Hun, which is an
-                  aspiring model.
+                  She was the 6th and final member to be revealed.
                 </Typography>
               </CardContent>
             </Card>
@@ -198,7 +198,8 @@ function YunjinProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Chaeyoung's english name is Katarina
+                  She was born in Seoul, South Korea however she grew up in New
+                  York, USA.
                 </Typography>
               </CardContent>
             </Card>
@@ -210,9 +211,9 @@ function YunjinProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Chaeyoung likes healthy foods like veggies but doesn't like
-                  sweets. She says this is because she grew up with her
-                  grandmother when she was young
+                  She participated in Produce 48 as a PLEDIS Entertainment
+                  trainee. When she was eliminated in Episode 11, her final rank
+                  was #26.
                 </Typography>
               </CardContent>
             </Card>
@@ -224,8 +225,8 @@ function YunjinProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  She is a former SM Entertainment trainee. As a trainee there,
+                  she shared a dorm with aespa‘s Winter and NingNing.
                 </Typography>
               </CardContent>
             </Card>
@@ -237,8 +238,8 @@ function YunjinProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  She is friends with CLASS:y‘s Hyungseo and aespa‘s Winter and
+                  NingNing.
                 </Typography>
               </CardContent>
             </Card>
@@ -250,8 +251,8 @@ function YunjinProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  Even though her English name is Jennifer, she prefers being
+                  called Jen.
                 </Typography>
               </CardContent>
             </Card>
@@ -263,8 +264,7 @@ function YunjinProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  She’s a fan of Girls’ Generation and BTS.
                 </Typography>
               </CardContent>
             </Card>
@@ -276,8 +276,8 @@ function YunjinProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  Her favorite foods include Greek yogurt. boiled sweet potato,
+                  dried seaweed, cheese, and pizza.
                 </Typography>
               </CardContent>
             </Card>
@@ -291,91 +291,44 @@ function YunjinProfile() {
       <div className="members-list">
         <div className="members">
           <img
-            src="
-              https://pbs.twimg.com/media/FmCe725aUAA6Tcx?format=jpg&name=4096x4096"
-            alt="nayeon.png"
+            src="https://i.pinimg.com/564x/c7/d6/cb/c7d6cbef292054b76373dbb410b39127.jpg"
+            alt="chaewon.png"
             class=""
           />
-          <Link className="linka" to="/NayeonProfile">
-            Nayeon
+          <Link className="linka" to="/ChaewonProfile">
+            Chaewon
+          </Link>
+        </div>
+        <div className="members">
+          <img
+            src="https://i.pinimg.com/564x/bf/11/5d/bf115d4352fcbaef6e8003f8f1265f3e.jpg"
+            alt="sakura.png"
+            class=""
+          />
+          <Link className="linka" to="/SakuraProfile">
+            Sakura
           </Link>
         </div>
 
         <div className="members">
           <img
-            src="https://pbs.twimg.com/media/FmCfCBwacAYm2gV?format=jpg&name=4096x4096"
-            alt="jeongyeon.png"
+            src="https://i.pinimg.com/564x/46/a1/9e/46a19e4a4c30d1099d439f6ca31d1b25.jpg"
+            alt="kazuha.png"
             class=""
           />
-          <Link className="linka" to="/JeongyeonProfile">
-            Jeongyeon
+          <Link className="linka" to="/KazuhaProfile">
+            Kazuha
           </Link>
         </div>
 
         <div className="members">
           <img
-            src="https://pbs.twimg.com/media/FmCfJL0aAAAw0jx?format=jpg&name=4096x4096"
-            alt="momo.png"
+            src="https://i.pinimg.com/564x/ad/6c/18/ad6c182f9ddf3b2f4fc5ffee3b755f2d.jpg"
+            alt="eunchae.png"
             class=""
           />
-          <Link className="linka" to="/MomoProfile">
-            Momo
-          </Link>
-        </div>
-
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmHpTDNaEAAGWBw?format=jpg&name=large"
-            alt="sana.png"
-            class=""
-          />
-          <Link className="linka" to="/SanaProfile">
-            Sana
-          </Link>
-        </div>
-      </div>
-      <div className="members-list">
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmHpV14acAELFke?format=jpg&name=large"
-            alt="jihyo.png"
-            class=""
-          />
-          <Link className="linka" to="/JihyoProfile">
-            Jihyo
-          </Link>
-        </div>
-
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmHpbAMagAEATCF?format=jpg&name=large"
-            alt="mina.png"
-            class=""
-          />
-          <Link className="linka" to="/MinaProfile">
-            Mina
-          </Link>
-        </div>
-
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmMwEURagAEI1-V?format=jpg&name=4096x4096"
-            alt="dahyun.png"
-            class=""
-          />
-          <Link className="linka" to="/DahyunProfile">
-            Dahyun
-          </Link>
-        </div>
-
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmMwRc2aUAE1WnP?format=jpg&name=4096x4096"
-            alt="tzuyu.png"
-            class=""
-          />
-          <Link className="linka" to="/TzuyuProfile">
-            Tzuyu
+          <Link className="linka" to="/EunchaeProfile">
+            Eunchae
           </Link>
         </div>
       </div>

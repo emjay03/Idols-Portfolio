@@ -68,7 +68,7 @@ function EunchaeProfile() {
         <div class="profile-info">
           <div className="profile-pic">
             <img
-              src="https://i.pinimg.com/736x/da/b6/d4/dab6d43feb3eee3e1e0178eb32a181c7.jpg"
+              src="https://i.pinimg.com/564x/ad/6c/18/ad6c182f9ddf3b2f4fc5ffee3b755f2d.jpg"
               alt="eunchae.png"
               class="profile-img"
             />
@@ -77,11 +77,10 @@ function EunchaeProfile() {
           <div className="paragraph">
             <h1>LE SSSERAFIM Eunchae</h1>
             <p>
-              Son Chae-young, known mononymously as Chaeyoung, is a South Korean
-              rapper and singer. She is a member of the South Korean girl group
-              Twice, formed by JYP Entertainment. Chaeyoung decided she wanted
-              to become a singer before joining JYP Entertainment and took dance
-              lessons for over one year.
+              Eunchae (은채) is a South Korean singer under Source Music. She is
+              a member of the girl group LE SSERAFIM. Eunchae debuted as a
+              member of LE SSERAFIM on May 2, 2022 with their first mini album
+              "FEARLESS".
             </p>
           </div>
         </div>
@@ -185,8 +184,7 @@ function EunchaeProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Chaeyoung has a younger brother, Jeong Hun, which is an
-                  aspiring model.
+                  She was the 3rd member to be revealed.
                 </Typography>
               </CardContent>
             </Card>
@@ -198,7 +196,7 @@ function EunchaeProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Chaeyoung's english name is Katarina
+                  She studied at Def Music Academy.
                 </Typography>
               </CardContent>
             </Card>
@@ -210,9 +208,7 @@ function EunchaeProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Chaeyoung likes healthy foods like veggies but doesn't like
-                  sweets. She says this is because she grew up with her
-                  grandmother when she was young
+                  Hobbies: watching performances and mukbang videos
                 </Typography>
               </CardContent>
             </Card>
@@ -224,8 +220,7 @@ function EunchaeProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  She was a church leader before.
                 </Typography>
               </CardContent>
             </Card>
@@ -237,8 +232,7 @@ function EunchaeProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  She is a picky eater.
                 </Typography>
               </CardContent>
             </Card>
@@ -250,8 +244,8 @@ function EunchaeProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  She decided to be an idol when she watched SEVENTEEN‘s
+                  performance in 2018.
                 </Typography>
               </CardContent>
             </Card>
@@ -263,8 +257,7 @@ function EunchaeProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  Fans often say she resembles Red Velvet’s Yeri.
                 </Typography>
               </CardContent>
             </Card>
@@ -276,8 +269,7 @@ function EunchaeProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  She is friends with kep1er‘s Bahiyyih, and NMIXX‘s Kyujin.
                 </Typography>
               </CardContent>
             </Card>
@@ -291,91 +283,44 @@ function EunchaeProfile() {
       <div className="members-list">
         <div className="members">
           <img
-            src="
-              https://pbs.twimg.com/media/FmCe725aUAA6Tcx?format=jpg&name=4096x4096"
-            alt="nayeon.png"
+            src="https://i.pinimg.com/564x/c7/d6/cb/c7d6cbef292054b76373dbb410b39127.jpg"
+            alt="chaewon.png"
             class=""
           />
-          <Link className="linka" to="/NayeonProfile">
-            Nayeon
+          <Link className="linka" to="/ChaewonProfile">
+            Chaewon
+          </Link>
+        </div>
+        <div className="members">
+          <img
+            src="https://i.pinimg.com/564x/bf/11/5d/bf115d4352fcbaef6e8003f8f1265f3e.jpg"
+            alt="sakura.png"
+            class=""
+          />
+          <Link className="linka" to="/SakuraProfile">
+            Sakura
           </Link>
         </div>
 
         <div className="members">
           <img
-            src="https://pbs.twimg.com/media/FmCfCBwacAYm2gV?format=jpg&name=4096x4096"
-            alt="jeongyeon.png"
+            src="https://i.pinimg.com/564x/b6/22/33/b62233577f8013b5966bf3e13c58cd1a.jpg"
+            alt="yunjin.png"
             class=""
           />
-          <Link className="linka" to="/JeongyeonProfile">
-            Jeongyeon
+          <Link className="linka" to="/YunjinProfile">
+            Yunjin
           </Link>
         </div>
 
         <div className="members">
           <img
-            src="https://pbs.twimg.com/media/FmCfJL0aAAAw0jx?format=jpg&name=4096x4096"
-            alt="momo.png"
+            src="https://i.pinimg.com/564x/46/a1/9e/46a19e4a4c30d1099d439f6ca31d1b25.jpg"
+            alt="kazuha.png"
             class=""
           />
-          <Link className="linka" to="/MomoProfile">
-            Momo
-          </Link>
-        </div>
-
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmHpTDNaEAAGWBw?format=jpg&name=large"
-            alt="sana.png"
-            class=""
-          />
-          <Link className="linka" to="/SanaProfile">
-            Sana
-          </Link>
-        </div>
-      </div>
-      <div className="members-list">
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmHpV14acAELFke?format=jpg&name=large"
-            alt="jihyo.png"
-            class=""
-          />
-          <Link className="linka" to="/JihyoProfile">
-            Jihyo
-          </Link>
-        </div>
-
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmHpbAMagAEATCF?format=jpg&name=large"
-            alt="mina.png"
-            class=""
-          />
-          <Link className="linka" to="/MinaProfile">
-            Mina
-          </Link>
-        </div>
-
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmMwEURagAEI1-V?format=jpg&name=4096x4096"
-            alt="dahyun.png"
-            class=""
-          />
-          <Link className="linka" to="/DahyunProfile">
-            Dahyun
-          </Link>
-        </div>
-
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmMwRc2aUAE1WnP?format=jpg&name=4096x4096"
-            alt="tzuyu.png"
-            class=""
-          />
-          <Link className="linka" to="/TzuyuProfile">
-            Tzuyu
+          <Link className="linka" to="/KazuhaProfile">
+            Kazuha
           </Link>
         </div>
       </div>

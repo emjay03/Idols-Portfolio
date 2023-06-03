@@ -68,7 +68,7 @@ function ChaewonProfile() {
         <div class="profile-info">
           <div className="profile-pic">
             <img
-              src="https://i.pinimg.com/564x/85/50/71/855071c1663691569276a46557946fab.jpg"
+              src="https://i.pinimg.com/564x/c7/d6/cb/c7d6cbef292054b76373dbb410b39127.jpg"
               alt="chaewon.png"
               class="profile-img"
             />
@@ -77,11 +77,10 @@ function ChaewonProfile() {
           <div className="paragraph">
             <h1>LE SSSERAFIM Chaewon</h1>
             <p>
-              Son Chae-young, known mononymously as Chaeyoung, is a South Korean
-              rapper and singer. She is a member of the South Korean girl group
-              Twice, formed by JYP Entertainment. Chaeyoung decided she wanted
-              to become a singer before joining JYP Entertainment and took dance
-              lessons for over one year.
+              Kim Chae-won (Korean: 김채원; born August 1, 2000) is a South
+              Korean singer. She is the leader of South Korean girl group Le
+              Sserafim. She is also a former member of the reality competition
+              series Produce 48's resulting girl group Iz*One in 2018.
             </p>
           </div>
         </div>
@@ -185,8 +184,7 @@ function ChaewonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Chaeyoung has a younger brother, Jeong Hun, which is an
-                  aspiring model.
+                  She was the 4th member to be revealed.
                 </Typography>
               </CardContent>
             </Card>
@@ -198,7 +196,7 @@ function ChaewonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Chaeyoung's english name is Katarina
+                  She is the daughter of theater actress Lee Ran Hee.
                 </Typography>
               </CardContent>
             </Card>
@@ -210,9 +208,8 @@ function ChaewonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Chaeyoung likes healthy foods like veggies but doesn't like
-                  sweets. She says this is because she grew up with her
-                  grandmother when she was young
+                  She describes herself as a lovely person, since people usually
+                  considers her as a loveable person.
                 </Typography>
               </CardContent>
             </Card>
@@ -224,8 +221,7 @@ function ChaewonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  She likes eating pineapple pizza.
                 </Typography>
               </CardContent>
             </Card>
@@ -237,8 +233,7 @@ function ChaewonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  She is good at long jump.
                 </Typography>
               </CardContent>
             </Card>
@@ -250,8 +245,7 @@ function ChaewonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  She is a former IZ*ONE member.
                 </Typography>
               </CardContent>
             </Card>
@@ -263,8 +257,7 @@ function ChaewonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  She dislikes mushrooms and coffee.
                 </Typography>
               </CardContent>
             </Card>
@@ -276,8 +269,8 @@ function ChaewonProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  Hobby: watching dramas & dance videos, lying down, watching
+                  Netflix and Youtube.
                 </Typography>
               </CardContent>
             </Card>
@@ -291,7 +284,7 @@ function ChaewonProfile() {
       <div className="members-list">
         <div className="members">
           <img
-            src="https://i.pinimg.com/564x/3d/20/b3/3d20b39adfd4b4a2f9b69e071c98ad95.jpg"
+            src="https://i.pinimg.com/564x/bf/11/5d/bf115d4352fcbaef6e8003f8f1265f3e.jpg"
             alt="sakura.png"
             class=""
           />
@@ -302,7 +295,7 @@ function ChaewonProfile() {
 
         <div className="members">
           <img
-            src="https://i.pinimg.com/736x/ed/cd/73/edcd73a44deacef9b82a397096cef58d.jpg"
+            src="https://i.pinimg.com/564x/b6/22/33/b62233577f8013b5966bf3e13c58cd1a.jpg"
             alt="yunjin.png"
             class=""
           />
@@ -313,7 +306,7 @@ function ChaewonProfile() {
 
         <div className="members">
           <img
-            src="https://i.pinimg.com/564x/e9/1e/69/e91e694cd3e14d5328828fbc58e17c9a.jpg"
+            src="https://i.pinimg.com/564x/46/a1/9e/46a19e4a4c30d1099d439f6ca31d1b25.jpg"
             alt="kazuha.png"
             class=""
           />
@@ -324,7 +317,7 @@ function ChaewonProfile() {
 
         <div className="members">
           <img
-            src="https://i.pinimg.com/736x/da/b6/d4/dab6d43feb3eee3e1e0178eb32a181c7.jpg"
+            src="https://i.pinimg.com/564x/ad/6c/18/ad6c182f9ddf3b2f4fc5ffee3b755f2d.jpg"
             alt="eunchae.png"
             class=""
           />
