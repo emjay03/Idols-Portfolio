@@ -68,7 +68,7 @@ function KazuhaProfile() {
         <div class="profile-info">
           <div className="profile-pic">
             <img
-              src="https://i.pinimg.com/564x/e9/1e/69/e91e694cd3e14d5328828fbc58e17c9a.jpg"
+              src="https://i.pinimg.com/564x/46/a1/9e/46a19e4a4c30d1099d439f6ca31d1b25.jpg"
               alt="kazuha.png"
               class="profile-img"
             />
@@ -77,11 +77,14 @@ function KazuhaProfile() {
           <div className="paragraph">
             <h1>LE SSSERAFIM Kazuha</h1>
             <p>
-              Son Chae-young, known mononymously as Chaeyoung, is a South Korean
-              rapper and singer. She is a member of the South Korean girl group
-              Twice, formed by JYP Entertainment. Chaeyoung decided she wanted
-              to become a singer before joining JYP Entertainment and took dance
-              lessons for over one year.
+              Kazuha (카즈하) is a Japanese singer under Source Music. She is a
+              member of the girl group LE SSERAFIM. Kazuha was a professional
+              ballet dancer before her debut and attended Hashimoto Sachiyo
+              Ballet School & Jr in Japan, Bolshoi Ballet Academy in Moscow,
+              Royal Ballet School in the UK, and since 2020 she has been
+              studying at the Dutch National Ballet Academy in the Netherlands,
+              where she was recruited by the CEO of Source Music in mid-December
+              2021.
             </p>
           </div>
         </div>
@@ -185,8 +188,8 @@ function KazuhaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Chaeyoung has a younger brother, Jeong Hun, which is an
-                  aspiring model.
+                  She lived in Amsterdam, The Netherlands, from 2020 to 2021,
+                  where she took ballet classes.
                 </Typography>
               </CardContent>
             </Card>
@@ -198,7 +201,7 @@ function KazuhaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Chaeyoung's english name is Katarina
+                  She was the 5th member to be revealed.
                 </Typography>
               </CardContent>
             </Card>
@@ -210,9 +213,7 @@ function KazuhaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Chaeyoung likes healthy foods like veggies but doesn't like
-                  sweets. She says this is because she grew up with her
-                  grandmother when she was young
+                  As a fan of BLACKPINK, her bias is Jisoo.
                 </Typography>
               </CardContent>
             </Card>
@@ -224,8 +225,8 @@ function KazuhaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  Kazuha is a fan of BTS, she said that she was stunned by
+                  Jimin‘s dancing.
                 </Typography>
               </CardContent>
             </Card>
@@ -237,8 +238,7 @@ function KazuhaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  She has a habit of stretching frequently.
                 </Typography>
               </CardContent>
             </Card>
@@ -250,8 +250,8 @@ function KazuhaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  She is a professional ballerina, she won domestic and
+                  international junior ballet competitions.
                 </Typography>
               </CardContent>
             </Card>
@@ -263,8 +263,8 @@ function KazuhaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  Kazuha is a huge fan of a Japanese YouTuber ‘Kemio’ and owns
+                  one of his books.
                 </Typography>
               </CardContent>
             </Card>
@@ -276,8 +276,8 @@ function KazuhaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  She has the shortest training period amongst the members, 3
+                  months.
                 </Typography>
               </CardContent>
             </Card>
@@ -291,95 +291,47 @@ function KazuhaProfile() {
       <div className="members-list">
         <div className="members">
           <img
-            src="
-              https://pbs.twimg.com/media/FmCe725aUAA6Tcx?format=jpg&name=4096x4096"
-            alt="nayeon.png"
+            src="https://i.pinimg.com/564x/c7/d6/cb/c7d6cbef292054b76373dbb410b39127.jpg"
+            alt="chaewon.png"
             class=""
           />
-          <Link className="linka" to="/NayeonProfile">
-            Nayeon
+          <Link className="linka" to="/ChaewonProfile">
+            Chaewon
+          </Link>
+        </div>
+        <div className="members">
+          <img
+            src="https://i.pinimg.com/564x/bf/11/5d/bf115d4352fcbaef6e8003f8f1265f3e.jpg"
+            alt="sakura.png"
+            class=""
+          />
+          <Link className="linka" to="/SakuraProfile">
+            Sakura
           </Link>
         </div>
 
         <div className="members">
           <img
-            src="https://pbs.twimg.com/media/FmCfCBwacAYm2gV?format=jpg&name=4096x4096"
-            alt="jeongyeon.png"
+            src="https://i.pinimg.com/564x/b6/22/33/b62233577f8013b5966bf3e13c58cd1a.jpg"
+            alt="yunjin.png"
             class=""
           />
-          <Link className="linka" to="/JeongyeonProfile">
-            Jeongyeon
+          <Link className="linka" to="/YunjinProfile">
+            Yunjin
           </Link>
         </div>
 
         <div className="members">
           <img
-            src="https://pbs.twimg.com/media/FmCfJL0aAAAw0jx?format=jpg&name=4096x4096"
-            alt="momo.png"
+            src="https://i.pinimg.com/564x/ad/6c/18/ad6c182f9ddf3b2f4fc5ffee3b755f2d.jpg"
+            alt="eunchae.png"
             class=""
           />
-          <Link className="linka" to="/MomoProfile">
-            Momo
-          </Link>
-        </div>
-
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmHpTDNaEAAGWBw?format=jpg&name=large"
-            alt="sana.png"
-            class=""
-          />
-          <Link className="linka" to="/SanaProfile">
-            Sana
+          <Link className="linka" to="/EunchaeProfile">
+            Eunchae
           </Link>
         </div>
       </div>
-      <div className="members-list">
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmHpV14acAELFke?format=jpg&name=large"
-            alt="jihyo.png"
-            class=""
-          />
-          <Link className="linka" to="/JihyoProfile">
-            Jihyo
-          </Link>
-        </div>
-
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmHpbAMagAEATCF?format=jpg&name=large"
-            alt="mina.png"
-            class=""
-          />
-          <Link className="linka" to="/MinaProfile">
-            Mina
-          </Link>
-        </div>
-
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmMwEURagAEI1-V?format=jpg&name=4096x4096"
-            alt="dahyun.png"
-            class=""
-          />
-          <Link className="linka" to="/DahyunProfile">
-            Dahyun
-          </Link>
-        </div>
-
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmMwRc2aUAE1WnP?format=jpg&name=4096x4096"
-            alt="tzuyu.png"
-            class=""
-          />
-          <Link className="linka" to="/TzuyuProfile">
-            Tzuyu
-          </Link>
-        </div>
-      </div>
-
       <div className="footer-cover">
         <div className="cover-qoutes">
           <p>

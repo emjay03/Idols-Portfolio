@@ -68,7 +68,7 @@ function SakuraProfile() {
         <div class="profile-info">
           <div className="profile-pic">
             <img
-              src="https://i.pinimg.com/564x/3d/20/b3/3d20b39adfd4b4a2f9b69e071c98ad95.jpg"
+              src="https://i.pinimg.com/564x/bf/11/5d/bf115d4352fcbaef6e8003f8f1265f3e.jpg"
               alt="sakura.png"
               class="profile-img"
             />
@@ -77,11 +77,16 @@ function SakuraProfile() {
           <div className="paragraph">
             <h1>LE SSSERAFIM Sakura</h1>
             <p>
-              Son Chae-young, known mononymously as Chaeyoung, is a South Korean
-              rapper and singer. She is a member of the South Korean girl group
-              Twice, formed by JYP Entertainment. Chaeyoung decided she wanted
-              to become a singer before joining JYP Entertainment and took dance
-              lessons for over one year.
+              Sakura Miyawaki (宮脇 咲良, Miyawaki Sakura, born March 19, 1998),
+              better known mononymously as Sakura, is a Japanese singer and
+              actress based in South Korea. She is a member of the South Korean
+              girl group Le Sserafim. Miyawaki began her music career with the
+              girl group HKT48 in 2011, and was a concurrent member of their
+              sister group AKB48 from 2014 to 2018. During her tenure, she held
+              center positions for the singles "Kimi wa Melody" and "No Way
+              Man". Miyawaki took a hiatus from HKT48 in 2018 after placing
+              second in the reality competition show Produce 48, joining the
+              girl group Iz*One until 2021.
             </p>
           </div>
         </div>
@@ -185,8 +190,7 @@ function SakuraProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Chaeyoung has a younger brother, Jeong Hun, which is an
-                  aspiring model.
+                  She was the 1st member to be revealed.
                 </Typography>
               </CardContent>
             </Card>
@@ -198,7 +202,7 @@ function SakuraProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Chaeyoung's english name is Katarina
+                  She likes lying around.
                 </Typography>
               </CardContent>
             </Card>
@@ -210,9 +214,7 @@ function SakuraProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Chaeyoung likes healthy foods like veggies but doesn't like
-                  sweets. She says this is because she grew up with her
-                  grandmother when she was young
+                  Dislikes: working out, bugs, pineapple pizza
                 </Typography>
               </CardContent>
             </Card>
@@ -224,8 +226,7 @@ function SakuraProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  Specialty: drawing
                 </Typography>
               </CardContent>
             </Card>
@@ -237,8 +238,7 @@ function SakuraProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  Hobbies: watching movies and playing games.
                 </Typography>
               </CardContent>
             </Card>
@@ -250,8 +250,8 @@ function SakuraProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  Sakura is able to guess people’s blood type just by looking at
+                  them.
                 </Typography>
               </CardContent>
             </Card>
@@ -263,8 +263,7 @@ function SakuraProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  Sakura is a fan of Red Velvet and her bias is Irene.
                 </Typography>
               </CardContent>
             </Card>
@@ -276,8 +275,7 @@ function SakuraProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She can write songs. Chaeyoung and Jihyo wrote their song "Eye
-                  eye eyes". She also wrote some of her rap on their other songs
+                  Sakura loves reading mangas and novels.
                 </Typography>
               </CardContent>
             </Card>
@@ -291,91 +289,45 @@ function SakuraProfile() {
       <div className="members-list">
         <div className="members">
           <img
-            src="
-              https://pbs.twimg.com/media/FmCe725aUAA6Tcx?format=jpg&name=4096x4096"
-            alt="nayeon.png"
+            src="https://i.pinimg.com/564x/c7/d6/cb/c7d6cbef292054b76373dbb410b39127.jpg"
+            alt="chaewon.png"
             class=""
           />
-          <Link className="linka" to="/NayeonProfile">
-            Nayeon
+          <Link className="linka" to="/ChaewonProfile">
+            Chaewon
           </Link>
         </div>
 
         <div className="members">
           <img
-            src="https://pbs.twimg.com/media/FmCfCBwacAYm2gV?format=jpg&name=4096x4096"
-            alt="jeongyeon.png"
+            src="https://i.pinimg.com/564x/b6/22/33/b62233577f8013b5966bf3e13c58cd1a.jpg"
+            alt="yunjin.png"
             class=""
           />
-          <Link className="linka" to="/JeongyeonProfile">
-            Jeongyeon
+          <Link className="linka" to="/YunjinProfile">
+            Yunjin
           </Link>
         </div>
 
         <div className="members">
           <img
-            src="https://pbs.twimg.com/media/FmCfJL0aAAAw0jx?format=jpg&name=4096x4096"
-            alt="momo.png"
+            src="https://i.pinimg.com/564x/46/a1/9e/46a19e4a4c30d1099d439f6ca31d1b25.jpg"
+            alt="kazuha.png"
             class=""
           />
-          <Link className="linka" to="/MomoProfile">
-            Momo
+          <Link className="linka" to="/KazuhaProfile">
+            Kazuha
           </Link>
         </div>
 
         <div className="members">
           <img
-            src="https://pbs.twimg.com/media/FmHpTDNaEAAGWBw?format=jpg&name=large"
-            alt="sana.png"
+            src="https://i.pinimg.com/564x/ad/6c/18/ad6c182f9ddf3b2f4fc5ffee3b755f2d.jpg"
+            alt="eunchae.png"
             class=""
           />
-          <Link className="linka" to="/SanaProfile">
-            Sana
-          </Link>
-        </div>
-      </div>
-      <div className="members-list">
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmHpV14acAELFke?format=jpg&name=large"
-            alt="jihyo.png"
-            class=""
-          />
-          <Link className="linka" to="/JihyoProfile">
-            Jihyo
-          </Link>
-        </div>
-
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmHpbAMagAEATCF?format=jpg&name=large"
-            alt="mina.png"
-            class=""
-          />
-          <Link className="linka" to="/MinaProfile">
-            Mina
-          </Link>
-        </div>
-
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmMwEURagAEI1-V?format=jpg&name=4096x4096"
-            alt="dahyun.png"
-            class=""
-          />
-          <Link className="linka" to="/DahyunProfile">
-            Dahyun
-          </Link>
-        </div>
-
-        <div className="members">
-          <img
-            src="https://pbs.twimg.com/media/FmMwRc2aUAE1WnP?format=jpg&name=4096x4096"
-            alt="tzuyu.png"
-            class=""
-          />
-          <Link className="linka" to="/TzuyuProfile">
-            Tzuyu
+          <Link className="linka" to="/EunchaeProfile">
+            Eunchae
           </Link>
         </div>
       </div>
