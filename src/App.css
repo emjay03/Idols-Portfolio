@@ -219,6 +219,18 @@ footer span {
   margin: 0%;
 }
 
+.gidle-cover-photo {
+  background-color: gray;
+  background-image: url("https://i.pinimg.com/originals/39/07/a2/3907a2aeae625a3c17f64c08e55165fa.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  color: white;
+  margin: 0%;
+}
+
 .profile-info {
   display: grid;
   grid-template-columns: auto auto;
@@ -477,6 +489,11 @@ footer span {
     padding-bottom: 20px;
   }
 
+  .gidle-cover-photo {
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+
   .cover-qoutes {
     height: 200px;
   }
@@ -514,6 +531,11 @@ footer span {
   }
 
   .lesserafim-cover-photo {
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+
+  .gidle-cover-photo {
     padding-top: 100px;
     padding-bottom: 20px;
   }
@@ -571,6 +593,11 @@ footer span {
 
   .lesserafim-cover-photo {
     padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  .gidle-cover-photo {
+    padding-top: 100px;
     padding-bottom: 20px;
   }
 
