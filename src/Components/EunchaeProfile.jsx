@@ -61,6 +61,13 @@ function EunchaeProfile() {
     ],
   };
 
+  const contact = {
+    instagram: "hhh.e_c.v",
+    twitter: "le_sserafim",
+    facebook: "official.lesserafim",
+    youtube: "@LESSERAFIM_officaial",
+  };
+
   return (
     <div>
       <Header />
@@ -152,16 +159,28 @@ function EunchaeProfile() {
                   Social Media
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  <Link className="linka" to="/NayeonProfile">
+                  <Link
+                    className="linka"
+                    to={`https://instagram.com/${contact.instagram}`}
+                  >
                     <InstagramIcon />
                   </Link>
-                  <Link className="linka" to="/NayeonProfile">
+                  <Link
+                    className="linka"
+                    to={`https://twitter.com/${contact.twitter}`}
+                  >
                     <TwitterIcon />
                   </Link>
-                  <Link className="linka" to="/NayeonProfile">
+                  <Link
+                    className="linka"
+                    to={`https://facebook.com/${contact.facebook}`}
+                  >
                     <FacebookIcon />
                   </Link>
-                  <Link className="linka" to="/NayeonProfile">
+                  <Link
+                    className="linka"
+                    to={`https://youtube.com/${contact.youtube}`}
+                  >
                     <YouTubeIcon />
                   </Link>
                 </Typography>
