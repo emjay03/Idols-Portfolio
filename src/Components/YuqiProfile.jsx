@@ -61,6 +61,13 @@ function YuqiProfile() {
     ],
   };
 
+  const contact = {
+    instagram: "yuqisong.923",
+    twitter: "G_I_DLE",
+    facebook: "G.I.DLE.CUBE",
+    youtube: "@official_g_i_dle",
+  };
+
   return (
     <div>
       <Header />
@@ -158,16 +165,28 @@ function YuqiProfile() {
                   Social Media
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  <Link className="linka" to="/NayeonProfile">
+                  <Link
+                    className="linka"
+                    to={`https://instagram.com/${contact.instagram}`}
+                  >
                     <InstagramIcon />
                   </Link>
-                  <Link className="linka" to="/NayeonProfile">
+                  <Link
+                    className="linka"
+                    to={`https://twitter.com/${contact.twitter}`}
+                  >
                     <TwitterIcon />
                   </Link>
-                  <Link className="linka" to="/NayeonProfile">
+                  <Link
+                    className="linka"
+                    to={`https://facebook.com/${contact.facebook}`}
+                  >
                     <FacebookIcon />
                   </Link>
-                  <Link className="linka" to="/NayeonProfile">
+                  <Link
+                    className="linka"
+                    to={`https://youtube.com/${contact.youtube}`}
+                  >
                     <YouTubeIcon />
                   </Link>
                 </Typography>
