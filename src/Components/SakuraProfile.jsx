@@ -368,7 +368,7 @@ function SakuraProfile() {
 
 const itemData = [
   {
-    img: "https://i.pinimg.com/564x/d1/f3/0f/d1f30f37cbc51bd181666bbe87d51fd2.jpg",
+    img: "https://i.pinimg.com/564x/31/c6/72/31c67224a6149919ffdec9acdf75e731.jpg",
     title: "Chaeyoung 1",
     rows: 2,
     cols: 2,
@@ -382,7 +382,7 @@ const itemData = [
     title: "Camera",
   },
   {
-    img: "https://i.pinimg.com/564x/f8/6a/74/f86a7440a0415f9a758d1a14c02c1615.jpg",
+    img: "https://i.pinimg.com/564x/92/41/b1/9241b129b982608d22bab5f4058a60c8.jpg",
     title: "Coffee",
     cols: 2,
   },
@@ -413,7 +413,7 @@ const itemData = [
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/92/41/b1/9241b129b982608d22bab5f4058a60c8.jpg",
+    img: "https://i.pinimg.com/564x/f8/6a/74/f86a7440a0415f9a758d1a14c02c1615.jpg",
     title: "Tomato basil",
   },
   {
