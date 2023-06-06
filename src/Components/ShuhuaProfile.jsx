@@ -384,7 +384,7 @@ const itemData = [
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/736x/2e/05/dd/2e05dd31e1c21897fda0aaa18050bf7c.jpg",
+    img: "https://i.pinimg.com/736x/53/ac/f9/53acf95f163b0583450ffcc785bc29a2.jpg",
     title: "Hats",
     cols: 2,
   },
@@ -400,7 +400,7 @@ const itemData = [
     title: "Basketball",
   },
   {
-    img: "https://i.pinimg.com/736x/53/ac/f9/53acf95f163b0583450ffcc785bc29a2.jpg",
+    img: "https://i.pinimg.com/736x/2e/05/dd/2e05dd31e1c21897fda0aaa18050bf7c.jpg",
     title: "Fern",
   },
   {
@@ -410,7 +410,7 @@ const itemData = [
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/736x/53/ac/f9/53acf95f163b0583450ffcc785bc29a2.jpg",
+    img: "https://i.pinimg.com/564x/2e/a1/dd/2ea1ddf096ad21aa8ff72857badecdc6.jpg",
     title: "Tomato basil",
   },
   {

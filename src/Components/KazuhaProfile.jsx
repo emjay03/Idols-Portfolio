@@ -368,7 +368,7 @@ function KazuhaProfile() {
 
 const itemData = [
   {
-    img: "https://i.pinimg.com/564x/74/7b/ac/747baca1641b71141175ef0eab982c24.jpg",
+    img: "https://i.pinimg.com/564x/5c/bf/9c/5cbf9c90dea36d842ed2d8b244f0f43d.jpg",
     title: "Chaeyoung 1",
     rows: 2,
     cols: 2,
@@ -378,16 +378,16 @@ const itemData = [
     title: "Burger",
   },
   {
-    img: "https://i.pinimg.com/564x/f0/0a/42/f00a424550be2b835681b8974ed16134.jpg",
+    img: "https://i.pinimg.com/564x/64/66/4d/64664d1d3f1830c7402e234bb186fbad.jpg",
     title: "Camera",
   },
   {
-    img: "https://i.pinimg.com/564x/64/66/4d/64664d1d3f1830c7402e234bb186fbad.jpg",
+    img: "https://i.pinimg.com/564x/f0/0a/42/f00a424550be2b835681b8974ed16134.jpg",
     title: "Coffee",
     cols: 2,
   },
   {
-    img: "https://i.pinimg.com/564x/be/0b/82/be0b82ebe0828c750e974d8c609be430.jpg",
+    img: "https://i.pinimg.com/564x/ce/02/d2/ce02d2c3f11d28755418534d4bb25610.jpg",
     title: "Hats",
     cols: 2,
   },
@@ -407,7 +407,7 @@ const itemData = [
     title: "Fern",
   },
   {
-    img: "https://i.pinimg.com/564x/5e/2d/d8/5e2dd821b6bea9301ea72427e3b81869.jpg",
+    img: "https://i.pinimg.com/564x/99/b7/ac/99b7acf72d6b3e07f312cece6077f2d4.jpg",
     title: "Mushrooms",
     rows: 2,
     cols: 2,
