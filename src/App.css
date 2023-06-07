@@ -231,6 +231,18 @@ footer span {
   margin: 0%;
 }
 
+.itzy-cover-photo {
+  background-color: gray;
+  background-image: url("https://i.pinimg.com/originals/50/11/8a/50118aaf1a302c128104215f6472fe74.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  color: white;
+  margin: 0%;
+}
+
 .profile-info {
   display: grid;
   grid-template-columns: auto auto;
@@ -494,6 +506,11 @@ footer span {
     padding-bottom: 20px;
   }
 
+  .itzy-cover-photo {
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+
   .cover-qoutes {
     height: 200px;
   }
@@ -536,6 +553,11 @@ footer span {
   }
 
   .gidle-cover-photo {
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+
+  .itzy-cover-photo {
     padding-top: 100px;
     padding-bottom: 20px;
   }
@@ -597,6 +619,11 @@ footer span {
   }
 
   .gidle-cover-photo {
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+
+  .itzy-cover-photo {
     padding-top: 100px;
     padding-bottom: 20px;
   }
