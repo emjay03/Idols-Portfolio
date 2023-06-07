@@ -22,6 +22,11 @@ import MinnieProfile from "./Components/MinnieProfile";
 import SoyeonProfile from "./Components/SoyeonProfile";
 import YuqiProfile from "./Components/YuqiProfile";
 import ShuhuaProfile from "./Components/ShuhuaProfile";
+import YejiProfile from "./Components/YejiProfile";
+import LiaProfile from "./Components/LiaProfile";
+import RyujinProfile from "./Components/RyujinProfile";
+import ChaeryoungProfile from "./Components/ChaeryoungProfile";
+import YunaProfile from "./Components/YunaProfile";
 import Girlgroup from "./Components/Girlgroup";
 
 function App() {
@@ -50,6 +55,11 @@ function App() {
           <Route path="soyeonprofile" element={<SoyeonProfile />} />
           <Route path="yuqiprofile" element={<YuqiProfile />} />
           <Route path="shuhuaprofile" element={<ShuhuaProfile />} />
+          <Route path="yejiprofile" element={<YejiProfile />} />
+          <Route path="liaprofile" element={<LiaProfile />} />
+          <Route path="ryujinprofile" element={<RyujinProfile />} />
+          <Route path="chaeryoungprofile" element={<ChaeryoungProfile />} />
+          <Route path="yunaprofile" element={<YunaProfile />} />
           <Route path="girlgroup" element={<Girlgroup />} />
         </Routes>
       </div>
