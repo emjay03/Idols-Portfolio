@@ -841,18 +841,19 @@ function Home() {
                     </Typography>
                     <Typography variant="body2" className="description">
                       <p>
-                        Twice is a South Korean girl group formed by JYP
-                        Entertainment. The group is composed of nine members:
-                        Nayeon, Jeongyeon, Momo, Sana, Jihyo, Mina, Dahyun,
-                        Chaeyoung, and Tzuyu. Twice was formed under the
-                        television program Sixteen (2015) and debuted on October
-                        20, 2015, with the extended play (EP) The Story Begins.
+                      Choi Ji-su (Korean: 최지수; born July 21, 2000), known mononymously
+              as Lia (Korean: 리아), is a South Korean singer, and rapper. She
+              is a member of the South Korean girl group Itzy.
                       </p>
                     </Typography>
                   </CardContent>
                   <CardActions>
                     <Button size="small">Share</Button>
-                    <Button size="small">Learn More</Button>
+                    <Button size="small">
+                      <Link className="linka" to="/LiaProfile">
+                        Learn More
+                      </Link>
+                    </Button>
                   </CardActions>
                 </Card>
               </div>

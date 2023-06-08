@@ -86,16 +86,7 @@ function ChaeryoungProfile() {
             <p>
               Chaeryeong (채령) is a South Korean singer and dancer under JYP
               Entertainment. She made her official debut on February 12, 2019 as
-              the main dancer and vocalist of the girl group ITZY. Before making
-              her debut, Chaeryeong, along with her older sister Chaeyeon,
-              appeared as a contestant on the reality television competition
-              show K-pop Star 3 on November 24, 2013. Despite getting
-              eliminated, both sisters were able to become JYP Entertainment
-              trainees after the show. A year later, as official trainees, both
-              sisters then competed on the girl group survival show SIXTEEN—the
-              same show were TWICE was created. However, Chaeryeong was
-              eliminated on the final episode. Following the show's conclusion,
-              Chaeryeong continued to train under the agency.
+              the main dancer and vocalist of the girl group ITZY.
             </p>
           </div>
         </div>
@@ -320,7 +311,7 @@ function ChaeryoungProfile() {
             alt="Yeji.png"
             class=""
           />
-          <Link className="linka" to="/LiaProfile">
+          <Link className="linka" to="/YejiProfile">
             Yeji
           </Link>
         </div>
@@ -332,7 +323,7 @@ function ChaeryoungProfile() {
             alt="lia.png"
             class=""
           />
-          <Link className="linka" to="/ChaeryoungProfile">
+          <Link className="linka" to="/LiaProfile">
             LiA
           </Link>
         </div>
