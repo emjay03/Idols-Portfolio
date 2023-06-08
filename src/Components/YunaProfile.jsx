@@ -317,7 +317,7 @@ function YunProfile() {
             alt="Yeji.png"
             class=""
           />
-          <Link className="linka" to="/LiaProfile">
+          <Link className="linka" to="/YejiProfile">
             Yeji
           </Link>
         </div>
@@ -329,7 +329,7 @@ function YunProfile() {
             alt="lia.png"
             class=""
           />
-          <Link className="linka" to="/YunProfile">
+          <Link className="linka" to="/LiaProfile">
             LiA
           </Link>
         </div>

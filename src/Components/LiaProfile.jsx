@@ -84,9 +84,9 @@ function LiaProfile() {
           <div className="paragraph">
             <h1>ITZY LiA</h1>
             <p>
-              hoi Ji-su (Korean: 최지수; born July 21, 2000), known mononymously
-              as Lia (Korean: 리아), is a South Korean singer, and rapper. She
-              is a member of the South Korean girl group Itzy.
+              Choi Ji-su (Korean: 최지수; born July 21, 2000), known
+              mononymously as Lia (Korean: 리아), is a South Korean singer, and
+              rapper. She is a member of the South Korean girl group Itzy.
             </p>
           </div>
         </div>
@@ -216,11 +216,8 @@ function LiaProfile() {
                   Did you know?
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  She attended Incheon Sinsong Elementary School (graduated),
-                  Shinsong Middle School (transferred), Northern College Eight
-                  School Jeju (transferred), Shinsong Middle School (graduated)
-                  & Seoul Performing Arts High School – department of Practical
-                  Music (SOPA / graduated)
+                  Her stage name comes from ‘Julia’, her English name. Her aunt
+                  gave her that name.
                 </Typography>
               </CardContent>
             </Card>
@@ -312,7 +309,7 @@ function LiaProfile() {
             alt="Yeji.png"
             class=""
           />
-          <Link className="linka" to="/LiaProfile">
+          <Link className="linka" to="/YejiProfile">
             Yeji
           </Link>
         </div>

@@ -320,7 +320,7 @@ function RyujinProfile() {
             alt="Yeji.png"
             class=""
           />
-          <Link className="linka" to="/LiaProfile">
+          <Link className="linka" to="/YejiProfile">
             Yeji
           </Link>
         </div>
@@ -332,7 +332,7 @@ function RyujinProfile() {
             alt="lia.png"
             class=""
           />
-          <Link className="linka" to="/RyujinProfile">
+          <Link className="linka" to="/LiaProfile">
             LiA
           </Link>
         </div>
@@ -377,7 +377,7 @@ function RyujinProfile() {
 
 const itemData = [
   {
-    img: "https://i.pinimg.com/564x/e5/64/75/e5647575e5e4ece45827641dbd83a127.jpg",
+    img: "https://i.pinimg.com/564x/7c/9d/99/7c9d99e94688d9e5ecb78502ce21702f.jpg",
     title: "Chaeyoung 1",
     rows: 2,
     cols: 2,
