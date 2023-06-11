@@ -127,7 +127,11 @@ function Home() {
                     </CardContent>
                     <CardActions>
                       <Button size="small">Share</Button>
-                      <Button size="small">Learn More</Button>
+                      <Button size="small">
+                        <Link className="linka" to="/TwiceProfile">
+                          Learn More
+                        </Link>
+                      </Button>
                     </CardActions>
                   </Card>
                 </div>
@@ -841,9 +845,10 @@ function Home() {
                     </Typography>
                     <Typography variant="body2" className="description">
                       <p>
-                      Choi Ji-su (Korean: 최지수; born July 21, 2000), known mononymously
-              as Lia (Korean: 리아), is a South Korean singer, and rapper. She
-              is a member of the South Korean girl group Itzy.
+                        Choi Ji-su (Korean: 최지수; born July 21, 2000), known
+                        mononymously as Lia (Korean: 리아), is a South Korean
+                        singer, and rapper. She is a member of the South Korean
+                        girl group Itzy.
                       </p>
                     </Typography>
                   </CardContent>
