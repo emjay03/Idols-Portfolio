@@ -27,6 +27,7 @@ import LiaProfile from "./Components/LiaProfile";
 import RyujinProfile from "./Components/RyujinProfile";
 import ChaeryoungProfile from "./Components/ChaeryoungProfile";
 import YunaProfile from "./Components/YunaProfile";
+import TwiceProfile from "./Components/TwiceProfile";
 import Girlgroup from "./Components/Girlgroup";
 
 function App() {
@@ -60,6 +61,7 @@ function App() {
           <Route path="ryujinprofile" element={<RyujinProfile />} />
           <Route path="chaeryoungprofile" element={<ChaeryoungProfile />} />
           <Route path="yunaprofile" element={<YunaProfile />} />
+          <Route path="twiceprofile" element={<TwiceProfile />} />
           <Route path="girlgroup" element={<Girlgroup />} />
         </Routes>
       </div>
