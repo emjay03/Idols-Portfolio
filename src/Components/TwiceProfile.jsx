@@ -7,6 +7,8 @@ import ImageListItem from "@mui/material/ImageListItem";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import { CardActionArea } from "@mui/material";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Slider from "react-slick";
@@ -62,7 +64,7 @@ function TwiceProfile() {
   };
 
   const contact = {
-    instagram: "chaeyo.0",
+    instagram: "twicetagram",
     twitter: "JYPETWICE",
     facebook: "JYPETWICE",
     youtube: "@TWICE",
@@ -182,42 +184,74 @@ function TwiceProfile() {
                 TWICE
               </Typography>
               <Typography variant="subtitle1" color="text.secondary">
-                Stage Name: Tzuyu (쯔위)<br></br>
-                Birth Name: Chou Tzuyu (周子瑜)<br></br>
-                Korean Name: Chou Tzu Yu (저우쯔위/주자유)<br></br>
-                English Name: Sally<br></br>
-                Nationality: Taiwanese<br></br>
-                Position: Lead Dancer, Sub Vocalist, Visual, Maknae<br></br>
-                Birthday: June 14, 1999<br></br>
-                Zodiac Sign: Gemini<br></br>
-                Height: 170 cm (5’7″)<br></br>
-                Weight: 48 kg (106 lbs)<br></br>
-                Blood Type: A<br></br>
-                MBTI Type: ISFP-A
+                Current state: active<br></br>
+                JYP Entertainment: Oct 20, 2015-present<br></br>
+                Warner Music Japan: Jan 1, 2017-present<br></br>
+                Republic Records: Jan 1, 2020-present<br></br>
+                Debut: Oct 20, 2015<br></br>
+                Debut to 1st win: 198 days<br></br>
+                Active years: 2015-present<br></br>
+                Country: South Korea<br></br>
+                Fandom: ONCE
               </Typography>
             </CardContent>
           </Card>
         </div>
 
         <div className="merchandise">
-          <Card sx={{ maxWidth: 400 }} elevation={2}>
+          <Card sx={{ maxWidth: 345 }}>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                height="140"
+                image="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5f1f9590-e7a4-497b-aaf5-4c0c947ac009/ddz8buj-d659c957-6d53-4ef8-a7a6-76aad7c63aa8.png/v1/fill/w_1920,h_1736,strp/twice_logo_by_mimilevi_ddz8buj-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTczNiIsInBhdGgiOiJcL2ZcLzVmMWY5NTkwLWU3YTQtNDk3Yi1hYWY1LTRjMGM5NDdhYzAwOVwvZGR6OGJ1ai1kNjU5Yzk1Ny02ZDUzLTRlZjgtYTdhNi03NmFhZDdjNjNhYTgucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.uHh7Vl2wGi2e9fwrpZh3TsP01qh_CEDZStEpO63PxQY"
+                alt="green iguana"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  LOGO
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                height="140"
+                image="https://th.bing.com/th/id/OIP.skDgYulldarUeIYGzI7IoQHaHa?pid=ImgDet&rs=1"
+                alt="green iguana"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  LIGHTSTICK
+                </Typography>
+              </CardContent>
+            </CardActionArea>
             <CardContent>
-              <Typography gutterBottom variant="h4" component="div">
-                TWICE
-              </Typography>
-              <Typography variant="subtitle1" color="text.secondary">
-                Stage Name: Tzuyu (쯔위)<br></br>
-                Birth Name: Chou Tzuyu (周子瑜)<br></br>
-                Korean Name: Chou Tzu Yu (저우쯔위/주자유)<br></br>
-                English Name: Sally<br></br>
-                Nationality: Taiwanese<br></br>
-                Position: Lead Dancer, Sub Vocalist, Visual, Maknae<br></br>
-                Birthday: June 14, 1999<br></br>
-                Zodiac Sign: Gemini<br></br>
-                Height: 170 cm (5’7″)<br></br>
-                Weight: 48 kg (106 lbs)<br></br>
-                Blood Type: A<br></br>
-                MBTI Type: ISFP-A
+              <Typography variant="body2" color="text.secondary">
+                <Link
+                  className="linka"
+                  to={`https://instagram.com/${contact.instagram}`}
+                >
+                  <InstagramIcon />
+                </Link>
+                <Link
+                  className="linka"
+                  to={`https://twitter.com/${contact.twitter}`}
+                >
+                  <TwitterIcon />
+                </Link>
+                <Link
+                  className="linka"
+                  to={`https://facebook.com/${contact.facebook}`}
+                >
+                  <FacebookIcon />
+                </Link>
+                <Link
+                  className="linka"
+                  to={`https://youtube.com/${contact.youtube}`}
+                >
+                  <YouTubeIcon />
+                </Link>
               </Typography>
             </CardContent>
           </Card>
@@ -226,10 +260,46 @@ function TwiceProfile() {
         <div className="about-twice">
           <h1>About TWICE</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi fuga
-            perferendis, rem laudantium alias eos. Officia, non error sed sequi
-            vitae, inventore mollitia, voluptatibus officiis cumque totam
-            ratione consequuntur libero!
+            TWICE (트와이스) is a nine-member girl group under JYP
+            Entertainment. They were formed through the competition reality show
+            SIXTEEN and officially debuted on October 20, 2015 with the mini
+            album The Story Begins. In 2015, Park Jin Young announced that the
+            new JYP girl group will be formed by the survival reality show
+            SIXTEEN, where sixteen JYP trainees would compete to debut in the
+            seven-member girl group TWICE. The show started on May 5 and ended
+            with Nayeon, Jeongyeon, Dahyun, Sana, Jihyo, Mina, and Chaeyoung.
+            During the finale, Park announced that he will add two more members
+            into the group, making it a nine-member girl group. By audience
+            vote, Tzuyu was added, and by Park's choice, Momo was added, thus
+            starting the beginning of TWICE. On October 7, 2015, JYP launched
+            the group's official website and announced on social media that the
+            group would debut with the mini album The Story Begins with "Like
+            Ooh-Ahh" as the title track. On October 20, the album and the song's
+            music video were released online on October 20 and through the Naver
+            "V LIVE" App. The group held their debut showcase the same day,
+            where they performed "Like Ooh-Ahh" along with dance tracks "Going
+            Crazy" and "Do It Again". The title track's music video hit 50
+            million views within five months of their debut and became the
+            most-viewed debut music video for any K-pop group, later becoming
+            one of the first K-pop group to have their debut music video pass
+            100 million views. TWICE rose to fame in 2016 with their single
+            "Cheer Up": the song charted at #1 on the Gaon Digital Chart and
+            became the best performing single of the year. TWICE made their
+            Japan debut on June 28, 2017 and became the first Korean girl group
+            that earned Platinum certification by the Recording Industry
+            Association of Japan (RIAJ). TWICE made history as the first female
+            Kpop to hold a Japanese dome tour, named Twice Dome Tour 2019
+            "#Dreamday". with a total audience of 220,000 during five shows in
+            Osaka, Tokyo and Nagoya was held in March and April 2019. On April
+            22 2019 they released their seventh EP "Fancy You". The release of
+            Fancy You made Twice the best-selling Korean girl group of all time
+            with a total of 3,750,000 copies sold from their twelve Korean
+            releases, surpassing the twenty-year-old record of S.E.S. The group
+            released their first official English-language single, "The Feels",
+            on October 1, 2021. "The Feels" debuted at number 83 on the
+            Billboard Hot 100, marking the group's first appearance on the
+            chart. The song also made its way to the UK Singles Chart, where it
+            peaked at number 80.
           </p>
         </div>
 
