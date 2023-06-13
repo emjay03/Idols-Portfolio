@@ -194,39 +194,6 @@ function TwiceProfile() {
                 Country: South Korea<br></br>
                 Fandom: ONCE
               </Typography>
-            </CardContent>
-          </Card>
-        </div>
-
-        <div className="merchandise">
-          <Card sx={{ maxWidth: 345 }}>
-            <CardActionArea>
-              <CardMedia
-                component="img"
-                height="140"
-                image="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5f1f9590-e7a4-497b-aaf5-4c0c947ac009/ddz8buj-d659c957-6d53-4ef8-a7a6-76aad7c63aa8.png/v1/fill/w_1920,h_1736,strp/twice_logo_by_mimilevi_ddz8buj-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTczNiIsInBhdGgiOiJcL2ZcLzVmMWY5NTkwLWU3YTQtNDk3Yi1hYWY1LTRjMGM5NDdhYzAwOVwvZGR6OGJ1ai1kNjU5Yzk1Ny02ZDUzLTRlZjgtYTdhNi03NmFhZDdjNjNhYTgucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.uHh7Vl2wGi2e9fwrpZh3TsP01qh_CEDZStEpO63PxQY"
-                alt="green iguana"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  LOGO
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActionArea>
-              <CardMedia
-                component="img"
-                height="140"
-                image="https://th.bing.com/th/id/OIP.skDgYulldarUeIYGzI7IoQHaHa?pid=ImgDet&rs=1"
-                alt="green iguana"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  LIGHTSTICK
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardContent>
               <Typography variant="body2" color="text.secondary">
                 <Link
                   className="linka"
@@ -257,7 +224,40 @@ function TwiceProfile() {
           </Card>
         </div>
 
-        <div className="about-twice">
+        <div className="merchandise">
+          <Card sx={{ maxWidth: 400 }}>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                height="300"
+                width="300"
+                image="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5f1f9590-e7a4-497b-aaf5-4c0c947ac009/ddz8buj-d659c957-6d53-4ef8-a7a6-76aad7c63aa8.png/v1/fill/w_1920,h_1736,strp/twice_logo_by_mimilevi_ddz8buj-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTczNiIsInBhdGgiOiJcL2ZcLzVmMWY5NTkwLWU3YTQtNDk3Yi1hYWY1LTRjMGM5NDdhYzAwOVwvZGR6OGJ1ai1kNjU5Yzk1Ny02ZDUzLTRlZjgtYTdhNi03NmFhZDdjNjNhYTgucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.uHh7Vl2wGi2e9fwrpZh3TsP01qh_CEDZStEpO63PxQY"
+                alt="green iguana"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  LOGO
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                height="300"
+                width="300"
+                image="https://th.bing.com/th/id/OIP.skDgYulldarUeIYGzI7IoQHaHa?pid=ImgDet&rs=1"
+                alt="green iguana"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  LIGHTSTICK
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+          </Card>
+        </div>
+
+        <div className="about-group">
           <h1>About TWICE</h1>
           <p>
             TWICE (트와이스) is a nine-member girl group under JYP
@@ -302,7 +302,9 @@ function TwiceProfile() {
             peaked at number 80.
           </p>
         </div>
-
+        <div className="fun-fact">
+          <h1>FUN FACTS ABOUT TWICE!</h1>
+        </div>
         <div className="trivia-container-group">
           <Slider className="card-trivia" {...settings}>
             <div>

@@ -408,7 +408,7 @@ footer span {
 
 .group-photo {
   width: 100%;
-  height: 400px;
+  height: 450px;
 }
 
 .group-name {
@@ -416,6 +416,7 @@ footer span {
   width: 100%;
   text-align: center;
   border-bottom: solid 1px;
+  font-size: 40px;
 }
 
 .members-container {
@@ -431,15 +432,38 @@ footer span {
 
 .card-information {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .merchandise {
-  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
-.about-twice {
+.about-group {
   grid-column: span 2;
   width: 100%;
+  padding: 10px 10px 10px 10px;
+}
+
+.about-group > h1 {
+  margin-left: 5px;
+  font-size: 40px;
+}
+
+.about-group > p {
+  text-indent: 2%;
+  font-size: 16px;
+}
+
+.fun-fact {
+  grid-column: span 2;
+  width: 100%;
+  text-align: center;
+  border-bottom: solid 1px;
+  font-size: 20px;
 }
 
 .trivia-container-group {
