@@ -420,14 +420,30 @@ footer span {
 }
 
 .members-container {
-  grid-column: span 2;
   display: grid;
-  grid-template-rows: auto auto;
-  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 500px;
+  column-gap: 100px;
+  row-gap: 15px;
+  padding-right: 20px;
+}
+
+.member {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+
+.member > img {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
 }
 
 .card-information {
@@ -438,14 +454,15 @@ footer span {
 }
 
 .merchandise {
-  justify-content: center;
+  padding-top: 100px;
+  display: flex;
+  justify-content: right;
   align-items: center;
 }
 
 .about-group {
-  grid-column: span 2;
   width: 100%;
-  padding: 10px 10px 10px 10px;
+  padding: 100px 20px 20px 20px;
 }
 
 .about-group > h1 {

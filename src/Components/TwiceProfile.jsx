@@ -86,97 +86,6 @@ function TwiceProfile() {
           <h1>TWICE</h1>
         </div>
 
-        <div className="members-container">
-          <div className="members">
-            <img
-              src="
-            https://i.pinimg.com/564x/9c/fb/d7/9cfbd7ce916b2583ae2826b094e7f629.jpg"
-              alt="nayeon.png"
-              class=""
-            />
-            <Link className="linka" to="/NayeonProfile">
-              Nayeon
-            </Link>
-          </div>
-
-          <div className="members">
-            <img
-              src="https://i.pinimg.com/564x/8d/46/87/8d4687a2a9eb8d89f31c710c88521024.jpg"
-              alt="jeongyeon.png"
-              class=""
-            />
-            <Link className="linka" to="/JeongyeonProfile">
-              Jeongyeon
-            </Link>
-          </div>
-
-          <div className="members">
-            <img
-              src="https://i.pinimg.com/564x/e8/59/48/e85948486f2ca32f5080a36eda06b848.jpg"
-              alt="momo.png"
-              class=""
-            />
-            <Link className="linka" to="/MomoProfile">
-              Momo
-            </Link>
-          </div>
-
-          <div className="members">
-            <img
-              src="https://i.pinimg.com/564x/9e/12/a9/9e12a9b8b8ff5c83ada9925255b90dd6.jpg"
-              alt="sana.png"
-              class=""
-            />
-            <Link className="linka" to="/SanaProfile">
-              Sana
-            </Link>
-          </div>
-
-          <div className="members">
-            <img
-              src="https://i.pinimg.com/564x/0b/d6/8e/0bd68e49a8922218fecc20b213cce25d.jpg"
-              alt="jihyo.png"
-              class=""
-            />
-            <Link className="linka" to="/JihyoProfile">
-              Jihyo
-            </Link>
-          </div>
-
-          <div className="members">
-            <img
-              src="https://i.pinimg.com/564x/c0/d8/28/c0d828dee356d1897ce29562feaacf27.jpg"
-              alt="mina.png"
-              class=""
-            />
-            <Link className="linka" to="/MinaProfile">
-              Mina
-            </Link>
-          </div>
-
-          <div className="members">
-            <img
-              src="https://i.pinimg.com/564x/56/95/aa/5695aa951f0713e7324189f65a8bd668.jpg"
-              alt="dahyun.png"
-              class=""
-            />
-            <Link className="linka" to="/DahyunProfile">
-              Dahyun
-            </Link>
-          </div>
-
-          <div className="members">
-            <img
-              src="https://i.pinimg.com/564x/db/d6/b3/dbd6b379357d607104861c6051445633.jpg"
-              alt="chaeyoung.png"
-              class=""
-            />
-            <Link className="linka" to="/ChaeyoungProfile">
-              Chaeyoung
-            </Link>
-          </div>
-        </div>
-
         <div className="card-information">
           <Card sx={{ maxWidth: 400 }} elevation={2}>
             <CardContent>
@@ -223,38 +132,106 @@ function TwiceProfile() {
             </CardContent>
           </Card>
         </div>
+        <div className="members-container">
+          <div className="member">
+            <img
+              src="
+            https://i.pinimg.com/564x/9c/fb/d7/9cfbd7ce916b2583ae2826b094e7f629.jpg"
+              alt="nayeon.png"
+              class=""
+            />
+            <Link className="linka" to="/NayeonProfile">
+              Nayeon
+            </Link>
+          </div>
 
-        <div className="merchandise">
-          <Card sx={{ maxWidth: 400 }}>
-            <CardActionArea>
-              <CardMedia
-                component="img"
-                height="300"
-                width="300"
-                image="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5f1f9590-e7a4-497b-aaf5-4c0c947ac009/ddz8buj-d659c957-6d53-4ef8-a7a6-76aad7c63aa8.png/v1/fill/w_1920,h_1736,strp/twice_logo_by_mimilevi_ddz8buj-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTczNiIsInBhdGgiOiJcL2ZcLzVmMWY5NTkwLWU3YTQtNDk3Yi1hYWY1LTRjMGM5NDdhYzAwOVwvZGR6OGJ1ai1kNjU5Yzk1Ny02ZDUzLTRlZjgtYTdhNi03NmFhZDdjNjNhYTgucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.uHh7Vl2wGi2e9fwrpZh3TsP01qh_CEDZStEpO63PxQY"
-                alt="green iguana"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  LOGO
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActionArea>
-              <CardMedia
-                component="img"
-                height="300"
-                width="300"
-                image="https://th.bing.com/th/id/OIP.skDgYulldarUeIYGzI7IoQHaHa?pid=ImgDet&rs=1"
-                alt="green iguana"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  LIGHTSTICK
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-          </Card>
+          <div className="member">
+            <img
+              src="https://i.pinimg.com/564x/8d/46/87/8d4687a2a9eb8d89f31c710c88521024.jpg"
+              alt="jeongyeon.png"
+              class=""
+            />
+            <Link className="linka" to="/JeongyeonProfile">
+              Jeongyeon
+            </Link>
+          </div>
+
+          <div className="member">
+            <img
+              src="https://i.pinimg.com/564x/e8/59/48/e85948486f2ca32f5080a36eda06b848.jpg"
+              alt="momo.png"
+              class=""
+            />
+            <Link className="linka" to="/MomoProfile">
+              Momo
+            </Link>
+          </div>
+
+          <div className="member">
+            <img
+              src="https://i.pinimg.com/564x/9e/12/a9/9e12a9b8b8ff5c83ada9925255b90dd6.jpg"
+              alt="sana.png"
+              class=""
+            />
+            <Link className="linka" to="/SanaProfile">
+              Sana
+            </Link>
+          </div>
+
+          <div className="member">
+            <img
+              src="https://i.pinimg.com/564x/0b/d6/8e/0bd68e49a8922218fecc20b213cce25d.jpg"
+              alt="jihyo.png"
+              class=""
+            />
+            <Link className="linka" to="/JihyoProfile">
+              Jihyo
+            </Link>
+          </div>
+
+          <div className="member">
+            <img
+              src="https://i.pinimg.com/564x/c0/d8/28/c0d828dee356d1897ce29562feaacf27.jpg"
+              alt="mina.png"
+              class=""
+            />
+            <Link className="linka" to="/MinaProfile">
+              Mina
+            </Link>
+          </div>
+
+          <div className="member">
+            <img
+              src="https://i.pinimg.com/564x/56/95/aa/5695aa951f0713e7324189f65a8bd668.jpg"
+              alt="dahyun.png"
+              class=""
+            />
+            <Link className="linka" to="/DahyunProfile">
+              Dahyun
+            </Link>
+          </div>
+
+          <div className="member">
+            <img
+              src="https://i.pinimg.com/564x/db/d6/b3/dbd6b379357d607104861c6051445633.jpg"
+              alt="chaeyoung.png"
+              class=""
+            />
+            <Link className="linka" to="/ChaeyoungProfile">
+              Chaeyoung
+            </Link>
+          </div>
+
+          <div className="member">
+            <img
+              src="https://i.pinimg.com/564x/93/db/99/93db9963a1002caea8b32a0ee1c5ea3f.jpg"
+              alt="tzuyu.png"
+              class=""
+            />
+            <Link className="linka" to="/TzuyuProfile">
+              Tzuyu
+            </Link>
+          </div>
         </div>
 
         <div className="about-group">
@@ -302,6 +279,38 @@ function TwiceProfile() {
             peaked at number 80.
           </p>
         </div>
+
+        <div className="merchandise">
+          <Card sx={{ maxWidth: 400 }}>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                height="300"
+                image="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5f1f9590-e7a4-497b-aaf5-4c0c947ac009/ddz8buj-d659c957-6d53-4ef8-a7a6-76aad7c63aa8.png/v1/fill/w_1920,h_1736,strp/twice_logo_by_mimilevi_ddz8buj-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTczNiIsInBhdGgiOiJcL2ZcLzVmMWY5NTkwLWU3YTQtNDk3Yi1hYWY1LTRjMGM5NDdhYzAwOVwvZGR6OGJ1ai1kNjU5Yzk1Ny02ZDUzLTRlZjgtYTdhNi03NmFhZDdjNjNhYTgucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.uHh7Vl2wGi2e9fwrpZh3TsP01qh_CEDZStEpO63PxQY"
+                alt="green iguana"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  LOGO
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                height="300"
+                image="https://th.bing.com/th/id/OIP.skDgYulldarUeIYGzI7IoQHaHa?pid=ImgDet&rs=1"
+                alt="green iguana"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  LIGHTSTICK
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+          </Card>
+        </div>
+
         <div className="fun-fact">
           <h1>FUN FACTS ABOUT TWICE!</h1>
         </div>
