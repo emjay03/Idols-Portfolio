@@ -189,10 +189,10 @@ function TwiceProfile() {
           </p>
         </div>
 
-        <div className="group-name">
-          <h1>TWICE</h1>
-        </div>
         <div className="members-container">
+          <div className="group-name">
+            <h1>TWICE</h1>
+          </div>
           <div className="member">
             <img
               src="

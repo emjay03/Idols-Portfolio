@@ -128,7 +128,7 @@ function Home() {
                     <CardActions>
                       <Button size="small">Share</Button>
                       <Button size="small">
-                        <Link className="linka" to="/TwiceProfile">
+                        <Link className="linka" to="/Twice">
                           Learn More
                         </Link>
                       </Button>
@@ -231,7 +231,7 @@ function Home() {
                     <CardActions>
                       <Button size="small">Share</Button>
                       <Button size="small">
-                        <Link className="linka" to="/LesserafimProfile">
+                        <Link className="linka" to="/Lesserafim">
                           Learn More
                         </Link>
                       </Button>
