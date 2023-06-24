@@ -185,11 +185,11 @@ function LessearafimProfile() {
           </p>
         </div>
 
-        <div className="group-name">
-          <h1>Le Sserafim</h1>
-        </div>
         <div className="members-container">
-          <div className="members">
+          <div className="group-name">
+            <h1>Le Sserafim</h1>
+          </div>
+          <div className="member">
             <img
               src="https://i.pinimg.com/564x/c7/d6/cb/c7d6cbef292054b76373dbb410b39127.jpg"
               alt="chaewon.png"
@@ -199,7 +199,7 @@ function LessearafimProfile() {
               Chaewon
             </Link>
           </div>
-          <div className="members">
+          <div className="member">
             <img
               src="https://i.pinimg.com/564x/bf/11/5d/bf115d4352fcbaef6e8003f8f1265f3e.jpg"
               alt="sakura.png"
@@ -210,7 +210,7 @@ function LessearafimProfile() {
             </Link>
           </div>
 
-          <div className="members">
+          <div className="member">
             <img
               src="https://i.pinimg.com/564x/b6/22/33/b62233577f8013b5966bf3e13c58cd1a.jpg"
               alt="yunjin.png"
@@ -221,7 +221,7 @@ function LessearafimProfile() {
             </Link>
           </div>
 
-          <div className="members">
+          <div className="member">
             <img
               src="https://i.pinimg.com/564x/46/a1/9e/46a19e4a4c30d1099d439f6ca31d1b25.jpg"
               alt="kazuha.png"
@@ -232,7 +232,7 @@ function LessearafimProfile() {
             </Link>
           </div>
 
-          <div className="members">
+          <div className="member">
             <img
               src="https://i.pinimg.com/564x/ad/6c/18/ad6c182f9ddf3b2f4fc5ffee3b755f2d.jpg"
               alt="eunchae.png"

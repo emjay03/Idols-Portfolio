@@ -63,8 +63,8 @@ function App() {
           <Route path="ryujinprofile" element={<RyujinProfile />} />
           <Route path="chaeryoungprofile" element={<ChaeryoungProfile />} />
           <Route path="yunaprofile" element={<YunaProfile />} />
-          <Route path="twiceprofile" element={<TwiceProfile />} />
-          <Route path="lesserafimprofile" element={<LesserafimProfile />} />
+          <Route path="Twice" element={<TwiceProfile />} />
+          <Route path="Lesserafim" element={<LesserafimProfile />} />
           <Route path="G-idle" element={<GidleProfile />} />
           <Route path="girlgroup" element={<Girlgroup />} />
         </Routes>

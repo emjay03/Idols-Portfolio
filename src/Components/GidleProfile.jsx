@@ -76,7 +76,7 @@ function GidleProfile() {
       <div className="grid-container">
         <div className="group-banner">
           <img
-            src="https://i.pinimg.com/originals/5a/44/84/5a4484720cd9933dd36d9970bb527b60.jpg"
+            src="https://i.pinimg.com/originals/39/07/a2/3907a2aeae625a3c17f64c08e55165fa.jpg"
             alt="(g)-idle-photo"
             class="group-photo"
           />
@@ -181,11 +181,11 @@ function GidleProfile() {
           </p>
         </div>
 
-        <div className="group-name">
-          <h1>(G)-IDLE</h1>
-        </div>
         <div className="members-container">
-          <div className="members">
+          <div className="group-name">
+            <h1>(G)-IDLE</h1>
+          </div>
+          <div className="member">
             <img
               src="https://i.pinimg.com/564x/06/98/73/069873f1dc7d1b950bbabf6655b78fee.jpg"
               alt="miyeon.png"
@@ -195,7 +195,7 @@ function GidleProfile() {
               Miyeon
             </Link>
           </div>
-          <div className="members">
+          <div className="member">
             <img
               src="https://i.pinimg.com/564x/ca/24/51/ca245136bb76500921b4312697e8b302.jpg"
               alt="minnie.png"
@@ -206,7 +206,7 @@ function GidleProfile() {
             </Link>
           </div>
 
-          <div className="members">
+          <div className="member">
             <img
               src="https://i.pinimg.com/564x/24/8f/25/248f257e408b2fa028fada0efbf17949.jpg"
               alt="soyeon.png"
@@ -217,7 +217,7 @@ function GidleProfile() {
             </Link>
           </div>
 
-          <div className="members">
+          <div className="member">
             <img
               src="https://i.pinimg.com/736x/ee/f7/5e/eef75ed9ca63cc437061b0661edd5a8a.jpg"
               alt="yuqi.png"
@@ -227,7 +227,7 @@ function GidleProfile() {
               Yuqi
             </Link>
           </div>
-          <div className="members">
+          <div className="member">
             <img
               src="https://i.pinimg.com/564x/81/f5/49/81f54986cf3ea2f4b7aa4d4d67707d68.jpg"
               alt="shuhua.png"
