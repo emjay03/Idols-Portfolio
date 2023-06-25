@@ -315,7 +315,7 @@ function DahyunProfile() {
             alt="nayeon.png"
             class=""
           />
-          <Link className="linka" to="/NayeonProfile">
+          <Link className="linka" to="/twice/nayeon">
             Nayeon
           </Link>
         </div>
@@ -326,7 +326,7 @@ function DahyunProfile() {
             alt="jeongyeon.png"
             class=""
           />
-          <Link className="linka" to="/JeongyeonProfile">
+          <Link className="linka" to="/twice/jeongyeon">
             Jeongyeon
           </Link>
         </div>
@@ -337,7 +337,7 @@ function DahyunProfile() {
             alt="momo.png"
             class=""
           />
-          <Link className="linka" to="/MomoProfile">
+          <Link className="linka" to="/twice/momo">
             Momo
           </Link>
         </div>
@@ -348,7 +348,7 @@ function DahyunProfile() {
             alt="sana.png"
             class=""
           />
-          <Link className="linka" to="/SanaProfile">
+          <Link className="linka" to="/twice/sana">
             Sana
           </Link>
         </div>
@@ -360,7 +360,7 @@ function DahyunProfile() {
             alt="jihyo.png"
             class=""
           />
-          <Link className="linka" to="/JihyoProfile">
+          <Link className="linka" to="/twice/jihyo">
             Jihyo
           </Link>
         </div>
@@ -371,7 +371,7 @@ function DahyunProfile() {
             alt="mina.png"
             class=""
           />
-          <Link className="linka" to="/MinaProfile">
+          <Link className="linka" to="/twice/mina">
             Mina
           </Link>
         </div>
@@ -382,7 +382,7 @@ function DahyunProfile() {
             alt="chaeyoung.png"
             class=""
           />
-          <Link className="linka" to="/ChaeyoungProfile">
+          <Link className="linka" to="/twice/chaeyoung">
             Chaeyoung
           </Link>
         </div>
@@ -393,7 +393,7 @@ function DahyunProfile() {
             alt="tzuyu.png"
             class=""
           />
-          <Link className="linka" to="/TzuyuProfile">
+          <Link className="linka" to="/twice/tzuyu">
             Tzuyu
           </Link>
         </div>
