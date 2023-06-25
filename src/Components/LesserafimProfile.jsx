@@ -195,7 +195,7 @@ function LessearafimProfile() {
               alt="chaewon.png"
               class=""
             />
-            <Link className="linka" to="/ChaewonProfile">
+            <Link className="linka" to="chaewon">
               Chaewon
             </Link>
           </div>
@@ -205,7 +205,7 @@ function LessearafimProfile() {
               alt="sakura.png"
               class=""
             />
-            <Link className="linka" to="/SakuraProfile">
+            <Link className="linka" to="sakura">
               Sakura
             </Link>
           </div>
@@ -216,7 +216,7 @@ function LessearafimProfile() {
               alt="yunjin.png"
               class=""
             />
-            <Link className="linka" to="/YunjinProfile">
+            <Link className="linka" to="yunjin">
               Yunjin
             </Link>
           </div>
@@ -227,7 +227,7 @@ function LessearafimProfile() {
               alt="kazuha.png"
               class=""
             />
-            <Link className="linka" to="/KazuhaProfile">
+            <Link className="linka" to="kazuha">
               Kazuha
             </Link>
           </div>
@@ -238,7 +238,7 @@ function LessearafimProfile() {
               alt="eunchae.png"
               class=""
             />
-            <Link className="linka" to="/EunchaeProfile">
+            <Link className="linka" to="eunchae">
               Eunchae
             </Link>
           </div>

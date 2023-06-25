@@ -64,10 +64,10 @@ function GidleProfile() {
   };
 
   const contact = {
-    instagram: "@le_sserafim",
-    twitter: "le_sserafim",
-    facebook: "official.lesserafim",
-    youtube: "@LESSERAFIM_officaial",
+    instagram: "@official_g_i_dle",
+    twitter: "G_I_DLE",
+    facebook: "G.I.DLE.CUBE",
+    youtube: "@official_g_i_dle",
   };
 
   return (
@@ -191,7 +191,7 @@ function GidleProfile() {
               alt="miyeon.png"
               class=""
             />
-            <Link className="linka" to="/MinnieProfile">
+            <Link className="linka" to="miyeon">
               Miyeon
             </Link>
           </div>
@@ -201,7 +201,7 @@ function GidleProfile() {
               alt="minnie.png"
               class=""
             />
-            <Link className="linka" to="/MinnieProfile">
+            <Link className="linka" to="minnie">
               Minnie
             </Link>
           </div>
@@ -212,7 +212,7 @@ function GidleProfile() {
               alt="soyeon.png"
               class=""
             />
-            <Link className="linka" to="/SoyeonProfile">
+            <Link className="linka" to="soyeon">
               Soyeon
             </Link>
           </div>
@@ -223,7 +223,7 @@ function GidleProfile() {
               alt="yuqi.png"
               class=""
             />
-            <Link className="linka" to="/YuqiProfile">
+            <Link className="linka" to="yuqi">
               Yuqi
             </Link>
           </div>
@@ -233,7 +233,7 @@ function GidleProfile() {
               alt="shuhua.png"
               class=""
             />
-            <Link className="linka" to="/ShuhuaProfile">
+            <Link className="linka" to="shuhua">
               Shuhua
             </Link>
           </div>

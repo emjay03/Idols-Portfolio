@@ -128,7 +128,7 @@ function Home() {
                     <CardActions>
                       <Button size="small">Share</Button>
                       <Button size="small">
-                        <Link className="linka" to="/Twice">
+                        <Link className="linka" to="/twice">
                           Learn More
                         </Link>
                       </Button>
@@ -196,7 +196,7 @@ function Home() {
                     <CardActions>
                       <Button size="small">Share</Button>
                       <Button size="small">
-                        <Link className="linka" to="/G-idle">
+                        <Link className="linka" to="/g-idle">
                           Learn More
                         </Link>
                       </Button>
@@ -231,7 +231,7 @@ function Home() {
                     <CardActions>
                       <Button size="small">Share</Button>
                       <Button size="small">
-                        <Link className="linka" to="/Lesserafim">
+                        <Link className="linka" to="/lesserafim">
                           Learn More
                         </Link>
                       </Button>

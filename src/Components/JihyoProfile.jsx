@@ -320,7 +320,7 @@ function JihyoProfile() {
             alt="nayeon.png"
             class=""
           />
-          <Link className="linka" to="/NayeonProfile">
+          <Link className="linka" to="/twice/nayeon">
             Nayeon
           </Link>
         </div>
@@ -331,7 +331,7 @@ function JihyoProfile() {
             alt="jeongyeon.png"
             class=""
           />
-          <Link className="linka" to="/JeongyeonProfile">
+          <Link className="linka" to="/twice/jeongyeon">
             Jeongyeon
           </Link>
         </div>
@@ -342,7 +342,7 @@ function JihyoProfile() {
             alt="momo.png"
             class=""
           />
-          <Link className="linka" to="/MomoProfile">
+          <Link className="linka" to="/twice/momo">
             Momo
           </Link>
         </div>
@@ -353,7 +353,7 @@ function JihyoProfile() {
             alt="sana.png"
             class=""
           />
-          <Link className="linka" to="/SanaProfile">
+          <Link className="linka" to="/twice/sana">
             Sana
           </Link>
         </div>
@@ -365,19 +365,8 @@ function JihyoProfile() {
             alt="mina.png"
             class=""
           />
-          <Link className="linka" to="/MinaProfile">
+          <Link className="linka" to="/twice/mina">
             Mina
-          </Link>
-        </div>
-
-        <div className="members">
-          <img
-            src="https://i.pinimg.com/564x/db/d6/b3/dbd6b379357d607104861c6051445633.jpg"
-            alt="chaeyoung.png"
-            class=""
-          />
-          <Link className="linka" to="/ChaeyoungProfile">
-            Chaeyoung
           </Link>
         </div>
 
@@ -387,8 +376,19 @@ function JihyoProfile() {
             alt="dahyun.png"
             class=""
           />
-          <Link className="linka" to="/DahyunProfile">
+          <Link className="linka" to="/twice/dahyun">
             Dahyun
+          </Link>
+        </div>
+
+        <div className="members">
+          <img
+            src="https://i.pinimg.com/564x/db/d6/b3/dbd6b379357d607104861c6051445633.jpg"
+            alt="chaeyoung.png"
+            class=""
+          />
+          <Link className="linka" to="/twice/chaeyoung">
+            Chaeyoung
           </Link>
         </div>
 
@@ -398,7 +398,7 @@ function JihyoProfile() {
             alt="tzuyu.png"
             class=""
           />
-          <Link className="linka" to="/TzuyuProfile">
+          <Link className="linka" to="/twice/tzuyu">
             Tzuyu
           </Link>
         </div>

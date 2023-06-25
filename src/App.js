@@ -39,33 +39,33 @@ function App() {
         <Routes>
           <Route path="/*" element={<Home />} />
           <Route path="topvideos" element={<Topvideos />} />
-          <Route path="nayeonprofile" element={<NayeonProfile />} />
-          <Route path="jeongyeonprofile" element={<JeongyeonProfile />} />
-          <Route path="momoprofile" element={<MomoProfile />} />
-          <Route path="sanaprofile" element={<SanaProfile />} />
-          <Route path="jihyoprofile" element={<JihyoProfile />} />
-          <Route path="minaprofile" element={<MinaProfile />} />
-          <Route path="dahyunprofile" element={<DahyunProfile />} />
-          <Route path="chaeyoungprofile" element={<ChaeyoungProfile />} />
-          <Route path="tzuyuprofile" element={<TzuyuProfile />} />
-          <Route path="chaewonprofile" element={<ChaewonProfile />} />
-          <Route path="sakuraprofile" element={<SakuraProfile />} />
-          <Route path="yunjinprofile" element={<YunjinProfile />} />
-          <Route path="kazuhaprofile" element={<KazuhaProfile />} />
-          <Route path="eunchaeprofile" element={<EunchaeProfile />} />
-          <Route path="miyeonprofile" element={<MiyeonProfile />} />
-          <Route path="minnieprofile" element={<MinnieProfile />} />
-          <Route path="soyeonprofile" element={<SoyeonProfile />} />
-          <Route path="yuqiprofile" element={<YuqiProfile />} />
-          <Route path="shuhuaprofile" element={<ShuhuaProfile />} />
-          <Route path="yejiprofile" element={<YejiProfile />} />
-          <Route path="liaprofile" element={<LiaProfile />} />
-          <Route path="ryujinprofile" element={<RyujinProfile />} />
-          <Route path="chaeryoungprofile" element={<ChaeryoungProfile />} />
-          <Route path="yunaprofile" element={<YunaProfile />} />
-          <Route path="Twice" element={<TwiceProfile />} />
-          <Route path="Lesserafim" element={<LesserafimProfile />} />
-          <Route path="G-idle" element={<GidleProfile />} />
+          <Route path="twice/nayeon" element={<NayeonProfile />} />
+          <Route path="twice/jeongyeon" element={<JeongyeonProfile />} />
+          <Route path="twice/momo" element={<MomoProfile />} />
+          <Route path="twice/sana" element={<SanaProfile />} />
+          <Route path="twice/jihyo" element={<JihyoProfile />} />
+          <Route path="twice/mina" element={<MinaProfile />} />
+          <Route path="twice/dahyun" element={<DahyunProfile />} />
+          <Route path="twice/chaeyoung" element={<ChaeyoungProfile />} />
+          <Route path="twice/tzuyu" element={<TzuyuProfile />} />
+          <Route path="lesserafim/chaewon" element={<ChaewonProfile />} />
+          <Route path="lesserafim/sakura" element={<SakuraProfile />} />
+          <Route path="lesserafim/yunjin" element={<YunjinProfile />} />
+          <Route path="lesserafim/kazuha" element={<KazuhaProfile />} />
+          <Route path="lesserafim/eunchae" element={<EunchaeProfile />} />
+          <Route path="g-idle/miyeon" element={<MiyeonProfile />} />
+          <Route path="g-idle/minnie" element={<MinnieProfile />} />
+          <Route path="g-idle/soyeon" element={<SoyeonProfile />} />
+          <Route path="g-idle/yuqi" element={<YuqiProfile />} />
+          <Route path="g-idle/shuhua" element={<ShuhuaProfile />} />
+          <Route path="itzy/yeji" element={<YejiProfile />} />
+          <Route path="itzy/lia" element={<LiaProfile />} />
+          <Route path="itzy/ryujin" element={<RyujinProfile />} />
+          <Route path="itzy/chaeryoung" element={<ChaeryoungProfile />} />
+          <Route path="itzy/yuna" element={<YunaProfile />} />
+          <Route path="twice" element={<TwiceProfile />} />
+          <Route path="lesserafim" element={<LesserafimProfile />} />
+          <Route path="g-idle" element={<GidleProfile />} />
           <Route path="girlgroup" element={<Girlgroup />} />
         </Routes>
       </div>
